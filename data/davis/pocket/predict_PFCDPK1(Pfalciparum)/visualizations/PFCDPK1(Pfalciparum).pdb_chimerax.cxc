@@ -1,0 +1,59 @@
+open data/PFCDPK1(Pfalciparum).pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #474cb3
+color name color_pocket3 #885ce6
+color name color_pocket4 #9047b3
+color name color_pocket5 #e65ce0
+color name color_pocket6 #b34788
+color name color_pocket7 #e65c7d
+color name color_pocket8 #b35447
+color name color_pocket9 #e69e5c
+color name color_pocket10 #b3a147
+
+name pocket1_atoms @@serial_number=637 @@serial_number=638 @@serial_number=1047 @@serial_number=1049 @@serial_number=1050 @@serial_number=581 @@serial_number=582 @@serial_number=2998 @@serial_number=580 @@serial_number=1178 @@serial_number=1186 @@serial_number=621 @@serial_number=625 @@serial_number=433 @@serial_number=435 @@serial_number=2986 @@serial_number=2992 @@serial_number=2993 @@serial_number=2995 @@serial_number=3003 @@serial_number=1180 @@serial_number=3013 @@serial_number=3018 @@serial_number=3019 @@serial_number=3007 @@serial_number=3011 @@serial_number=597 @@serial_number=595 @@serial_number=578 @@serial_number=593 @@serial_number=596 @@serial_number=421 @@serial_number=422 @@serial_number=423 @@serial_number=583 @@serial_number=3756 @@serial_number=604 @@serial_number=606 @@serial_number=618 @@serial_number=2963 @@serial_number=3752 @@serial_number=3753 @@serial_number=3754 @@serial_number=3755 @@serial_number=3782 @@serial_number=2985 @@serial_number=331 @@serial_number=1048 @@serial_number=2962 @@serial_number=3787 @@serial_number=1062 @@serial_number=373 @@serial_number=374
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=492 @@serial_number=541 @@serial_number=540 @@serial_number=642 @@serial_number=486 @@serial_number=489 @@serial_number=499 @@serial_number=1585 @@serial_number=1723 @@serial_number=1725 @@serial_number=1572 @@serial_number=1597 @@serial_number=76 @@serial_number=1573 @@serial_number=1727 @@serial_number=75 @@serial_number=77 @@serial_number=502 @@serial_number=505 @@serial_number=1229 @@serial_number=485 @@serial_number=487 @@serial_number=490 @@serial_number=1584 @@serial_number=1586 @@serial_number=57 @@serial_number=58 @@serial_number=655 @@serial_number=658 @@serial_number=659 @@serial_number=1171 @@serial_number=1172 @@serial_number=652 @@serial_number=660 @@serial_number=1721 @@serial_number=1726 @@serial_number=517 @@serial_number=519 @@serial_number=1026 @@serial_number=1716 @@serial_number=1719 @@serial_number=1720 @@serial_number=1177 @@serial_number=1200 @@serial_number=1612 @@serial_number=1613 @@serial_number=1219 @@serial_number=1193 @@serial_number=1197 @@serial_number=1189
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=1248 @@serial_number=1249 @@serial_number=37 @@serial_number=39 @@serial_number=1896 @@serial_number=1898 @@serial_number=1588 @@serial_number=60 @@serial_number=1892 @@serial_number=1894 @@serial_number=2160 @@serial_number=2141 @@serial_number=2143 @@serial_number=1274 @@serial_number=1281 @@serial_number=1272 @@serial_number=1304 @@serial_number=1310 @@serial_number=1277 @@serial_number=1280 @@serial_number=1579 @@serial_number=2114 @@serial_number=1246 @@serial_number=2115 @@serial_number=1910 @@serial_number=2159 @@serial_number=1307
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=913 @@serial_number=914 @@serial_number=911 @@serial_number=915 @@serial_number=1762 @@serial_number=1767 @@serial_number=145 @@serial_number=1832 @@serial_number=147 @@serial_number=148 @@serial_number=149 @@serial_number=150 @@serial_number=151 @@serial_number=152 @@serial_number=131 @@serial_number=880 @@serial_number=884 @@serial_number=1755 @@serial_number=1760 @@serial_number=123 @@serial_number=126 @@serial_number=1548 @@serial_number=1851 @@serial_number=886 @@serial_number=122
+color pocket4_atoms color_pocket4
+
+name pocket5_atoms @@serial_number=1145 @@serial_number=1147 @@serial_number=1150 @@serial_number=399 @@serial_number=403 @@serial_number=405 @@serial_number=406 @@serial_number=548 @@serial_number=402 @@serial_number=404 @@serial_number=427 @@serial_number=651 @@serial_number=563 @@serial_number=401 @@serial_number=447 @@serial_number=450 @@serial_number=453 @@serial_number=426 @@serial_number=428 @@serial_number=666 @@serial_number=1123 @@serial_number=1125 @@serial_number=533
+color pocket5_atoms color_pocket5
+
+name pocket6_atoms @@serial_number=968 @@serial_number=967 @@serial_number=1501 @@serial_number=303 @@serial_number=307 @@serial_number=314 @@serial_number=981 @@serial_number=305 @@serial_number=966 @@serial_number=965 @@serial_number=306 @@serial_number=3565 @@serial_number=3567 @@serial_number=3534 @@serial_number=3518 @@serial_number=3531 @@serial_number=1504 @@serial_number=985 @@serial_number=3563
+color pocket6_atoms color_pocket6
+
+name pocket7_atoms @@serial_number=990 @@serial_number=1015 @@serial_number=1034 @@serial_number=1035 @@serial_number=3577 @@serial_number=1181 @@serial_number=1704 @@serial_number=3082 @@serial_number=1030 @@serial_number=3049 @@serial_number=3046 @@serial_number=3020
+color pocket7_atoms color_pocket7
+
+name pocket8_atoms @@serial_number=1455 @@serial_number=1486 @@serial_number=2584 @@serial_number=2587 @@serial_number=2593 @@serial_number=2596 @@serial_number=2586 @@serial_number=1479 @@serial_number=2009 @@serial_number=2599 @@serial_number=2011 @@serial_number=1454 @@serial_number=1487 @@serial_number=1489 @@serial_number=1480
+color pocket8_atoms color_pocket8
+
+name pocket9_atoms @@serial_number=893 @@serial_number=516 @@serial_number=518 @@serial_number=521 @@serial_number=717 @@serial_number=719 @@serial_number=887 @@serial_number=515 @@serial_number=517 @@serial_number=519 @@serial_number=924 @@serial_number=1742 @@serial_number=881 @@serial_number=882 @@serial_number=883
+color pocket9_atoms color_pocket9
+
+name pocket10_atoms @@serial_number=2903 @@serial_number=2904 @@serial_number=3526 @@serial_number=3527 @@serial_number=266 @@serial_number=2885 @@serial_number=2925 @@serial_number=3471 @@serial_number=3484
+color pocket10_atoms color_pocket10
+
+
+
+open data/PFCDPK1(Pfalciparum).pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

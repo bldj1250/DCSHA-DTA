@@ -1,0 +1,31 @@
+open data/STK33.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #9d47b3
+color name color_pocket3 #e65c5c
+
+name pocket1_atoms @@serial_number=1549 @@serial_number=990 @@serial_number=991 @@serial_number=952 @@serial_number=953 @@serial_number=935 @@serial_number=934 @@serial_number=940 @@serial_number=976 @@serial_number=1905 @@serial_number=2078 @@serial_number=2081 @@serial_number=2082 @@serial_number=2085 @@serial_number=2089 @@serial_number=1251 @@serial_number=1112 @@serial_number=1113 @@serial_number=1114 @@serial_number=1497 @@serial_number=1111 @@serial_number=1519 @@serial_number=1933 @@serial_number=1096 @@serial_number=1502 @@serial_number=1932 @@serial_number=938 @@serial_number=937 @@serial_number=2080 @@serial_number=1359 @@serial_number=1357 @@serial_number=1358 @@serial_number=1496
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=2102 @@serial_number=2103 @@serial_number=2088 @@serial_number=1252 @@serial_number=1113 @@serial_number=1114 @@serial_number=1222 @@serial_number=1211 @@serial_number=2104 @@serial_number=967 @@serial_number=969 @@serial_number=971 @@serial_number=1214 @@serial_number=968 @@serial_number=970 @@serial_number=972 @@serial_number=1190 @@serial_number=329 @@serial_number=965 @@serial_number=1191 @@serial_number=1219 @@serial_number=2089 @@serial_number=1875 @@serial_number=1891 @@serial_number=1892 @@serial_number=2229 @@serial_number=2231 @@serial_number=1917 @@serial_number=2087 @@serial_number=315 @@serial_number=316 @@serial_number=317 @@serial_number=2230 @@serial_number=2110 @@serial_number=2111 @@serial_number=2112 @@serial_number=2228 @@serial_number=2213 @@serial_number=2233
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=2230 @@serial_number=1867 @@serial_number=2111 @@serial_number=2351 @@serial_number=2304 @@serial_number=2354 @@serial_number=2209 @@serial_number=2219 @@serial_number=2208 @@serial_number=1860 @@serial_number=1861 @@serial_number=1864 @@serial_number=2260 @@serial_number=2270 @@serial_number=2271 @@serial_number=2275 @@serial_number=2233 @@serial_number=2420 @@serial_number=2261 @@serial_number=1874 @@serial_number=2262 @@serial_number=2276 @@serial_number=2277 @@serial_number=2303 @@serial_number=2305 @@serial_number=2382 @@serial_number=2349 @@serial_number=2278
+color pocket3_atoms color_pocket3
+
+
+
+open data/STK33.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

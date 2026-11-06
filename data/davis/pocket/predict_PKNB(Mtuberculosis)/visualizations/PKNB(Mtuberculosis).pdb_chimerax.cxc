@@ -1,0 +1,27 @@
+open data/PKNB(Mtuberculosis).pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #b34788
+
+name pocket1_atoms @@serial_number=1106 @@serial_number=1114 @@serial_number=1200 @@serial_number=1078 @@serial_number=156 @@serial_number=157 @@serial_number=1093 @@serial_number=1094 @@serial_number=1349 @@serial_number=1351 @@serial_number=152 @@serial_number=153 @@serial_number=143 @@serial_number=145 @@serial_number=772 @@serial_number=759 @@serial_number=1129 @@serial_number=1130 @@serial_number=186 @@serial_number=188 @@serial_number=189 @@serial_number=314 @@serial_number=719 @@serial_number=139 @@serial_number=131 @@serial_number=133 @@serial_number=137 @@serial_number=138 @@serial_number=173 @@serial_number=449 @@serial_number=163 @@serial_number=744 @@serial_number=745 @@serial_number=298 @@serial_number=724 @@serial_number=741 @@serial_number=736 @@serial_number=132 @@serial_number=136 @@serial_number=135 @@serial_number=572 @@serial_number=1199 @@serial_number=1207 @@serial_number=1208 @@serial_number=482 @@serial_number=483 @@serial_number=1227 @@serial_number=1230 @@serial_number=1231 @@serial_number=315 @@serial_number=441 @@serial_number=167 @@serial_number=436 @@serial_number=437 @@serial_number=434 @@serial_number=404 @@serial_number=442
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=1216 @@serial_number=1194 @@serial_number=1201 @@serial_number=1202 @@serial_number=1209 @@serial_number=565 @@serial_number=571 @@serial_number=1207 @@serial_number=480 @@serial_number=482 @@serial_number=585 @@serial_number=703 @@serial_number=509 @@serial_number=313 @@serial_number=718
+color pocket2_atoms color_pocket2
+
+
+
+open data/PKNB(Mtuberculosis).pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

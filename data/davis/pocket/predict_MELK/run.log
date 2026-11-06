@@ -1,0 +1,43 @@
+[INFO] Console - predicting pockets for proteins from dataset [MELK.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_MELK
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [MELK.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [MELK.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [MELK.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\MELK.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\MELK.pdb]
+[INFO] Struct - all groups in chain A: 651
+[INFO] Struct - all groups in chain A: 651
+[INFO] Struct - 651 groups in chain A
+[INFO] Protein - structure atoms: 5242
+[INFO] Protein - protein   atoms: 5139
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 15705
+[INFO] Protein - exposed protein atoms: 3853 of 5139
+[INFO] SLinkClusterer - clustering [148] elements
+[INFO] SLinkClusterer - clusters: [id:26( 9 ), id:47( 1 ), id:57( 1 ), id:92( 1 ), id:99( 8 ), id:101( 1 ), id:107( 2 ), id:113( 32 ), id:116( 1 ), id:123( 45 ), id:132( 19 ), id:133( 4 ), id:145( 18 ), id:147( 6 )]
+[INFO] SLinkClusterer - clusters together: 148 / 148
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 15705
+[INFO] PocketPredictor - LIGANDABLE POINTS: 148
+[INFO] PocketPredictor - CLUSTERS: 14
+[INFO] PocketPredictor - FILTERED CLUSTERS: 8
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  64   points:  45   score:   14.2
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  46   points:  32   score:   10.7
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  31   points:  19   score:    6.7
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  38   points:  18   score:    5.7
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  22   points:   8   score:    3.4
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  29   points:   9   score:    3.4
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  20   points:   6   score:    2.5
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  25   points:   4   score:    2.2
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\MELK.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_MELK/visualizations/data/MELK.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 6.791 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_MELK]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 8.336 seconds.

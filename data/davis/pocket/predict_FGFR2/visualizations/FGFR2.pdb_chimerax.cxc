@@ -1,0 +1,31 @@
+open data/FGFR2.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #9d47b3
+color name color_pocket3 #e65c5c
+
+name pocket1_atoms @@serial_number=4009 @@serial_number=5019 @@serial_number=5020 @@serial_number=5021 @@serial_number=4936 @@serial_number=5012 @@serial_number=5014 @@serial_number=5017 @@serial_number=3833 @@serial_number=4007 @@serial_number=4008 @@serial_number=3847 @@serial_number=3849 @@serial_number=3850 @@serial_number=3992 @@serial_number=4392 @@serial_number=4354 @@serial_number=4139 @@serial_number=4172 @@serial_number=5029 @@serial_number=4004 @@serial_number=4370 @@serial_number=4253 @@serial_number=3803 @@serial_number=3810 @@serial_number=3834 @@serial_number=3798 @@serial_number=3799 @@serial_number=3800 @@serial_number=3801 @@serial_number=4419 @@serial_number=4422 @@serial_number=4908 @@serial_number=4922 @@serial_number=2482 @@serial_number=4389 @@serial_number=4413 @@serial_number=4396 @@serial_number=4416 @@serial_number=4937 @@serial_number=3792 @@serial_number=3793 @@serial_number=3796 @@serial_number=3811 @@serial_number=2472 @@serial_number=2473
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=5042 @@serial_number=5043 @@serial_number=5044 @@serial_number=3823 @@serial_number=3827 @@serial_number=4110 @@serial_number=3822 @@serial_number=3824 @@serial_number=4009 @@serial_number=5019 @@serial_number=5020 @@serial_number=5021 @@serial_number=5018 @@serial_number=3831 @@serial_number=4008 @@serial_number=4140 @@serial_number=5034 @@serial_number=5035 @@serial_number=5037 @@serial_number=4085 @@serial_number=4111 @@serial_number=4106 @@serial_number=5036 @@serial_number=3829 @@serial_number=3830 @@serial_number=4885 @@serial_number=5181
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=5209 @@serial_number=5586 @@serial_number=5271 @@serial_number=5191 @@serial_number=5193 @@serial_number=5194 @@serial_number=5166 @@serial_number=5168 @@serial_number=5170 @@serial_number=5172 @@serial_number=5169 @@serial_number=1592 @@serial_number=5559 @@serial_number=1597 @@serial_number=1596 @@serial_number=5550 @@serial_number=5587 @@serial_number=5588 @@serial_number=1590 @@serial_number=1594 @@serial_number=5304 @@serial_number=5301
+color pocket3_atoms color_pocket3
+
+
+
+open data/FGFR2.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

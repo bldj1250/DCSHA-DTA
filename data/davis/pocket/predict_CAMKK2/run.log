@@ -1,0 +1,42 @@
+[INFO] Console - predicting pockets for proteins from dataset [CAMKK2.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_CAMKK2
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [CAMKK2.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [CAMKK2.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [CAMKK2.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\CAMKK2.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\CAMKK2.pdb]
+[INFO] Struct - all groups in chain A: 588
+[INFO] Struct - all groups in chain A: 588
+[INFO] Struct - 588 groups in chain A
+[INFO] Protein - structure atoms: 4537
+[INFO] Protein - protein   atoms: 4444
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 16464
+[INFO] Protein - exposed protein atoms: 3579 of 4444
+[INFO] SLinkClusterer - clustering [74] elements
+[INFO] SLinkClusterer - clusters: [id:1( 1 ), id:29( 1 ), id:33( 6 ), id:35( 4 ), id:50( 1 ), id:51( 3 ), id:54( 38 ), id:68( 13 ), id:72( 4 ), id:73( 3 )]
+[INFO] SLinkClusterer - clusters together: 74 / 74
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 16464
+[INFO] PocketPredictor - LIGANDABLE POINTS: 74
+[INFO] PocketPredictor - CLUSTERS: 10
+[INFO] PocketPredictor - FILTERED CLUSTERS: 7
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  56   points:  38   score:   13.3
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  27   points:  13   score:    4.3
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:   8   points:   6   score:    1.5
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  18   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  22   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  10   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  13   points:   3   score:    0.9
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\CAMKK2.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_CAMKK2/visualizations/data/CAMKK2.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 6.258 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_CAMKK2]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 7.819 seconds.

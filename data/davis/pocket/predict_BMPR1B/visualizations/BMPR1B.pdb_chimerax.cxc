@@ -1,0 +1,31 @@
+open data/BMPR1B.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #9d47b3
+color name color_pocket3 #e65c5c
+
+name pocket1_atoms @@serial_number=1703 @@serial_number=1808 @@serial_number=1811 @@serial_number=1812 @@serial_number=1813 @@serial_number=2757 @@serial_number=2758 @@serial_number=1964 @@serial_number=1966 @@serial_number=1929 @@serial_number=2750 @@serial_number=2210 @@serial_number=2211 @@serial_number=2059 @@serial_number=2681 @@serial_number=2755 @@serial_number=2759 @@serial_number=2666 @@serial_number=2752 @@serial_number=2296 @@serial_number=2653 @@serial_number=2266 @@serial_number=2268 @@serial_number=2654 @@serial_number=2682 @@serial_number=2232 @@serial_number=2236 @@serial_number=2260 @@serial_number=1652 @@serial_number=1657 @@serial_number=1658 @@serial_number=1661 @@serial_number=1664 @@serial_number=1672 @@serial_number=1679 @@serial_number=2642 @@serial_number=2643 @@serial_number=1641 @@serial_number=1643 @@serial_number=1702 @@serial_number=1796 @@serial_number=2227 @@serial_number=1640 @@serial_number=1645 @@serial_number=1639
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=3101 @@serial_number=3103 @@serial_number=3091 @@serial_number=2583 @@serial_number=2497 @@serial_number=2848 @@serial_number=2807 @@serial_number=2809 @@serial_number=2810 @@serial_number=2811 @@serial_number=2518
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=1712 @@serial_number=1716 @@serial_number=1606 @@serial_number=1608 @@serial_number=1610 @@serial_number=1717 @@serial_number=2167 @@serial_number=2168 @@serial_number=2115 @@serial_number=2116 @@serial_number=2188 @@serial_number=2117 @@serial_number=1819 @@serial_number=1714 @@serial_number=1696
+color pocket3_atoms color_pocket3
+
+
+
+open data/BMPR1B.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

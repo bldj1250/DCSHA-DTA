@@ -1,0 +1,31 @@
+open data/CSNK1G2.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #9d47b3
+color name color_pocket3 #e65c5c
+
+name pocket1_atoms @@serial_number=375 @@serial_number=377 @@serial_number=938 @@serial_number=379 @@serial_number=427 @@serial_number=430 @@serial_number=431 @@serial_number=1353 @@serial_number=934 @@serial_number=374 @@serial_number=2734 @@serial_number=2736 @@serial_number=2737 @@serial_number=2721 @@serial_number=1470 @@serial_number=1471 @@serial_number=554 @@serial_number=555 @@serial_number=556 @@serial_number=1467 @@serial_number=786 @@serial_number=915 @@serial_number=932 @@serial_number=538 @@serial_number=921 @@serial_number=784 @@serial_number=3194 @@serial_number=3206 @@serial_number=386 @@serial_number=399 @@serial_number=1479 @@serial_number=1310 @@serial_number=983 @@serial_number=958 @@serial_number=956 @@serial_number=1321 @@serial_number=1322 @@serial_number=1334 @@serial_number=1309 @@serial_number=981 @@serial_number=982 @@serial_number=947 @@serial_number=953 @@serial_number=945 @@serial_number=940 @@serial_number=388 @@serial_number=389 @@serial_number=392
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=397 @@serial_number=398 @@serial_number=399 @@serial_number=1310 @@serial_number=1694 @@serial_number=1695 @@serial_number=1501 @@serial_number=1692 @@serial_number=1693 @@serial_number=1502 @@serial_number=1690 @@serial_number=2111 @@serial_number=1681 @@serial_number=3169 @@serial_number=1697 @@serial_number=1702 @@serial_number=1701 @@serial_number=3145 @@serial_number=3149 @@serial_number=3151 @@serial_number=3133 @@serial_number=410 @@serial_number=3154 @@serial_number=3160 @@serial_number=3164 @@serial_number=3165 @@serial_number=3155
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=2680 @@serial_number=2674 @@serial_number=2676 @@serial_number=2684 @@serial_number=2685 @@serial_number=2689 @@serial_number=2687 @@serial_number=2633 @@serial_number=2657 @@serial_number=1417 @@serial_number=1418 @@serial_number=1419 @@serial_number=1430 @@serial_number=1431 @@serial_number=1420 @@serial_number=1421 @@serial_number=1422 @@serial_number=1379 @@serial_number=2715 @@serial_number=2714
+color pocket3_atoms color_pocket3
+
+
+
+open data/CSNK1G2.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

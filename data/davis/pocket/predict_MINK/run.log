@@ -1,0 +1,44 @@
+[INFO] Console - predicting pockets for proteins from dataset [MINK.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_MINK
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [MINK.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [MINK.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [MINK.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\MINK.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\MINK.pdb]
+[INFO] Struct - all groups in chain A: 1332
+[INFO] Struct - all groups in chain A: 1332
+[INFO] Struct - 1332 groups in chain A
+[INFO] Protein - structure atoms: 10543
+[INFO] Protein - protein   atoms: 10280
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 38899
+[INFO] Protein - exposed protein atoms: 8435 of 10280
+[INFO] SLinkClusterer - clustering [106] elements
+[INFO] SLinkClusterer - clusters: [id:21( 9 ), id:23( 2 ), id:25( 1 ), id:36( 9 ), id:45( 27 ), id:51( 2 ), id:56( 4 ), id:57( 2 ), id:59( 4 ), id:60( 1 ), id:61( 1 ), id:74( 2 ), id:76( 6 ), id:78( 5 ), id:85( 1 ), id:87( 1 ), id:88( 2 ), id:91( 17 ), id:93( 2 ), id:102( 2 ), id:103( 3 ), id:104( 2 ), id:105( 1 )]
+[INFO] SLinkClusterer - clusters together: 106 / 106
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 38899
+[INFO] PocketPredictor - LIGANDABLE POINTS: 106
+[INFO] PocketPredictor - CLUSTERS: 23
+[INFO] PocketPredictor - FILTERED CLUSTERS: 9
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  34   points:  27   score:    9.6
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  34   points:  17   score:    5.7
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  26   points:   9   score:    3.8
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  13   points:   9   score:    2.5
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  16   points:   4   score:    1.8
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  13   points:   5   score:    1.7
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  15   points:   6   score:    1.6
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  14   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:   6   points:   3   score:    1.0
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\MINK.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_MINK/visualizations/data/MINK.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 7.595 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_MINK]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 9.041 seconds.

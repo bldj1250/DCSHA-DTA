@@ -1,0 +1,47 @@
+open data/AURKB.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #5447b3
+color name color_pocket3 #b25ce6
+color name color_pocket4 #b347a3
+color name color_pocket5 #e65c8b
+color name color_pocket6 #b35a47
+color name color_pocket7 #e6ba5c
+
+name pocket1_atoms @@serial_number=1689 @@serial_number=640 @@serial_number=1662 @@serial_number=1312 @@serial_number=1690 @@serial_number=1302 @@serial_number=1310 @@serial_number=699 @@serial_number=645 @@serial_number=658 @@serial_number=1022 @@serial_number=1761 @@serial_number=1763 @@serial_number=1766 @@serial_number=1770 @@serial_number=824 @@serial_number=825 @@serial_number=826 @@serial_number=1023 @@serial_number=642 @@serial_number=696 @@serial_number=698 @@serial_number=808 @@serial_number=1282 @@serial_number=643 @@serial_number=639 @@serial_number=1097 @@serial_number=1256 @@serial_number=1255
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=1783 @@serial_number=1631 @@serial_number=1632 @@serial_number=1633 @@serial_number=1796 @@serial_number=949 @@serial_number=1674 @@serial_number=1650 @@serial_number=86 @@serial_number=1798 @@serial_number=1891 @@serial_number=1896 @@serial_number=1901 @@serial_number=1904 @@serial_number=1649 @@serial_number=1661 @@serial_number=1911 @@serial_number=61 @@serial_number=62 @@serial_number=58 @@serial_number=1906 @@serial_number=64 @@serial_number=1768 @@serial_number=1769 @@serial_number=1770 @@serial_number=989 @@serial_number=948 @@serial_number=950 @@serial_number=87 @@serial_number=679 @@serial_number=947 @@serial_number=667 @@serial_number=664
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=788 @@serial_number=789 @@serial_number=1125 @@serial_number=1126 @@serial_number=1128 @@serial_number=2725 @@serial_number=2727 @@serial_number=284 @@serial_number=297 @@serial_number=1262 @@serial_number=1263 @@serial_number=1264 @@serial_number=1265 @@serial_number=1731 @@serial_number=1749 @@serial_number=2711 @@serial_number=2713 @@serial_number=1258 @@serial_number=1101 @@serial_number=1103 @@serial_number=1266 @@serial_number=1270 @@serial_number=1703 @@serial_number=1706 @@serial_number=1048 @@serial_number=1050 @@serial_number=1057 @@serial_number=1061 @@serial_number=1059 @@serial_number=1068 @@serial_number=1104 @@serial_number=1105 @@serial_number=1053
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=1768 @@serial_number=1769 @@serial_number=1770 @@serial_number=825 @@serial_number=826 @@serial_number=989 @@serial_number=658 @@serial_number=661 @@serial_number=1783 @@serial_number=949 @@serial_number=840 @@serial_number=957 @@serial_number=920 @@serial_number=951 @@serial_number=952 @@serial_number=954 @@serial_number=882 @@serial_number=679 @@serial_number=919 @@serial_number=922 @@serial_number=945 @@serial_number=947 @@serial_number=948 @@serial_number=950 @@serial_number=664 @@serial_number=670 @@serial_number=677 @@serial_number=841
+color pocket4_atoms color_pocket4
+
+name pocket5_atoms @@serial_number=1910 @@serial_number=1927 @@serial_number=1937 @@serial_number=2192 @@serial_number=2219 @@serial_number=2193 @@serial_number=2186 @@serial_number=1911 @@serial_number=1665 @@serial_number=1666 @@serial_number=1331 @@serial_number=2150 @@serial_number=1935 @@serial_number=1645
+color pocket5_atoms color_pocket5
+
+name pocket6_atoms @@serial_number=1146 @@serial_number=1148 @@serial_number=1168 @@serial_number=1171 @@serial_number=966 @@serial_number=997 @@serial_number=1219 @@serial_number=1220 @@serial_number=1166
+color pocket6_atoms color_pocket6
+
+name pocket7_atoms @@serial_number=785 @@serial_number=803 @@serial_number=1122 @@serial_number=1124 @@serial_number=328 @@serial_number=1247 @@serial_number=739 @@serial_number=552 @@serial_number=554 @@serial_number=741 @@serial_number=304 @@serial_number=305 @@serial_number=306 @@serial_number=1120
+color pocket7_atoms color_pocket7
+
+
+
+open data/AURKB.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

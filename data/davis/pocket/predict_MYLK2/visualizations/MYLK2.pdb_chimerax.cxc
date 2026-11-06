@@ -1,0 +1,23 @@
+open data/MYLK2.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+
+name pocket1_atoms @@serial_number=2141 @@serial_number=2244 @@serial_number=2487 @@serial_number=2618 @@serial_number=2231 @@serial_number=2140 @@serial_number=2138 @@serial_number=3069 @@serial_number=2644 @@serial_number=2090 @@serial_number=2095 @@serial_number=3160 @@serial_number=3161 @@serial_number=3163 @@serial_number=3165 @@serial_number=3167 @@serial_number=2245 @@serial_number=3155 @@serial_number=3054 @@serial_number=3159 @@serial_number=3070 @@serial_number=2670 @@serial_number=3042 @@serial_number=3041 @@serial_number=3043 @@serial_number=2672 @@serial_number=2089 @@serial_number=2092 @@serial_number=2100 @@serial_number=2101 @@serial_number=4355 @@serial_number=2122 @@serial_number=2117 @@serial_number=2118 @@serial_number=2103 @@serial_number=2104 @@serial_number=2106 @@serial_number=2115 @@serial_number=2126 @@serial_number=2102 @@serial_number=3045 @@serial_number=3044 @@serial_number=3046 @@serial_number=2129 @@serial_number=2098 @@serial_number=2640 @@serial_number=2643
+color pocket1_atoms color_pocket1
+
+
+
+open data/MYLK2.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

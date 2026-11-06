@@ -1,0 +1,43 @@
+[INFO] Console - predicting pockets for proteins from dataset [TAOK3.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_TAOK3
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [TAOK3.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [TAOK3.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [TAOK3.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\TAOK3.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\TAOK3.pdb]
+[INFO] Struct - all groups in chain A: 898
+[INFO] Struct - all groups in chain A: 898
+[INFO] Struct - 898 groups in chain A
+[INFO] Protein - structure atoms: 7394
+[INFO] Protein - protein   atoms: 7248
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 20701
+[INFO] Protein - exposed protein atoms: 5847 of 7248
+[INFO] SLinkClusterer - clustering [202] elements
+[INFO] SLinkClusterer - clusters: [id:1( 1 ), id:8( 96 ), id:10( 1 ), id:34( 5 ), id:74( 3 ), id:95( 58 ), id:97( 1 ), id:119( 1 ), id:124( 2 ), id:126( 4 ), id:153( 1 ), id:163( 4 ), id:180( 2 ), id:181( 1 ), id:182( 2 ), id:183( 7 ), id:200( 13 )]
+[INFO] SLinkClusterer - clusters together: 202 / 202
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 20701
+[INFO] PocketPredictor - LIGANDABLE POINTS: 202
+[INFO] PocketPredictor - CLUSTERS: 17
+[INFO] PocketPredictor - FILTERED CLUSTERS: 8
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  78   points:  96   score:   27.7
+[INFO] PocketPredictor - pocket 2 -  surf_atoms: 101   points:  58   score:   21.8
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  32   points:  13   score:    5.0
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  25   points:   7   score:    2.6
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  21   points:   4   score:    2.5
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  24   points:   5   score:    1.8
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  20   points:   4   score:    1.8
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  13   points:   3   score:    1.4
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\TAOK3.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_TAOK3/visualizations/data/TAOK3.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 6.823 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_TAOK3]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 8.229 seconds.

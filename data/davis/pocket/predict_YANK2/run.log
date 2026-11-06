@@ -1,0 +1,41 @@
+[INFO] Console - predicting pockets for proteins from dataset [YANK2.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_YANK2
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [YANK2.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [YANK2.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [YANK2.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\YANK2.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\YANK2.pdb]
+[INFO] Struct - all groups in chain A: 414
+[INFO] Struct - all groups in chain A: 414
+[INFO] Struct - 414 groups in chain A
+[INFO] Protein - structure atoms: 3363
+[INFO] Protein - protein   atoms: 3292
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 7805
+[INFO] Protein - exposed protein atoms: 2257 of 3292
+[INFO] SLinkClusterer - clustering [93] elements
+[INFO] SLinkClusterer - clusters: [id:20( 3 ), id:31( 3 ), id:37( 5 ), id:68( 49 ), id:75( 2 ), id:79( 7 ), id:87( 2 ), id:92( 22 )]
+[INFO] SLinkClusterer - clusters together: 93 / 93
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 7805
+[INFO] PocketPredictor - LIGANDABLE POINTS: 93
+[INFO] PocketPredictor - CLUSTERS: 8
+[INFO] PocketPredictor - FILTERED CLUSTERS: 6
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  59   points:  49   score:   13.5
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  40   points:  22   score:    8.4
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  20   points:   5   score:    2.0
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  19   points:   7   score:    1.6
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  18   points:   3   score:    1.4
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  14   points:   3   score:    1.2
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\YANK2.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_YANK2/visualizations/data/YANK2.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 5.587 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_YANK2]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 7.748 seconds.

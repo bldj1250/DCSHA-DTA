@@ -1,0 +1,42 @@
+[INFO] Console - predicting pockets for proteins from dataset [NDR1.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_NDR1
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [NDR1.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [NDR1.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [NDR1.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\NDR1.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\NDR1.pdb]
+[INFO] Struct - all groups in chain A: 465
+[INFO] Struct - all groups in chain A: 465
+[INFO] Struct - 465 groups in chain A
+[INFO] Protein - structure atoms: 3808
+[INFO] Protein - protein   atoms: 3729
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 8110
+[INFO] Protein - exposed protein atoms: 2573 of 3729
+[INFO] SLinkClusterer - clustering [146] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:3( 3 ), id:5( 2 ), id:30( 1 ), id:33( 1 ), id:51( 1 ), id:79( 88 ), id:87( 4 ), id:120( 16 ), id:123( 5 ), id:133( 2 ), id:134( 16 ), id:137( 5 ), id:145( 1 )]
+[INFO] SLinkClusterer - clusters together: 146 / 146
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 8110
+[INFO] PocketPredictor - LIGANDABLE POINTS: 146
+[INFO] PocketPredictor - CLUSTERS: 14
+[INFO] PocketPredictor - FILTERED CLUSTERS: 7
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  53   points:  88   score:   29.9
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  29   points:  16   score:    5.4
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  23   points:  16   score:    4.4
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  17   points:   5   score:    1.5
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  17   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  12   points:   5   score:    1.2
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:   9   points:   4   score:    1.2
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\NDR1.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_NDR1/visualizations/data/NDR1.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 5.339 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_NDR1]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 6.804 seconds.

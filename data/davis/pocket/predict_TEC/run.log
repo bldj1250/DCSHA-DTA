@@ -1,0 +1,49 @@
+[INFO] Console - predicting pockets for proteins from dataset [TEC.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_TEC
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [TEC.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [TEC.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [TEC.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\TEC.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\TEC.pdb]
+[INFO] Struct - all groups in chain A: 631
+[INFO] Struct - all groups in chain A: 631
+[INFO] Struct - 631 groups in chain A
+[INFO] Protein - structure atoms: 5179
+[INFO] Protein - protein   atoms: 5052
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 10998
+[INFO] Protein - exposed protein atoms: 3450 of 5052
+[INFO] SLinkClusterer - clustering [139] elements
+[INFO] SLinkClusterer - clusters: [id:3( 4 ), id:4( 1 ), id:7( 3 ), id:11( 1 ), id:13( 3 ), id:14( 3 ), id:15( 1 ), id:23( 1 ), id:26( 11 ), id:32( 4 ), id:48( 1 ), id:66( 24 ), id:76( 9 ), id:77( 2 ), id:86( 12 ), id:94( 11 ), id:110( 27 ), id:115( 10 ), id:128( 1 ), id:135( 4 ), id:136( 1 ), id:137( 4 ), id:138( 1 )]
+[INFO] SLinkClusterer - clusters together: 139 / 139
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 10998
+[INFO] PocketPredictor - LIGANDABLE POINTS: 139
+[INFO] PocketPredictor - CLUSTERS: 23
+[INFO] PocketPredictor - FILTERED CLUSTERS: 14
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  38   points:  27   score:   10.9
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  38   points:  24   score:    8.1
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  35   points:  11   score:    4.4
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  25   points:  11   score:    3.9
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  25   points:  10   score:    3.2
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  17   points:  12   score:    3.1
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  21   points:   9   score:    2.3
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  23   points:   4   score:    1.8
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  15   points:   3   score:    1.7
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  16   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  15   points:   4   score:    1.1
+[INFO] PocketPredictor - pocket12 -  surf_atoms:  13   points:   4   score:    1.1
+[INFO] PocketPredictor - pocket13 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket14 -  surf_atoms:  11   points:   3   score:    0.9
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\TEC.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_TEC/visualizations/data/TEC.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 5.778 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_TEC]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 7.270 seconds.

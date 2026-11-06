@@ -1,0 +1,42 @@
+[INFO] Console - predicting pockets for proteins from dataset [BMPR1A.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_BMPR1A
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [BMPR1A.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [BMPR1A.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [BMPR1A.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\BMPR1A.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\BMPR1A.pdb]
+[INFO] Struct - all groups in chain A: 532
+[INFO] Struct - all groups in chain A: 532
+[INFO] Struct - 532 groups in chain A
+[INFO] Protein - structure atoms: 4213
+[INFO] Protein - protein   atoms: 4124
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 10890
+[INFO] Protein - exposed protein atoms: 3023 of 4124
+[INFO] SLinkClusterer - clustering [73] elements
+[INFO] SLinkClusterer - clusters: [id:2( 1 ), id:9( 10 ), id:12( 3 ), id:14( 1 ), id:16( 1 ), id:22( 1 ), id:35( 2 ), id:36( 2 ), id:39( 1 ), id:42( 1 ), id:49( 35 ), id:62( 4 ), id:63( 3 ), id:69( 3 ), id:71( 1 ), id:72( 4 )]
+[INFO] SLinkClusterer - clusters together: 73 / 73
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 10890
+[INFO] PocketPredictor - LIGANDABLE POINTS: 73
+[INFO] PocketPredictor - CLUSTERS: 16
+[INFO] PocketPredictor - FILTERED CLUSTERS: 7
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  60   points:  35   score:   12.0
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  25   points:  10   score:    3.9
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  16   points:   4   score:    1.7
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  24   points:   3   score:    1.6
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  11   points:   4   score:    1.3
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  11   points:   3   score:    1.0
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  13   points:   3   score:    0.8
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\BMPR1A.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_BMPR1A/visualizations/data/BMPR1A.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 5.524 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_BMPR1A]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 7.027 seconds.

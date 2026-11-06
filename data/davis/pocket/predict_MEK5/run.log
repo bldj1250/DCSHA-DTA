@@ -1,0 +1,42 @@
+[INFO] Console - predicting pockets for proteins from dataset [MEK5.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_MEK5
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [MEK5.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [MEK5.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [MEK5.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\MEK5.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\MEK5.pdb]
+[INFO] Struct - all groups in chain A: 448
+[INFO] Struct - all groups in chain A: 448
+[INFO] Struct - 448 groups in chain A
+[INFO] Protein - structure atoms: 3520
+[INFO] Protein - protein   atoms: 3457
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 8652
+[INFO] Protein - exposed protein atoms: 2523 of 3457
+[INFO] SLinkClusterer - clustering [74] elements
+[INFO] SLinkClusterer - clusters: [id:2( 3 ), id:6( 1 ), id:9( 3 ), id:31( 4 ), id:38( 3 ), id:39( 1 ), id:40( 2 ), id:53( 45 ), id:62( 4 ), id:67( 2 ), id:69( 1 ), id:71( 3 ), id:72( 1 ), id:73( 1 )]
+[INFO] SLinkClusterer - clusters together: 74 / 74
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 8652
+[INFO] PocketPredictor - LIGANDABLE POINTS: 74
+[INFO] PocketPredictor - CLUSTERS: 14
+[INFO] PocketPredictor - FILTERED CLUSTERS: 7
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  51   points:  45   score:   15.3
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  23   points:   4   score:    2.4
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  24   points:   3   score:    1.9
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  23   points:   4   score:    1.6
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  19   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  15   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  17   points:   3   score:    1.2
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\MEK5.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_MEK5/visualizations/data/MEK5.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 5.112 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_MEK5]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 6.703 seconds.

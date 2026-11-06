@@ -1,0 +1,43 @@
+open data/MUSK.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #5d47b3
+color name color_pocket3 #ca5ce6
+color name color_pocket4 #b34788
+color name color_pocket5 #e65c5c
+color name color_pocket6 #b38847
+
+name pocket1_atoms @@serial_number=5813 @@serial_number=2228 @@serial_number=5140 @@serial_number=5144 @@serial_number=5776 @@serial_number=5779 @@serial_number=4522 @@serial_number=5134 @@serial_number=5112 @@serial_number=5676 @@serial_number=5677 @@serial_number=5133 @@serial_number=5768 @@serial_number=4524 @@serial_number=4525 @@serial_number=4720 @@serial_number=5120 @@serial_number=5105 @@serial_number=5107 @@serial_number=5649 @@serial_number=5657 @@serial_number=5786 @@serial_number=5761 @@serial_number=5663 @@serial_number=5765 @@serial_number=5767
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=5920 @@serial_number=5794 @@serial_number=5797 @@serial_number=4832 @@serial_number=4833 @@serial_number=5756 @@serial_number=5757 @@serial_number=4294 @@serial_number=4831 @@serial_number=5612 @@serial_number=4263 @@serial_number=4290 @@serial_number=4292 @@serial_number=5588 @@serial_number=4241 @@serial_number=5609 @@serial_number=5593 @@serial_number=5600 @@serial_number=5620 @@serial_number=5622 @@serial_number=5624 @@serial_number=4546 @@serial_number=4557 @@serial_number=4558 @@serial_number=4874 @@serial_number=4869 @@serial_number=4871 @@serial_number=5770 @@serial_number=5662 @@serial_number=5792 @@serial_number=4254 @@serial_number=4260 @@serial_number=4256
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=1078 @@serial_number=1062 @@serial_number=1079 @@serial_number=1061 @@serial_number=1064 @@serial_number=6419 @@serial_number=6422 @@serial_number=6424 @@serial_number=6429 @@serial_number=6432 @@serial_number=6434 @@serial_number=982 @@serial_number=997 @@serial_number=996 @@serial_number=6269 @@serial_number=6273 @@serial_number=6292 @@serial_number=6412 @@serial_number=6418 @@serial_number=6181 @@serial_number=6216 @@serial_number=6258 @@serial_number=6263 @@serial_number=6283 @@serial_number=6290 @@serial_number=6438 @@serial_number=1048 @@serial_number=1051 @@serial_number=6214 @@serial_number=1052 @@serial_number=6239 @@serial_number=6272 @@serial_number=6274 @@serial_number=6275 @@serial_number=6236 @@serial_number=6240 @@serial_number=960 @@serial_number=6361 @@serial_number=6364 @@serial_number=6407 @@serial_number=6362
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=2234 @@serial_number=2235 @@serial_number=2236 @@serial_number=1617 @@serial_number=2237 @@serial_number=2238 @@serial_number=2239 @@serial_number=5199 @@serial_number=2204 @@serial_number=2200 @@serial_number=1022 @@serial_number=2192 @@serial_number=5810 @@serial_number=1616 @@serial_number=6276 @@serial_number=6278 @@serial_number=6280 @@serial_number=1042 @@serial_number=5160 @@serial_number=6241 @@serial_number=6242 @@serial_number=6244 @@serial_number=1599 @@serial_number=2205 @@serial_number=5835 @@serial_number=6247 @@serial_number=6248 @@serial_number=6249 @@serial_number=5815 @@serial_number=5820 @@serial_number=5842 @@serial_number=5843 @@serial_number=5844 @@serial_number=5816
+color pocket4_atoms color_pocket4
+
+name pocket5_atoms @@serial_number=4168 @@serial_number=6022 @@serial_number=6339 @@serial_number=6340 @@serial_number=6020 @@serial_number=6012 @@serial_number=4167 @@serial_number=4169 @@serial_number=4198 @@serial_number=4199 @@serial_number=6010 @@serial_number=5928 @@serial_number=5943
+color pocket5_atoms color_pocket5
+
+name pocket6_atoms @@serial_number=2407 @@serial_number=2960 @@serial_number=2943 @@serial_number=2944 @@serial_number=2945 @@serial_number=2946 @@serial_number=2420 @@serial_number=2409 @@serial_number=2411 @@serial_number=2357
+color pocket6_atoms color_pocket6
+
+
+
+open data/MUSK.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

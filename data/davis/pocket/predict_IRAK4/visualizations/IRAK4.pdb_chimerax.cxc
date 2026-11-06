@@ -1,0 +1,35 @@
+open data/IRAK4.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #7d47b3
+color name color_pocket3 #e65cae
+color name color_pocket4 #b36847
+
+name pocket1_atoms @@serial_number=1531 @@serial_number=1571 @@serial_number=1573 @@serial_number=1521 @@serial_number=1526 @@serial_number=2109 @@serial_number=2112 @@serial_number=2501 @@serial_number=2136 @@serial_number=2137 @@serial_number=2138 @@serial_number=2106 @@serial_number=2107 @@serial_number=1519 @@serial_number=1525 @@serial_number=1518 @@serial_number=1520 @@serial_number=1522 @@serial_number=1476 @@serial_number=2177 @@serial_number=2134 @@serial_number=2149 @@serial_number=2185 @@serial_number=1675 @@serial_number=1676 @@serial_number=1574 @@serial_number=1674 @@serial_number=2577 @@serial_number=2581 @@serial_number=2585 @@serial_number=2485 @@serial_number=2575 @@serial_number=2578 @@serial_number=2477 @@serial_number=1659 @@serial_number=2067 @@serial_number=2085 @@serial_number=2087 @@serial_number=2500 @@serial_number=2079 @@serial_number=2082 @@serial_number=2086 @@serial_number=1523 @@serial_number=1524 @@serial_number=2054 @@serial_number=2056 @@serial_number=2058 @@serial_number=2060 @@serial_number=2081 @@serial_number=2094 @@serial_number=1938 @@serial_number=1940 @@serial_number=1538 @@serial_number=1533
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=101 @@serial_number=103 @@serial_number=68 @@serial_number=66 @@serial_number=3033 @@serial_number=3034 @@serial_number=3035 @@serial_number=3019 @@serial_number=3082 @@serial_number=62 @@serial_number=67 @@serial_number=94 @@serial_number=75 @@serial_number=3090 @@serial_number=2756 @@serial_number=2754 @@serial_number=2757 @@serial_number=2749 @@serial_number=2751 @@serial_number=3018 @@serial_number=2758 @@serial_number=2759 @@serial_number=2761
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=126 @@serial_number=2729 @@serial_number=583 @@serial_number=2728 @@serial_number=579 @@serial_number=581 @@serial_number=2731 @@serial_number=91 @@serial_number=108 @@serial_number=2816 @@serial_number=88 @@serial_number=90 @@serial_number=2757 @@serial_number=2781
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=2271 @@serial_number=2246 @@serial_number=2247 @@serial_number=3598 @@serial_number=3600 @@serial_number=3602 @@serial_number=2273 @@serial_number=2231 @@serial_number=2235 @@serial_number=3316 @@serial_number=3593 @@serial_number=3601 @@serial_number=3615 @@serial_number=2240 @@serial_number=2242 @@serial_number=2243 @@serial_number=2274
+color pocket4_atoms color_pocket4
+
+
+
+open data/IRAK4.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

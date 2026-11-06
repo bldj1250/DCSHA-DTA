@@ -1,0 +1,35 @@
+open data/PHKG1.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #7d47b3
+color name color_pocket3 #e65cae
+color name color_pocket4 #b36847
+
+name pocket1_atoms @@serial_number=893 @@serial_number=1356 @@serial_number=1357 @@serial_number=1277 @@serial_number=219 @@serial_number=220 @@serial_number=226 @@serial_number=1276 @@serial_number=212 @@serial_number=214 @@serial_number=218 @@serial_number=268 @@serial_number=858 @@serial_number=216 @@serial_number=378 @@serial_number=213 @@serial_number=1249 @@serial_number=1261 @@serial_number=857 @@serial_number=692 @@serial_number=854 @@serial_number=842 @@serial_number=234 @@serial_number=224 @@serial_number=233 @@serial_number=266 @@serial_number=269 @@serial_number=394 @@serial_number=255 @@serial_number=1365 @@serial_number=1361 @@serial_number=395 @@serial_number=584 @@serial_number=1363 @@serial_number=1364 @@serial_number=393 @@serial_number=837 @@serial_number=830 @@serial_number=832 @@serial_number=834 @@serial_number=836
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=1390 @@serial_number=1391 @@serial_number=1365 @@serial_number=246 @@serial_number=255 @@serial_number=253 @@serial_number=247 @@serial_number=249 @@serial_number=526 @@serial_number=409 @@serial_number=1380 @@serial_number=395 @@serial_number=585 @@serial_number=1364 @@serial_number=1378 @@serial_number=1379 @@serial_number=410 @@serial_number=551 @@serial_number=552 @@serial_number=550 @@serial_number=559 @@serial_number=1389
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=1786 @@serial_number=1814 @@serial_number=1822 @@serial_number=1824 @@serial_number=1825 @@serial_number=1812 @@serial_number=1525 @@serial_number=1535 @@serial_number=1537 @@serial_number=912 @@serial_number=1252
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=261 @@serial_number=182 @@serial_number=401 @@serial_number=402 @@serial_number=135 @@serial_number=276 @@serial_number=280 @@serial_number=180 @@serial_number=809 @@serial_number=138 @@serial_number=385 @@serial_number=124
+color pocket4_atoms color_pocket4
+
+
+
+open data/PHKG1.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

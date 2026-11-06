@@ -1,0 +1,39 @@
+[INFO] Console - predicting pockets for proteins from dataset [LYN.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_LYN
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [LYN.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [LYN.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [LYN.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\LYN.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\LYN.pdb]
+[INFO] Struct - all groups in chain A: 582
+[INFO] Struct - all groups in chain A: 582
+[INFO] Struct - 582 groups in chain A
+[INFO] Protein - structure atoms: 4638
+[INFO] Protein - protein   atoms: 4523
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 13322
+[INFO] Protein - exposed protein atoms: 3375 of 4523
+[INFO] SLinkClusterer - clustering [68] elements
+[INFO] SLinkClusterer - clusters: [id:4( 12 ), id:23( 1 ), id:32( 2 ), id:36( 1 ), id:55( 31 ), id:62( 5 ), id:64( 2 ), id:65( 1 ), id:67( 13 )]
+[INFO] SLinkClusterer - clusters together: 68 / 68
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 13322
+[INFO] PocketPredictor - LIGANDABLE POINTS: 68
+[INFO] PocketPredictor - CLUSTERS: 9
+[INFO] PocketPredictor - FILTERED CLUSTERS: 4
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  51   points:  31   score:   10.3
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  54   points:  13   score:    5.4
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  29   points:  12   score:    3.6
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  24   points:   5   score:    2.4
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\LYN.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_LYN/visualizations/data/LYN.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 5.891 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_LYN]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 7.460 seconds.

@@ -1,0 +1,40 @@
+[INFO] Console - predicting pockets for proteins from dataset [ACVR1.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_ACVR1
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [ACVR1.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [ACVR1.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [ACVR1.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\ACVR1.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\ACVR1.pdb]
+[INFO] Struct - all groups in chain A: 509
+[INFO] Struct - all groups in chain A: 509
+[INFO] Struct - 509 groups in chain A
+[INFO] Protein - structure atoms: 4001
+[INFO] Protein - protein   atoms: 3926
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 10620
+[INFO] Protein - exposed protein atoms: 2890 of 3926
+[INFO] SLinkClusterer - clustering [57] elements
+[INFO] SLinkClusterer - clusters: [id:6( 6 ), id:8( 3 ), id:25( 1 ), id:27( 2 ), id:32( 2 ), id:35( 7 ), id:38( 28 ), id:39( 1 ), id:41( 1 ), id:43( 4 ), id:56( 2 )]
+[INFO] SLinkClusterer - clusters together: 57 / 57
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 10620
+[INFO] PocketPredictor - LIGANDABLE POINTS: 57
+[INFO] PocketPredictor - CLUSTERS: 11
+[INFO] PocketPredictor - FILTERED CLUSTERS: 5
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  51   points:  28   score:   10.0
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  22   points:   7   score:    2.1
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  14   points:   6   score:    1.6
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  19   points:   4   score:    1.6
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  13   points:   3   score:    1.0
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\ACVR1.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_ACVR1/visualizations/data/ACVR1.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 7.090 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_ACVR1]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 8.756 seconds.

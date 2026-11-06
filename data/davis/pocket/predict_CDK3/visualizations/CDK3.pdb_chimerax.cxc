@@ -1,0 +1,35 @@
+open data/CDK3.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #7d47b3
+color name color_pocket3 #e65cae
+color name color_pocket4 #b36847
+
+name pocket1_atoms @@serial_number=1174 @@serial_number=1167 @@serial_number=1172 @@serial_number=1173 @@serial_number=1165 @@serial_number=504 @@serial_number=506 @@serial_number=1163 @@serial_number=1093 @@serial_number=1094 @@serial_number=642 @@serial_number=644 @@serial_number=645 @@serial_number=646 @@serial_number=647 @@serial_number=648 @@serial_number=696 @@serial_number=700 @@serial_number=684 @@serial_number=685 @@serial_number=1066 @@serial_number=81 @@serial_number=83 @@serial_number=88 @@serial_number=140 @@serial_number=82 @@serial_number=84 @@serial_number=139 @@serial_number=86 @@serial_number=242 @@serial_number=674 @@serial_number=726 @@serial_number=680 @@serial_number=682 @@serial_number=255
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=402 @@serial_number=1000 @@serial_number=432 @@serial_number=1178 @@serial_number=1001 @@serial_number=1186 @@serial_number=999 @@serial_number=400 @@serial_number=401 @@serial_number=1206 @@serial_number=1209 @@serial_number=1005 @@serial_number=1197 @@serial_number=430 @@serial_number=1187 @@serial_number=1188 @@serial_number=1190 @@serial_number=1189 @@serial_number=1191
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=1882 @@serial_number=1445 @@serial_number=2194 @@serial_number=2196 @@serial_number=1470 @@serial_number=1395 @@serial_number=1432 @@serial_number=1446 @@serial_number=1837 @@serial_number=2197 @@serial_number=2189 @@serial_number=1845 @@serial_number=1849 @@serial_number=1850 @@serial_number=1851 @@serial_number=1839
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=1 @@serial_number=2 @@serial_number=555 @@serial_number=250 @@serial_number=617 @@serial_number=7 @@serial_number=32 @@serial_number=251 @@serial_number=615
+color pocket4_atoms color_pocket4
+
+
+
+open data/CDK3.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

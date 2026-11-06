@@ -1,0 +1,47 @@
+[INFO] Console - predicting pockets for proteins from dataset [ARK5.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_ARK5
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [ARK5.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [ARK5.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [ARK5.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\ARK5.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\ARK5.pdb]
+[INFO] Struct - all groups in chain A: 661
+[INFO] Struct - all groups in chain A: 661
+[INFO] Struct - 661 groups in chain A
+[INFO] Protein - structure atoms: 5222
+[INFO] Protein - protein   atoms: 5095
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 19970
+[INFO] Protein - exposed protein atoms: 4266 of 5095
+[INFO] SLinkClusterer - clustering [121] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:22( 6 ), id:33( 5 ), id:34( 5 ), id:44( 3 ), id:47( 1 ), id:57( 2 ), id:59( 19 ), id:64( 11 ), id:78( 2 ), id:79( 12 ), id:97( 3 ), id:99( 6 ), id:100( 3 ), id:102( 12 ), id:106( 30 )]
+[INFO] SLinkClusterer - clusters together: 121 / 121
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 19970
+[INFO] PocketPredictor - LIGANDABLE POINTS: 121
+[INFO] PocketPredictor - CLUSTERS: 16
+[INFO] PocketPredictor - FILTERED CLUSTERS: 12
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  63   points:  30   score:   10.0
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  35   points:  19   score:    7.2
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  27   points:  12   score:    4.9
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  32   points:  11   score:    4.3
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  24   points:  12   score:    3.9
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  28   points:   6   score:    2.6
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  27   points:   6   score:    2.4
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  19   points:   3   score:    1.4
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  15   points:   3   score:    1.4
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  22   points:   5   score:    1.3
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  13   points:   3   score:    1.2
+[INFO] PocketPredictor - pocket12 -  surf_atoms:  13   points:   5   score:    1.2
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\ARK5.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_ARK5/visualizations/data/ARK5.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 7.159 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_ARK5]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 8.905 seconds.

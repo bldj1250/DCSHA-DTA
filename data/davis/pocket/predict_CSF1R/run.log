@@ -1,0 +1,43 @@
+[INFO] Console - predicting pockets for proteins from dataset [CSF1R.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_CSF1R
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [CSF1R.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [CSF1R.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [CSF1R.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\CSF1R.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\CSF1R.pdb]
+[INFO] Struct - all groups in chain A: 972
+[INFO] Struct - all groups in chain A: 972
+[INFO] Struct - 972 groups in chain A
+[INFO] Protein - structure atoms: 7607
+[INFO] Protein - protein   atoms: 7474
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 19446
+[INFO] Protein - exposed protein atoms: 5510 of 7474
+[INFO] SLinkClusterer - clustering [135] elements
+[INFO] SLinkClusterer - clusters: [id:3( 2 ), id:4( 1 ), id:5( 1 ), id:6( 1 ), id:27( 1 ), id:35( 1 ), id:50( 1 ), id:55( 1 ), id:57( 2 ), id:58( 1 ), id:75( 55 ), id:77( 4 ), id:79( 7 ), id:80( 1 ), id:86( 4 ), id:91( 20 ), id:114( 5 ), id:117( 2 ), id:118( 1 ), id:120( 7 ), id:121( 1 ), id:128( 9 ), id:129( 1 ), id:131( 2 ), id:132( 2 ), id:133( 1 ), id:134( 1 )]
+[INFO] SLinkClusterer - clusters together: 135 / 135
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 19446
+[INFO] PocketPredictor - LIGANDABLE POINTS: 135
+[INFO] PocketPredictor - CLUSTERS: 27
+[INFO] PocketPredictor - FILTERED CLUSTERS: 8
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  74   points:  55   score:   16.9
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  31   points:  20   score:    6.4
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  23   points:   9   score:    3.2
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  22   points:   4   score:    2.6
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  14   points:   7   score:    2.5
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  23   points:   7   score:    2.4
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  17   points:   5   score:    2.2
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  20   points:   4   score:    1.1
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\CSF1R.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_CSF1R/visualizations/data/CSF1R.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 6.971 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_CSF1R]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 8.534 seconds.

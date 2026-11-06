@@ -1,0 +1,35 @@
+open data/SGK3.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #7d47b3
+color name color_pocket3 #e65cae
+color name color_pocket4 #b36847
+
+name pocket1_atoms @@serial_number=1389 @@serial_number=3711 @@serial_number=2035 @@serial_number=3677 @@serial_number=3679 @@serial_number=1401 @@serial_number=1443 @@serial_number=1445 @@serial_number=1446 @@serial_number=1567 @@serial_number=1568 @@serial_number=1569 @@serial_number=2506 @@serial_number=2507 @@serial_number=2508 @@serial_number=1552 @@serial_number=1984 @@serial_number=1390 @@serial_number=1392 @@serial_number=2001 @@serial_number=2400 @@serial_number=2412 @@serial_number=2427 @@serial_number=2499 @@serial_number=2500 @@serial_number=2501 @@serial_number=2504 @@serial_number=2033 @@serial_number=2428 @@serial_number=1990 @@serial_number=1847 @@serial_number=2009 @@serial_number=2399 @@serial_number=2502 @@serial_number=1394 @@serial_number=1397 @@serial_number=1407
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=1566 @@serial_number=1568 @@serial_number=1569 @@serial_number=2506 @@serial_number=2507 @@serial_number=2508 @@serial_number=1584 @@serial_number=1729 @@serial_number=1423 @@serial_number=1415 @@serial_number=1707 @@serial_number=1692 @@serial_number=1425 @@serial_number=1671 @@serial_number=1693 @@serial_number=2522 @@serial_number=2524 @@serial_number=2529 @@serial_number=2371 @@serial_number=2530 @@serial_number=2531 @@serial_number=2505 @@serial_number=2521 @@serial_number=2523 @@serial_number=1407 @@serial_number=1410 @@serial_number=1413
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=295 @@serial_number=384 @@serial_number=385 @@serial_number=1428 @@serial_number=1592 @@serial_number=359 @@serial_number=1438 @@serial_number=1439 @@serial_number=3736 @@serial_number=310 @@serial_number=3755 @@serial_number=3757 @@serial_number=1436 @@serial_number=1437 @@serial_number=151
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=374 @@serial_number=1044 @@serial_number=1056 @@serial_number=1007 @@serial_number=1017 @@serial_number=1058 @@serial_number=1045 @@serial_number=349 @@serial_number=329 @@serial_number=1010 @@serial_number=327 @@serial_number=330 @@serial_number=969
+color pocket4_atoms color_pocket4
+
+
+
+open data/SGK3.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

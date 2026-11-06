@@ -1,0 +1,39 @@
+open data/HIPK1.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #6a47b3
+color name color_pocket3 #e65ce0
+color name color_pocket4 #b34761
+color name color_pocket5 #e69e5c
+
+name pocket1_atoms @@serial_number=2454 @@serial_number=2455 @@serial_number=1478 @@serial_number=2467 @@serial_number=2479 @@serial_number=2619 @@serial_number=2621 @@serial_number=2609 @@serial_number=2613 @@serial_number=2617 @@serial_number=1512 @@serial_number=1526 @@serial_number=1643 @@serial_number=1645 @@serial_number=1646 @@serial_number=2053 @@serial_number=1800 @@serial_number=2054 @@serial_number=1503 @@serial_number=1647 @@serial_number=1770 @@serial_number=2629 @@serial_number=2622 @@serial_number=1510 @@serial_number=1476 @@serial_number=1485 @@serial_number=1472 @@serial_number=1473 @@serial_number=1474 @@serial_number=1475 @@serial_number=1486 @@serial_number=7195 @@serial_number=1466 @@serial_number=2494 @@serial_number=2495 @@serial_number=2612 @@serial_number=2051 @@serial_number=1630 @@serial_number=1914 @@serial_number=2059 @@serial_number=2047 @@serial_number=2049 @@serial_number=1464 @@serial_number=1470 @@serial_number=1523 @@serial_number=1525 @@serial_number=1465 @@serial_number=1468 @@serial_number=1471 @@serial_number=2076 @@serial_number=2084 @@serial_number=2104 @@serial_number=2101
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=2982 @@serial_number=3034 @@serial_number=3035 @@serial_number=2772 @@serial_number=3023 @@serial_number=3024 @@serial_number=3027 @@serial_number=3028 @@serial_number=2196 @@serial_number=2195 @@serial_number=2197 @@serial_number=2198 @@serial_number=7215 @@serial_number=7206 @@serial_number=7219 @@serial_number=7220 @@serial_number=2123 @@serial_number=2125 @@serial_number=2160 @@serial_number=2161 @@serial_number=2774 @@serial_number=3059
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=2121 @@serial_number=2123 @@serial_number=2469 @@serial_number=2470 @@serial_number=2471 @@serial_number=2461 @@serial_number=2462 @@serial_number=2786 @@serial_number=7219 @@serial_number=7220 @@serial_number=2982 @@serial_number=3034 @@serial_number=3035 @@serial_number=2770 @@serial_number=2772 @@serial_number=3024 @@serial_number=3028 @@serial_number=2983 @@serial_number=2196 @@serial_number=2198 @@serial_number=2774
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=2455 @@serial_number=2479 @@serial_number=2438 @@serial_number=2621 @@serial_number=1505 @@serial_number=1489 @@serial_number=2751 @@serial_number=2437 @@serial_number=2436 @@serial_number=1495 @@serial_number=1506 @@serial_number=2642
+color pocket4_atoms color_pocket4
+
+name pocket5_atoms @@serial_number=2176 @@serial_number=2178 @@serial_number=2142 @@serial_number=2143 @@serial_number=2144 @@serial_number=2569 @@serial_number=2571 @@serial_number=2251 @@serial_number=2252 @@serial_number=2253 @@serial_number=2255 @@serial_number=2217 @@serial_number=2218 @@serial_number=2556 @@serial_number=2226 @@serial_number=2213
+color pocket5_atoms color_pocket5
+
+
+
+open data/HIPK1.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

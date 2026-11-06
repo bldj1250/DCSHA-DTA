@@ -1,0 +1,31 @@
+open data/PIM3.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #9d47b3
+color name color_pocket3 #e65c5c
+
+name pocket1_atoms @@serial_number=1430 @@serial_number=1426 @@serial_number=1429 @@serial_number=1344 @@serial_number=1343 @@serial_number=765 @@serial_number=907 @@serial_number=477 @@serial_number=913 @@serial_number=1316 @@serial_number=1328 @@serial_number=966 @@serial_number=969 @@serial_number=973 @@serial_number=336 @@serial_number=337 @@serial_number=338 @@serial_number=340 @@serial_number=341 @@serial_number=933 @@serial_number=923 @@serial_number=924 @@serial_number=1431 @@serial_number=954 @@serial_number=956 @@serial_number=955 @@serial_number=1438 @@serial_number=363 @@serial_number=367 @@serial_number=388 @@serial_number=492 @@serial_number=343 @@serial_number=345 @@serial_number=342 @@serial_number=385 @@serial_number=387 @@serial_number=344 @@serial_number=346 @@serial_number=348 @@serial_number=352 @@serial_number=374
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=1875 @@serial_number=991 @@serial_number=1866 @@serial_number=1873 @@serial_number=989 @@serial_number=1026 @@serial_number=992 @@serial_number=1311 @@serial_number=1590 @@serial_number=1600 @@serial_number=1874 @@serial_number=1319 @@serial_number=1310 @@serial_number=1015 @@serial_number=1018 @@serial_number=1833 @@serial_number=1859 @@serial_number=1861 @@serial_number=986
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=847 @@serial_number=885 @@serial_number=884 @@serial_number=274 @@serial_number=500 @@serial_number=502 @@serial_number=316 @@serial_number=396 @@serial_number=397 @@serial_number=398 @@serial_number=400 @@serial_number=317 @@serial_number=262 @@serial_number=264
+color pocket3_atoms color_pocket3
+
+
+
+open data/PIM3.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

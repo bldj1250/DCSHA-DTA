@@ -1,0 +1,37 @@
+[INFO] Console - predicting pockets for proteins from dataset [P0A722.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_P0A722
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [P0A722.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [P0A722.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [P0A722.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\bindingdb\P0A722.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\bindingdb\P0A722.pdb]
+[INFO] Struct - all groups in chain A: 262
+[INFO] Struct - all groups in chain A: 262
+[INFO] Struct - 262 groups in chain A
+[INFO] Protein - structure atoms: 1975
+[INFO] Protein - protein   atoms: 1939
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 3810
+[INFO] Protein - exposed protein atoms: 1174 of 1939
+[INFO] SLinkClusterer - clustering [18] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:3( 1 ), id:4( 2 ), id:10( 7 ), id:12( 1 ), id:17( 6 )]
+[INFO] SLinkClusterer - clusters together: 18 / 18
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 3810
+[INFO] PocketPredictor - LIGANDABLE POINTS: 18
+[INFO] PocketPredictor - CLUSTERS: 6
+[INFO] PocketPredictor - FILTERED CLUSTERS: 2
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  20   points:   6   score:    2.2
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  20   points:   7   score:    2.0
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\bindingdb\P0A722.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_P0A722/visualizations/data/P0A722.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 4.667 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_P0A722]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 6.121 seconds.

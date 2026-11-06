@@ -1,0 +1,42 @@
+[INFO] Console - predicting pockets for proteins from dataset [LIMK1.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_LIMK1
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [LIMK1.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [LIMK1.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [LIMK1.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\LIMK1.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\LIMK1.pdb]
+[INFO] Struct - all groups in chain A: 647
+[INFO] Struct - all groups in chain A: 647
+[INFO] Struct - 647 groups in chain A
+[INFO] Protein - structure atoms: 5087
+[INFO] Protein - protein   atoms: 4970
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 13222
+[INFO] Protein - exposed protein atoms: 3608 of 4970
+[INFO] SLinkClusterer - clustering [91] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:9( 1 ), id:14( 1 ), id:18( 2 ), id:20( 5 ), id:23( 13 ), id:24( 1 ), id:25( 1 ), id:45( 1 ), id:48( 1 ), id:52( 2 ), id:53( 1 ), id:58( 3 ), id:66( 26 ), id:74( 18 ), id:77( 1 ), id:88( 7 ), id:90( 6 )]
+[INFO] SLinkClusterer - clusters together: 91 / 91
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 13222
+[INFO] PocketPredictor - LIGANDABLE POINTS: 91
+[INFO] PocketPredictor - CLUSTERS: 18
+[INFO] PocketPredictor - FILTERED CLUSTERS: 7
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  34   points:  26   score:    7.7
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  34   points:  18   score:    6.5
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  26   points:  13   score:    4.7
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  18   points:   7   score:    2.8
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  25   points:   6   score:    2.8
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  12   points:   5   score:    1.0
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:   8   points:   3   score:    0.9
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\LIMK1.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_LIMK1/visualizations/data/LIMK1.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 5.885 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_LIMK1]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 7.415 seconds.

@@ -1,0 +1,39 @@
+[INFO] Console - predicting pockets for proteins from dataset [NEK7.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_NEK7
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [NEK7.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [NEK7.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [NEK7.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\NEK7.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\NEK7.pdb]
+[INFO] Struct - all groups in chain A: 302
+[INFO] Struct - all groups in chain A: 302
+[INFO] Struct - 302 groups in chain A
+[INFO] Protein - structure atoms: 2424
+[INFO] Protein - protein   atoms: 2375
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 5296
+[INFO] Protein - exposed protein atoms: 1597 of 2375
+[INFO] SLinkClusterer - clustering [58] elements
+[INFO] SLinkClusterer - clusters: [id:11( 1 ), id:17( 2 ), id:29( 19 ), id:39( 22 ), id:48( 1 ), id:52( 6 ), id:57( 7 )]
+[INFO] SLinkClusterer - clusters together: 58 / 58
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 5296
+[INFO] PocketPredictor - LIGANDABLE POINTS: 58
+[INFO] PocketPredictor - CLUSTERS: 7
+[INFO] PocketPredictor - FILTERED CLUSTERS: 4
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  36   points:  22   score:    7.6
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  27   points:  19   score:    7.1
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  25   points:   7   score:    2.8
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  24   points:   6   score:    2.1
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\NEK7.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_NEK7/visualizations/data/NEK7.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 4.768 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_NEK7]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 6.659 seconds.

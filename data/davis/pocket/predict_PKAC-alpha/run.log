@@ -1,0 +1,40 @@
+[INFO] Console - predicting pockets for proteins from dataset [PKAC-alpha.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_PKAC-alpha
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [PKAC-alpha.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [PKAC-alpha.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [PKAC-alpha.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\PKAC-alpha.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\PKAC-alpha.pdb]
+[INFO] Struct - all groups in chain A: 351
+[INFO] Struct - all groups in chain A: 351
+[INFO] Struct - 351 groups in chain A
+[INFO] Protein - structure atoms: 2872
+[INFO] Protein - protein   atoms: 2822
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 5506
+[INFO] Protein - exposed protein atoms: 1817 of 2822
+[INFO] SLinkClusterer - clustering [86] elements
+[INFO] SLinkClusterer - clusters: [id:16( 58 ), id:71( 1 ), id:72( 5 ), id:73( 1 ), id:75( 3 ), id:76( 13 ), id:80( 1 ), id:81( 4 )]
+[INFO] SLinkClusterer - clusters together: 86 / 86
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 5506
+[INFO] PocketPredictor - LIGANDABLE POINTS: 86
+[INFO] PocketPredictor - CLUSTERS: 8
+[INFO] PocketPredictor - FILTERED CLUSTERS: 5
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  66   points:  58   score:   17.8
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  30   points:  13   score:    4.1
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  17   points:   5   score:    1.7
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  10   points:   3   score:    1.6
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:   7   points:   4   score:    1.5
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\PKAC-alpha.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_PKAC-alpha/visualizations/data/PKAC-alpha.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 5.478 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_PKAC-alpha]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 6.985 seconds.

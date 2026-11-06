@@ -1,0 +1,44 @@
+[INFO] Console - predicting pockets for proteins from dataset [TXK.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_TXK
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [TXK.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [TXK.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [TXK.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\TXK.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\TXK.pdb]
+[INFO] Struct - all groups in chain A: 527
+[INFO] Struct - all groups in chain A: 527
+[INFO] Struct - 527 groups in chain A
+[INFO] Protein - structure atoms: 4307
+[INFO] Protein - protein   atoms: 4201
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 10499
+[INFO] Protein - exposed protein atoms: 2942 of 4201
+[INFO] SLinkClusterer - clustering [119] elements
+[INFO] SLinkClusterer - clusters: [id:12( 1 ), id:18( 6 ), id:23( 1 ), id:24( 1 ), id:61( 13 ), id:63( 3 ), id:79( 2 ), id:85( 7 ), id:99( 5 ), id:102( 9 ), id:104( 1 ), id:107( 59 ), id:110( 5 ), id:116( 2 ), id:118( 4 )]
+[INFO] SLinkClusterer - clusters together: 119 / 119
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 10499
+[INFO] PocketPredictor - LIGANDABLE POINTS: 119
+[INFO] PocketPredictor - CLUSTERS: 15
+[INFO] PocketPredictor - FILTERED CLUSTERS: 9
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  52   points:  59   score:   21.3
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  29   points:  13   score:    4.8
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  34   points:   9   score:    4.0
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  30   points:   6   score:    3.3
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  19   points:   5   score:    2.4
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  17   points:   7   score:    2.2
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  19   points:   5   score:    1.6
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  14   points:   3   score:    1.0
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:   8   points:   4   score:    0.6
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\TXK.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_TXK/visualizations/data/TXK.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 7.742 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_TXK]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 9.228 seconds.

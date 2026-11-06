@@ -1,0 +1,59 @@
+[INFO] Console - predicting pockets for proteins from dataset [PIK3C2B.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_PIK3C2B
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [PIK3C2B.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [PIK3C2B.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [PIK3C2B.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\PIK3C2B.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\PIK3C2B.pdb]
+[INFO] Struct - all groups in chain A: 1634
+[INFO] Struct - all groups in chain A: 1634
+[INFO] Struct - 1634 groups in chain A
+[INFO] Protein - structure atoms: 13010
+[INFO] Protein - protein   atoms: 12722
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 32791
+[INFO] Protein - exposed protein atoms: 9075 of 12722
+[INFO] SLinkClusterer - clustering [342] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:1( 1 ), id:11( 57 ), id:22( 1 ), id:24( 3 ), id:43( 73 ), id:45( 9 ), id:54( 1 ), id:74( 2 ), id:76( 11 ), id:85( 4 ), id:87( 1 ), id:93( 6 ), id:95( 3 ), id:125( 3 ), id:126( 4 ), id:129( 1 ), id:130( 1 ), id:140( 6 ), id:152( 1 ), id:153( 1 ), id:166( 1 ), id:169( 4 ), id:172( 2 ), id:184( 1 ), id:189( 11 ), id:203( 1 ), id:219( 1 ), id:252( 40 ), id:253( 2 ), id:263( 4 ), id:276( 6 ), id:277( 1 ), id:286( 10 ), id:293( 1 ), id:296( 2 ), id:297( 17 ), id:308( 3 ), id:309( 1 ), id:311( 12 ), id:324( 11 ), id:326( 2 ), id:330( 6 ), id:332( 1 ), id:335( 3 ), id:338( 7 ), id:339( 1 ), id:341( 1 )]
+[INFO] SLinkClusterer - clusters together: 342 / 342
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 32791
+[INFO] PocketPredictor - LIGANDABLE POINTS: 342
+[INFO] PocketPredictor - CLUSTERS: 48
+[INFO] PocketPredictor - FILTERED CLUSTERS: 24
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  99   points:  73   score:   23.1
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  84   points:  57   score:   19.9
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  48   points:  40   score:   16.4
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  36   points:  17   score:    5.1
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  20   points:  11   score:    4.7
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  31   points:  11   score:    4.4
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  20   points:  12   score:    4.2
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  32   points:   9   score:    3.8
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  19   points:  11   score:    3.2
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  12   points:   6   score:    3.0
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  14   points:   6   score:    2.4
+[INFO] PocketPredictor - pocket12 -  surf_atoms:  11   points:  10   score:    2.3
+[INFO] PocketPredictor - pocket13 -  surf_atoms:  15   points:   6   score:    2.2
+[INFO] PocketPredictor - pocket14 -  surf_atoms:  28   points:   7   score:    2.0
+[INFO] PocketPredictor - pocket15 -  surf_atoms:  20   points:   4   score:    1.8
+[INFO] PocketPredictor - pocket16 -  surf_atoms:  21   points:   3   score:    1.7
+[INFO] PocketPredictor - pocket17 -  surf_atoms:  11   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket18 -  surf_atoms:  13   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket19 -  surf_atoms:  19   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket20 -  surf_atoms:  11   points:   6   score:    1.4
+[INFO] PocketPredictor - pocket21 -  surf_atoms:  17   points:   3   score:    1.4
+[INFO] PocketPredictor - pocket22 -  surf_atoms:  13   points:   3   score:    1.0
+[INFO] PocketPredictor - pocket23 -  surf_atoms:  11   points:   3   score:    1.0
+[INFO] PocketPredictor - pocket24 -  surf_atoms:  16   points:   3   score:    0.8
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\PIK3C2B.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_PIK3C2B/visualizations/data/PIK3C2B.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 8.185 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_PIK3C2B]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 10.624 seconds.

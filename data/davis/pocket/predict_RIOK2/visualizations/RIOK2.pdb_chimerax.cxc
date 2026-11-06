@@ -1,0 +1,35 @@
+open data/RIOK2.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #7d47b3
+color name color_pocket3 #e65cae
+color name color_pocket4 #b36847
+
+name pocket1_atoms @@serial_number=788 @@serial_number=792 @@serial_number=794 @@serial_number=796 @@serial_number=793 @@serial_number=846 @@serial_number=787 @@serial_number=791 @@serial_number=845 @@serial_number=830 @@serial_number=844 @@serial_number=842 @@serial_number=954 @@serial_number=798 @@serial_number=800 @@serial_number=803 @@serial_number=804 @@serial_number=1580 @@serial_number=1581 @@serial_number=1562 @@serial_number=3747 @@serial_number=3749 @@serial_number=3751 @@serial_number=941 @@serial_number=1547 @@serial_number=1524 @@serial_number=1900 @@serial_number=1976 @@serial_number=1979 @@serial_number=1543 @@serial_number=1550 @@serial_number=1530 @@serial_number=1424 @@serial_number=957 @@serial_number=1884 @@serial_number=1980 @@serial_number=1984 @@serial_number=1870 @@serial_number=1578 @@serial_number=958 @@serial_number=959
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=1284 @@serial_number=1285 @@serial_number=2486 @@serial_number=2552 @@serial_number=2483 @@serial_number=2484 @@serial_number=2485 @@serial_number=2452 @@serial_number=2454 @@serial_number=2457 @@serial_number=2458 @@serial_number=2530 @@serial_number=2430 @@serial_number=2462 @@serial_number=2528 @@serial_number=2548 @@serial_number=2527 @@serial_number=2553 @@serial_number=2558 @@serial_number=2529 @@serial_number=1282 @@serial_number=2586 @@serial_number=2587 @@serial_number=2020 @@serial_number=1322 @@serial_number=2455 @@serial_number=2026 @@serial_number=2031 @@serial_number=2034 @@serial_number=1807 @@serial_number=2429 @@serial_number=2056 @@serial_number=2059 @@serial_number=2584
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=2571 @@serial_number=2574 @@serial_number=2582 @@serial_number=822 @@serial_number=823 @@serial_number=1034 @@serial_number=1035 @@serial_number=1061 @@serial_number=996 @@serial_number=824 @@serial_number=994 @@serial_number=2014 @@serial_number=1231 @@serial_number=2577 @@serial_number=2566 @@serial_number=2565 @@serial_number=1062 @@serial_number=1204
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=2581 @@serial_number=2583 @@serial_number=2584 @@serial_number=2582 @@serial_number=2592 @@serial_number=2114 @@serial_number=2058 @@serial_number=2059 @@serial_number=2112 @@serial_number=2073 @@serial_number=2603 @@serial_number=2557
+color pocket4_atoms color_pocket4
+
+
+
+open data/RIOK2.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

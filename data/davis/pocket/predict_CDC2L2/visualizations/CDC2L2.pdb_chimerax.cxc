@@ -1,0 +1,31 @@
+open data/CDC2L2.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #9d47b3
+color name color_pocket3 #e65c5c
+
+name pocket1_atoms @@serial_number=983 @@serial_number=986 @@serial_number=987 @@serial_number=988 @@serial_number=978 @@serial_number=1608 @@serial_number=1610 @@serial_number=1612 @@serial_number=1999 @@serial_number=1605 @@serial_number=999 @@serial_number=1022 @@serial_number=1023 @@serial_number=1024 @@serial_number=1002 @@serial_number=1009 @@serial_number=1021 @@serial_number=1037 @@serial_number=1557 @@serial_number=1558 @@serial_number=979 @@serial_number=1997 @@serial_number=1998 @@serial_number=1144 @@serial_number=1574 @@serial_number=1579 @@serial_number=1583 @@serial_number=1563 @@serial_number=1160 @@serial_number=1161 @@serial_number=1038 @@serial_number=2069 @@serial_number=2070 @@serial_number=2077 @@serial_number=2084 @@serial_number=2072 @@serial_number=2074 @@serial_number=2075 @@serial_number=2076 @@serial_number=1977 @@serial_number=2066 @@serial_number=2067 @@serial_number=1416 @@serial_number=1162 @@serial_number=1313 @@serial_number=1016 @@serial_number=1983 @@serial_number=1945 @@serial_number=1961 @@serial_number=1962 @@serial_number=1974 @@serial_number=1975 @@serial_number=1018 @@serial_number=1415 @@serial_number=1345 @@serial_number=1543
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=1532 @@serial_number=1535 @@serial_number=1173 @@serial_number=942 @@serial_number=944 @@serial_number=1047 @@serial_number=1048 @@serial_number=1050 @@serial_number=1152 @@serial_number=898 @@serial_number=923 @@serial_number=939 @@serial_number=900 @@serial_number=899 @@serial_number=1169
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=2290 @@serial_number=2724 @@serial_number=2726 @@serial_number=3103 @@serial_number=3105 @@serial_number=3106 @@serial_number=3107 @@serial_number=2342 @@serial_number=2327 @@serial_number=2773 @@serial_number=2732 @@serial_number=3098 @@serial_number=3099 @@serial_number=2736 @@serial_number=2737 @@serial_number=2738
+color pocket3_atoms color_pocket3
+
+
+
+open data/CDC2L2.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

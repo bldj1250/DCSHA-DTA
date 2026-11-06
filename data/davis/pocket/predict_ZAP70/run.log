@@ -1,0 +1,47 @@
+[INFO] Console - predicting pockets for proteins from dataset [ZAP70.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_ZAP70
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [ZAP70.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [ZAP70.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [ZAP70.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\ZAP70.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\ZAP70.pdb]
+[INFO] Struct - all groups in chain A: 619
+[INFO] Struct - all groups in chain A: 619
+[INFO] Struct - 619 groups in chain A
+[INFO] Protein - structure atoms: 4905
+[INFO] Protein - protein   atoms: 4791
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 10281
+[INFO] Protein - exposed protein atoms: 3214 of 4791
+[INFO] SLinkClusterer - clustering [150] elements
+[INFO] SLinkClusterer - clusters: [id:6( 1 ), id:16( 4 ), id:30( 34 ), id:32( 1 ), id:38( 1 ), id:46( 2 ), id:49( 1 ), id:51( 3 ), id:53( 5 ), id:55( 1 ), id:78( 6 ), id:104( 50 ), id:107( 1 ), id:111( 3 ), id:136( 20 ), id:140( 3 ), id:141( 3 ), id:142( 1 ), id:143( 1 ), id:144( 3 ), id:145( 1 ), id:149( 5 )]
+[INFO] SLinkClusterer - clusters together: 150 / 150
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 10281
+[INFO] PocketPredictor - LIGANDABLE POINTS: 150
+[INFO] PocketPredictor - CLUSTERS: 22
+[INFO] PocketPredictor - FILTERED CLUSTERS: 12
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  60   points:  50   score:   15.2
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  41   points:  34   score:   10.0
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  27   points:  20   score:    5.6
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  15   points:   5   score:    2.0
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  20   points:   6   score:    1.9
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  17   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  15   points:   5   score:    1.5
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  19   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  15   points:   3   score:    1.2
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  16   points:   4   score:    1.2
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  11   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket12 -  surf_atoms:  17   points:   3   score:    0.8
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\ZAP70.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_ZAP70/visualizations/data/ZAP70.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 6.104 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_ZAP70]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 7.690 seconds.

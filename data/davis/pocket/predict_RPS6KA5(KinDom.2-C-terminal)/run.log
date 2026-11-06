@@ -1,0 +1,45 @@
+[INFO] Console - predicting pockets for proteins from dataset [RPS6KA5(KinDom.2-C-terminal).pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_RPS6KA5(KinDom.2-C-terminal)
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [RPS6KA5(KinDom.2-C-terminal).pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [RPS6KA5(KinDom.2-C-terminal).pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [RPS6KA5(KinDom.2-C-terminal).pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\RPS6KA5(KinDom.2-C-terminal).pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\RPS6KA5(KinDom.2-C-terminal).pdb]
+[INFO] Struct - all groups in chain A: 802
+[INFO] Struct - all groups in chain A: 802
+[INFO] Struct - 802 groups in chain A
+[INFO] Protein - structure atoms: 6324
+[INFO] Protein - protein   atoms: 6234
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 14827
+[INFO] Protein - exposed protein atoms: 4359 of 6234
+[INFO] SLinkClusterer - clustering [226] elements
+[INFO] SLinkClusterer - clusters: [id:3( 5 ), id:29( 1 ), id:32( 1 ), id:41( 2 ), id:61( 73 ), id:83( 4 ), id:89( 1 ), id:98( 4 ), id:104( 7 ), id:136( 36 ), id:145( 2 ), id:148( 17 ), id:164( 1 ), id:171( 19 ), id:204( 1 ), id:213( 43 ), id:225( 9 )]
+[INFO] SLinkClusterer - clusters together: 226 / 226
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 14827
+[INFO] PocketPredictor - LIGANDABLE POINTS: 226
+[INFO] PocketPredictor - CLUSTERS: 17
+[INFO] PocketPredictor - FILTERED CLUSTERS: 10
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  90   points:  73   score:   23.3
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  61   points:  43   score:   12.9
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  60   points:  36   score:   12.5
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  29   points:  19   score:    6.9
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  37   points:  17   score:    5.7
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  28   points:   9   score:    2.8
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  15   points:   7   score:    2.5
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  15   points:   4   score:    1.6
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  13   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  16   points:   5   score:    1.4
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\RPS6KA5(KinDom.2-C-terminal).pdb] to [D:\java\p2rank_2.5.1\test_output/predict_RPS6KA5(KinDom.2-C-terminal)/visualizations/data/RPS6KA5(KinDom.2-C-terminal).pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 6.109 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_RPS6KA5(KinDom.2-C-terminal)]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 7.639 seconds.

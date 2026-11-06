@@ -1,0 +1,45 @@
+[INFO] Console - predicting pockets for proteins from dataset [RSK3(KinDom.2-C-terminal).pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_RSK3(KinDom.2-C-terminal)
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [RSK3(KinDom.2-C-terminal).pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [RSK3(KinDom.2-C-terminal).pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [RSK3(KinDom.2-C-terminal).pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\RSK3(KinDom.2-C-terminal).pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\RSK3(KinDom.2-C-terminal).pdb]
+[INFO] Struct - all groups in chain A: 733
+[INFO] Struct - all groups in chain A: 733
+[INFO] Struct - 733 groups in chain A
+[INFO] Protein - structure atoms: 5865
+[INFO] Protein - protein   atoms: 5736
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 12824
+[INFO] Protein - exposed protein atoms: 3897 of 5736
+[INFO] SLinkClusterer - clustering [176] elements
+[INFO] SLinkClusterer - clusters: [id:22( 2 ), id:31( 1 ), id:34( 1 ), id:36( 1 ), id:50( 3 ), id:54( 39 ), id:55( 1 ), id:60( 12 ), id:63( 1 ), id:66( 5 ), id:67( 1 ), id:68( 1 ), id:69( 1 ), id:79( 1 ), id:98( 3 ), id:101( 2 ), id:107( 16 ), id:116( 1 ), id:125( 32 ), id:128( 2 ), id:131( 1 ), id:133( 2 ), id:148( 34 ), id:159( 1 ), id:163( 5 ), id:164( 2 ), id:173( 5 )]
+[INFO] SLinkClusterer - clusters together: 176 / 176
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 12824
+[INFO] PocketPredictor - LIGANDABLE POINTS: 176
+[INFO] PocketPredictor - CLUSTERS: 27
+[INFO] PocketPredictor - FILTERED CLUSTERS: 10
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  44   points:  39   score:   14.5
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  44   points:  34   score:   14.4
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  35   points:  32   score:   10.8
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  45   points:  16   score:    6.3
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  31   points:  12   score:    4.7
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  25   points:   5   score:    2.3
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  22   points:   5   score:    2.2
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  13   points:   5   score:    1.8
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  11   points:   3   score:    1.2
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  16   points:   3   score:    1.2
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\RSK3(KinDom.2-C-terminal).pdb] to [D:\java\p2rank_2.5.1\test_output/predict_RSK3(KinDom.2-C-terminal)/visualizations/data/RSK3(KinDom.2-C-terminal).pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 6.329 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_RSK3(KinDom.2-C-terminal)]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 7.896 seconds.

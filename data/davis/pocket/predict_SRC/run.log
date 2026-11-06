@@ -1,0 +1,46 @@
+[INFO] Console - predicting pockets for proteins from dataset [SRC.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_SRC
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [SRC.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [SRC.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [SRC.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\SRC.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\SRC.pdb]
+[INFO] Struct - all groups in chain A: 536
+[INFO] Struct - all groups in chain A: 536
+[INFO] Struct - 536 groups in chain A
+[INFO] Protein - structure atoms: 4214
+[INFO] Protein - protein   atoms: 4118
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 10325
+[INFO] Protein - exposed protein atoms: 2942 of 4118
+[INFO] SLinkClusterer - clustering [113] elements
+[INFO] SLinkClusterer - clusters: [id:1( 1 ), id:8( 7 ), id:15( 3 ), id:17( 6 ), id:19( 4 ), id:22( 2 ), id:25( 4 ), id:28( 2 ), id:56( 1 ), id:59( 1 ), id:62( 1 ), id:90( 31 ), id:93( 4 ), id:96( 29 ), id:102( 1 ), id:106( 6 ), id:110( 3 ), id:111( 7 )]
+[INFO] SLinkClusterer - clusters together: 113 / 113
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 10325
+[INFO] PocketPredictor - LIGANDABLE POINTS: 113
+[INFO] PocketPredictor - CLUSTERS: 18
+[INFO] PocketPredictor - FILTERED CLUSTERS: 11
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  38   points:  31   score:   10.4
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  31   points:  29   score:    8.8
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  29   points:   7   score:    3.3
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  20   points:   7   score:    2.8
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  25   points:   6   score:    2.2
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  26   points:   6   score:    2.1
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  22   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  18   points:   4   score:    1.7
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  16   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  13   points:   3   score:    1.4
+[INFO] PocketPredictor - pocket11 -  surf_atoms:   7   points:   3   score:    0.5
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\SRC.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_SRC/visualizations/data/SRC.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 5.199 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_SRC]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 6.658 seconds.

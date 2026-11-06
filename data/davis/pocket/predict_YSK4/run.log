@@ -1,0 +1,37 @@
+[INFO] Console - predicting pockets for proteins from dataset [YSK4.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_YSK4
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [YSK4.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [YSK4.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [YSK4.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\YSK4.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\YSK4.pdb]
+[INFO] Struct - all groups in chain A: 1328
+[INFO] Struct - all groups in chain A: 1328
+[INFO] Struct - 1328 groups in chain A
+[INFO] Protein - structure atoms: 10550
+[INFO] Protein - protein   atoms: 10391
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 51040
+[INFO] Protein - exposed protein atoms: 9685 of 10391
+[INFO] SLinkClusterer - clustering [32] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:12( 3 ), id:16( 1 ), id:17( 2 ), id:19( 2 ), id:20( 1 ), id:25( 22 )]
+[INFO] SLinkClusterer - clusters together: 32 / 32
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 51040
+[INFO] PocketPredictor - LIGANDABLE POINTS: 32
+[INFO] PocketPredictor - CLUSTERS: 7
+[INFO] PocketPredictor - FILTERED CLUSTERS: 2
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  29   points:  22   score:    7.3
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  12   points:   3   score:    0.9
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\YSK4.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_YSK4/visualizations/data/YSK4.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 8.452 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_YSK4]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 9.965 seconds.

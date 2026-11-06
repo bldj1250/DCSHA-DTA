@@ -1,0 +1,35 @@
+open data/DAPK2.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #7d47b3
+color name color_pocket3 #e65cae
+color name color_pocket4 #b36847
+
+name pocket1_atoms @@serial_number=1383 @@serial_number=1384 @@serial_number=1385 @@serial_number=1387 @@serial_number=1241 @@serial_number=244 @@serial_number=245 @@serial_number=246 @@serial_number=247 @@serial_number=248 @@serial_number=297 @@serial_number=712 @@serial_number=850 @@serial_number=863 @@serial_number=867 @@serial_number=1268 @@serial_number=1269 @@serial_number=238 @@serial_number=239 @@serial_number=240 @@serial_number=242 @@serial_number=294 @@serial_number=296 @@serial_number=400 @@serial_number=1391 @@serial_number=1253 @@serial_number=1389 @@serial_number=413 @@serial_number=414 @@serial_number=415 @@serial_number=844 @@serial_number=711
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=1404 @@serial_number=1405 @@serial_number=1406 @@serial_number=1407 @@serial_number=1412 @@serial_number=1414 @@serial_number=532 @@serial_number=533 @@serial_number=433 @@serial_number=281 @@serial_number=414 @@serial_number=415 @@serial_number=605 @@serial_number=1212 @@serial_number=1391 @@serial_number=1390 @@serial_number=254 @@serial_number=255 @@serial_number=258 @@serial_number=297
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=1557 @@serial_number=2545 @@serial_number=2549 @@serial_number=2542 @@serial_number=2544 @@serial_number=907 @@serial_number=2516 @@serial_number=892 @@serial_number=2518 @@serial_number=2591 @@serial_number=2590 @@serial_number=2541 @@serial_number=2543 @@serial_number=2555 @@serial_number=2512 @@serial_number=1242 @@serial_number=1243 @@serial_number=1244 @@serial_number=1540 @@serial_number=1233 @@serial_number=1235 @@serial_number=1568
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=1212 @@serial_number=1229 @@serial_number=1391 @@serial_number=1253 @@serial_number=1390 @@serial_number=1413 @@serial_number=1228 @@serial_number=1404 @@serial_number=1405 @@serial_number=1407 @@serial_number=1412 @@serial_number=1414
+color pocket4_atoms color_pocket4
+
+
+
+open data/DAPK2.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

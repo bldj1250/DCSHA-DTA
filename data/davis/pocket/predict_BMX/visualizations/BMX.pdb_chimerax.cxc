@@ -1,0 +1,39 @@
+open data/BMX.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #6a47b3
+color name color_pocket3 #e65ce0
+color name color_pocket4 #b34761
+color name color_pocket5 #e69e5c
+
+name pocket1_atoms @@serial_number=4388 @@serial_number=4003 @@serial_number=3985 @@serial_number=3433 @@serial_number=3583 @@serial_number=3600 @@serial_number=4473 @@serial_number=3958 @@serial_number=3944 @@serial_number=3959 @@serial_number=4361 @@serial_number=4389 @@serial_number=4004 @@serial_number=4007 @@serial_number=4010 @@serial_number=4012 @@serial_number=4032 @@serial_number=4467 @@serial_number=4472 @@serial_number=4474 @@serial_number=4375 @@serial_number=4464 @@serial_number=4466 @@serial_number=3437 @@serial_number=3438 @@serial_number=3441 @@serial_number=3445 @@serial_number=3472 @@serial_number=3483 @@serial_number=3485 @@serial_number=3486 @@serial_number=3436 @@serial_number=3429 @@serial_number=3430 @@serial_number=3431 @@serial_number=3434 @@serial_number=3435 @@serial_number=3598 @@serial_number=3599 @@serial_number=3595 @@serial_number=3443 @@serial_number=3446 @@serial_number=4035 @@serial_number=3465
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=3753 @@serial_number=4473 @@serial_number=3842 @@serial_number=3958 @@serial_number=3944 @@serial_number=3959 @@serial_number=4467 @@serial_number=4464 @@serial_number=3823 @@serial_number=3824 @@serial_number=4483
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=4503 @@serial_number=4326 @@serial_number=4330 @@serial_number=4768 @@serial_number=4770 @@serial_number=4772 @@serial_number=4745 @@serial_number=4635 @@serial_number=4744 @@serial_number=4747 @@serial_number=4746 @@serial_number=4500 @@serial_number=4502 @@serial_number=4506 @@serial_number=4509 @@serial_number=4576 @@serial_number=4572 @@serial_number=4581 @@serial_number=4585 @@serial_number=4586 @@serial_number=4633 @@serial_number=4584
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=2625 @@serial_number=2639 @@serial_number=2843 @@serial_number=2691 @@serial_number=2692 @@serial_number=2844 @@serial_number=2645 @@serial_number=2468 @@serial_number=2473 @@serial_number=2816 @@serial_number=2818 @@serial_number=2466 @@serial_number=2469
+color pocket4_atoms color_pocket4
+
+name pocket5_atoms @@serial_number=3570 @@serial_number=3571 @@serial_number=3572 @@serial_number=3977 @@serial_number=2520 @@serial_number=3516 @@serial_number=3515 @@serial_number=3407 @@serial_number=3503 @@serial_number=2548 @@serial_number=4415 @@serial_number=3209 @@serial_number=3215 @@serial_number=3217
+color pocket5_atoms color_pocket5
+
+
+
+open data/BMX.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

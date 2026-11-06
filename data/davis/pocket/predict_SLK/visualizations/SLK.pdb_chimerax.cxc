@@ -1,0 +1,31 @@
+open data/SLK.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #9d47b3
+color name color_pocket3 #e65c5c
+
+name pocket1_atoms @@serial_number=1294 @@serial_number=1394 @@serial_number=1385 @@serial_number=1390 @@serial_number=1286 @@serial_number=1310 @@serial_number=931 @@serial_number=934 @@serial_number=949 @@serial_number=916 @@serial_number=927 @@serial_number=928 @@serial_number=911 @@serial_number=922 @@serial_number=912 @@serial_number=1309 @@serial_number=512 @@serial_number=401 @@serial_number=404 @@serial_number=347 @@serial_number=349 @@serial_number=403 @@serial_number=502 @@serial_number=348 @@serial_number=351 @@serial_number=352 @@serial_number=910 @@serial_number=908 @@serial_number=954 @@serial_number=955 @@serial_number=982 @@serial_number=1387 @@serial_number=1388 @@serial_number=1392 @@serial_number=891 @@serial_number=515 @@serial_number=516 @@serial_number=649 @@serial_number=1393 @@serial_number=925 @@serial_number=926 @@serial_number=962
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=1471 @@serial_number=1476 @@serial_number=1686 @@serial_number=1694 @@serial_number=1696 @@serial_number=1700 @@serial_number=1704 @@serial_number=1650 @@serial_number=1706 @@serial_number=1708 @@serial_number=1711 @@serial_number=1648 @@serial_number=1482 @@serial_number=1502 @@serial_number=1537 @@serial_number=1541 @@serial_number=1478 @@serial_number=1426 @@serial_number=1432 @@serial_number=1252 @@serial_number=1481 @@serial_number=1442 @@serial_number=1444 @@serial_number=1438 @@serial_number=1440 @@serial_number=1231 @@serial_number=1641
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=8339 @@serial_number=9311 @@serial_number=9313 @@serial_number=4061 @@serial_number=9309 @@serial_number=9312 @@serial_number=9346 @@serial_number=8300 @@serial_number=8301 @@serial_number=4030 @@serial_number=4031 @@serial_number=4029 @@serial_number=8297 @@serial_number=8299 @@serial_number=8337 @@serial_number=8338
+color pocket3_atoms color_pocket3
+
+
+
+open data/SLK.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

@@ -1,0 +1,31 @@
+open data/MST2.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #9d47b3
+color name color_pocket3 #e65c5c
+
+name pocket1_atoms @@serial_number=266 @@serial_number=313 @@serial_number=315 @@serial_number=316 @@serial_number=789 @@serial_number=260 @@serial_number=263 @@serial_number=414 @@serial_number=788 @@serial_number=1219 @@serial_number=1292 @@serial_number=264 @@serial_number=806 @@serial_number=808 @@serial_number=811 @@serial_number=794 @@serial_number=261 @@serial_number=833 @@serial_number=835 @@serial_number=854 @@serial_number=855 @@serial_number=856 @@serial_number=2361 @@serial_number=827 @@serial_number=1196 @@serial_number=1220 @@serial_number=2359 @@serial_number=815 @@serial_number=820 @@serial_number=852 @@serial_number=431 @@serial_number=430 @@serial_number=432 @@serial_number=1300 @@serial_number=1301 @@serial_number=1294 @@serial_number=1299 @@serial_number=1204 @@serial_number=303 @@serial_number=278 @@serial_number=279
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=667 @@serial_number=664 @@serial_number=672 @@serial_number=2873 @@serial_number=583 @@serial_number=2868 @@serial_number=100 @@serial_number=687 @@serial_number=681 @@serial_number=684 @@serial_number=146 @@serial_number=688 @@serial_number=107 @@serial_number=97 @@serial_number=99 @@serial_number=2877 @@serial_number=2879 @@serial_number=2883 @@serial_number=584 @@serial_number=2864 @@serial_number=2865 @@serial_number=2858 @@serial_number=552 @@serial_number=553 @@serial_number=524
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=1328 @@serial_number=1436 @@serial_number=1437 @@serial_number=1438 @@serial_number=1439 @@serial_number=1443 @@serial_number=1483 @@serial_number=1484 @@serial_number=1332 @@serial_number=1435 @@serial_number=1155 @@serial_number=1153 @@serial_number=1156 @@serial_number=1485 @@serial_number=1157 @@serial_number=1158 @@serial_number=1563 @@serial_number=1512 @@serial_number=1560 @@serial_number=1342 @@serial_number=1347 @@serial_number=1349 @@serial_number=1316 @@serial_number=1338 @@serial_number=1334 @@serial_number=1168 @@serial_number=1169 @@serial_number=1467
+color pocket3_atoms color_pocket3
+
+
+
+open data/MST2.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

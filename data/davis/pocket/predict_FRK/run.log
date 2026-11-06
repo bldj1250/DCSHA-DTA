@@ -1,0 +1,42 @@
+[INFO] Console - predicting pockets for proteins from dataset [FRK.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_FRK
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [FRK.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [FRK.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [FRK.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\FRK.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\FRK.pdb]
+[INFO] Struct - all groups in chain A: 505
+[INFO] Struct - all groups in chain A: 505
+[INFO] Struct - 505 groups in chain A
+[INFO] Protein - structure atoms: 4110
+[INFO] Protein - protein   atoms: 4015
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 9023
+[INFO] Protein - exposed protein atoms: 2731 of 4015
+[INFO] SLinkClusterer - clustering [73] elements
+[INFO] SLinkClusterer - clusters: [id:5( 1 ), id:13( 3 ), id:14( 2 ), id:15( 4 ), id:31( 2 ), id:36( 4 ), id:39( 31 ), id:60( 7 ), id:63( 10 ), id:68( 1 ), id:72( 8 )]
+[INFO] SLinkClusterer - clusters together: 73 / 73
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 9023
+[INFO] PocketPredictor - LIGANDABLE POINTS: 73
+[INFO] PocketPredictor - CLUSTERS: 11
+[INFO] PocketPredictor - FILTERED CLUSTERS: 7
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  49   points:  31   score:   10.5
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  31   points:  10   score:    4.3
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  24   points:   8   score:    3.3
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  22   points:   7   score:    2.9
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  24   points:   4   score:    2.3
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  23   points:   3   score:    1.6
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  17   points:   4   score:    1.5
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\FRK.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_FRK/visualizations/data/FRK.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 6.159 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_FRK]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 8.144 seconds.

@@ -1,0 +1,42 @@
+[INFO] Console - predicting pockets for proteins from dataset [MKNK1.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_MKNK1
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [MKNK1.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [MKNK1.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [MKNK1.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\MKNK1.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\MKNK1.pdb]
+[INFO] Struct - all groups in chain A: 465
+[INFO] Struct - all groups in chain A: 465
+[INFO] Struct - 465 groups in chain A
+[INFO] Protein - structure atoms: 3601
+[INFO] Protein - protein   atoms: 3532
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 10888
+[INFO] Protein - exposed protein atoms: 2679 of 3532
+[INFO] SLinkClusterer - clustering [84] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:15( 11 ), id:32( 1 ), id:36( 1 ), id:42( 1 ), id:43( 11 ), id:45( 2 ), id:54( 26 ), id:59( 2 ), id:62( 1 ), id:66( 1 ), id:73( 4 ), id:75( 1 ), id:77( 11 ), id:78( 3 ), id:81( 2 ), id:83( 5 )]
+[INFO] SLinkClusterer - clusters together: 84 / 84
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 10888
+[INFO] PocketPredictor - LIGANDABLE POINTS: 84
+[INFO] PocketPredictor - CLUSTERS: 17
+[INFO] PocketPredictor - FILTERED CLUSTERS: 7
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  36   points:  26   score:    8.6
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  25   points:  11   score:    4.4
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  26   points:  11   score:    3.3
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  18   points:  11   score:    2.9
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  17   points:   5   score:    1.5
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  17   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  12   points:   4   score:    1.0
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\MKNK1.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_MKNK1/visualizations/data/MKNK1.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 5.248 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_MKNK1]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 6.764 seconds.

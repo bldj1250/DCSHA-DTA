@@ -1,0 +1,23 @@
+open data/TESK1.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+
+name pocket1_atoms @@serial_number=96 @@serial_number=98 @@serial_number=99 @@serial_number=449 @@serial_number=451 @@serial_number=458 @@serial_number=116 @@serial_number=111 @@serial_number=114 @@serial_number=229 @@serial_number=261 @@serial_number=432 @@serial_number=824 @@serial_number=830 @@serial_number=836 @@serial_number=948 @@serial_number=831 @@serial_number=833 @@serial_number=850 @@serial_number=941 @@serial_number=944 @@serial_number=476 @@serial_number=336 @@serial_number=848 @@serial_number=849 @@serial_number=475 @@serial_number=942
+color pocket1_atoms color_pocket1
+
+
+
+open data/TESK1.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

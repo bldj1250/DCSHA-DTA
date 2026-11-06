@@ -1,0 +1,31 @@
+open data/ROCK2.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #9d47b3
+color name color_pocket3 #e65c5c
+
+name pocket1_atoms @@serial_number=3866 @@serial_number=3868 @@serial_number=3952 @@serial_number=3954 @@serial_number=3956 @@serial_number=3943 @@serial_number=3931 @@serial_number=3932 @@serial_number=3935 @@serial_number=3940 @@serial_number=4357 @@serial_number=3937 @@serial_number=3939 @@serial_number=4355 @@serial_number=4364 @@serial_number=4365 @@serial_number=4367 @@serial_number=4399 @@serial_number=3950 @@serial_number=3874 @@serial_number=4335 @@serial_number=4356 @@serial_number=4353 @@serial_number=5264 @@serial_number=4337 @@serial_number=4339
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=4192 @@serial_number=5256 @@serial_number=3887 @@serial_number=3862 @@serial_number=3867 @@serial_number=3882 @@serial_number=3883 @@serial_number=3858 @@serial_number=4529 @@serial_number=4515 @@serial_number=4530 @@serial_number=4531 @@serial_number=4182 @@serial_number=4185
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=5070 @@serial_number=5071 @@serial_number=5072 @@serial_number=5043 @@serial_number=4853 @@serial_number=4856 @@serial_number=4858 @@serial_number=5039 @@serial_number=5041 @@serial_number=5042 @@serial_number=5044 @@serial_number=5045 @@serial_number=4938 @@serial_number=4863 @@serial_number=5058 @@serial_number=5060 @@serial_number=5061 @@serial_number=5062 @@serial_number=5097 @@serial_number=5114 @@serial_number=5115
+color pocket3_atoms color_pocket3
+
+
+
+open data/ROCK2.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

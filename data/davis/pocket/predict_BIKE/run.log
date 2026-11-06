@@ -1,0 +1,38 @@
+[INFO] Console - predicting pockets for proteins from dataset [BIKE.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_BIKE
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [BIKE.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [BIKE.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [BIKE.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\BIKE.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\BIKE.pdb]
+[INFO] Struct - all groups in chain A: 1161
+[INFO] Struct - all groups in chain A: 1161
+[INFO] Struct - 1161 groups in chain A
+[INFO] Protein - structure atoms: 9089
+[INFO] Protein - protein   atoms: 8961
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 41223
+[INFO] Protein - exposed protein atoms: 8054 of 8961
+[INFO] SLinkClusterer - clustering [71] elements
+[INFO] SLinkClusterer - clusters: [id:1( 1 ), id:4( 2 ), id:35( 3 ), id:48( 37 ), id:64( 23 ), id:67( 2 ), id:68( 1 ), id:69( 1 ), id:70( 1 )]
+[INFO] SLinkClusterer - clusters together: 71 / 71
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 41223
+[INFO] PocketPredictor - LIGANDABLE POINTS: 71
+[INFO] PocketPredictor - CLUSTERS: 9
+[INFO] PocketPredictor - FILTERED CLUSTERS: 3
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  39   points:  37   score:   12.4
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  36   points:  23   score:    7.4
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  16   points:   3   score:    0.9
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\BIKE.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_BIKE/visualizations/data/BIKE.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 8.072 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_BIKE]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 9.661 seconds.

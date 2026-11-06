@@ -1,0 +1,31 @@
+open data/p38-gamma.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #9d47b3
+color name color_pocket3 #e65c5c
+
+name pocket1_atoms @@serial_number=1360 @@serial_number=1263 @@serial_number=1271 @@serial_number=1363 @@serial_number=1364 @@serial_number=874 @@serial_number=875 @@serial_number=695 @@serial_number=399 @@serial_number=880 @@serial_number=907 @@serial_number=908 @@serial_number=913 @@serial_number=268 @@serial_number=890 @@serial_number=894 @@serial_number=892 @@serial_number=904 @@serial_number=905 @@serial_number=920 @@serial_number=916 @@serial_number=941 @@serial_number=1370 @@serial_number=1372 @@serial_number=1365 @@serial_number=1366 @@serial_number=1368 @@serial_number=579 @@serial_number=614 @@serial_number=694 @@serial_number=1283 @@serial_number=897 @@serial_number=899 @@serial_number=910 @@serial_number=275 @@serial_number=280 @@serial_number=281 @@serial_number=282 @@serial_number=284 @@serial_number=304 @@serial_number=313 @@serial_number=316 @@serial_number=315 @@serial_number=273 @@serial_number=274 @@serial_number=271 @@serial_number=272 @@serial_number=415 @@serial_number=416 @@serial_number=417 @@serial_number=289 @@serial_number=292 @@serial_number=296
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=2357 @@serial_number=2359 @@serial_number=1621 @@serial_number=1622 @@serial_number=1651 @@serial_number=2362 @@serial_number=2369 @@serial_number=2371 @@serial_number=1564 @@serial_number=1566 @@serial_number=1627 @@serial_number=1996 @@serial_number=1611
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=1808 @@serial_number=2222 @@serial_number=2212 @@serial_number=2215 @@serial_number=2195 @@serial_number=2193 @@serial_number=2192 @@serial_number=1939
+color pocket3_atoms color_pocket3
+
+
+
+open data/p38-gamma.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

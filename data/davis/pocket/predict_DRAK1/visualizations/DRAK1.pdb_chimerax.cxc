@@ -1,0 +1,35 @@
+open data/DRAK1.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #7d47b3
+color name color_pocket3 #e65cae
+color name color_pocket4 #b36847
+
+name pocket1_atoms @@serial_number=479 @@serial_number=1100 @@serial_number=534 @@serial_number=1503 @@serial_number=1504 @@serial_number=472 @@serial_number=473 @@serial_number=474 @@serial_number=477 @@serial_number=478 @@serial_number=1090 @@serial_number=1079 @@serial_number=476 @@serial_number=638 @@serial_number=1058 @@serial_number=1075 @@serial_number=1488 @@serial_number=1476 @@serial_number=652 @@serial_number=653 @@serial_number=1600 @@serial_number=1603 @@serial_number=1607 @@serial_number=1599 @@serial_number=651 @@serial_number=1596 @@serial_number=1598 @@serial_number=1052 @@serial_number=535 @@serial_number=480 @@serial_number=482
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=1628 @@serial_number=1447 @@serial_number=1629 @@serial_number=1622 @@serial_number=1623 @@serial_number=1630 @@serial_number=1620 @@serial_number=652 @@serial_number=653 @@serial_number=1603 @@serial_number=1605 @@serial_number=1606 @@serial_number=1607 @@serial_number=813 @@serial_number=1604 @@serial_number=1463 @@serial_number=1464 @@serial_number=1488 @@serial_number=479 @@serial_number=509 @@serial_number=513 @@serial_number=714 @@serial_number=520 @@serial_number=672 @@serial_number=773 @@serial_number=494 @@serial_number=497 @@serial_number=484 @@serial_number=493 @@serial_number=535 @@serial_number=480 @@serial_number=482
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=1480 @@serial_number=1479 @@serial_number=3143 @@serial_number=1758 @@serial_number=3142 @@serial_number=3144 @@serial_number=3146 @@serial_number=1470 @@serial_number=1787 @@serial_number=1986 @@serial_number=1775 @@serial_number=1118 @@serial_number=1119 @@serial_number=1120 @@serial_number=3123 @@serial_number=3125 @@serial_number=3140 @@serial_number=3127
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=2428 @@serial_number=2430 @@serial_number=1912 @@serial_number=2432 @@serial_number=1890 @@serial_number=2391 @@serial_number=1375 @@serial_number=1882 @@serial_number=1885 @@serial_number=1379 @@serial_number=1881 @@serial_number=1887 @@serial_number=1888
+color pocket4_atoms color_pocket4
+
+
+
+open data/DRAK1.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

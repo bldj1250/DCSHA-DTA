@@ -1,0 +1,63 @@
+open data/SRC.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #474fb3
+color name color_pocket3 #7f5ce6
+color name color_pocket4 #8647b3
+color name color_pocket5 #d95ce6
+color name color_pocket6 #b34799
+color name color_pocket7 #e65c98
+color name color_pocket8 #b34753
+color name color_pocket9 #e67a5c
+color name color_pocket10 #b38247
+color name color_pocket11 #e6d45c
+
+name pocket1_atoms @@serial_number=3145 @@serial_number=3147 @@serial_number=3075 @@serial_number=3076 @@serial_number=3060 @@serial_number=3052 @@serial_number=2686 @@serial_number=2692 @@serial_number=2718 @@serial_number=2689 @@serial_number=2278 @@serial_number=2124 @@serial_number=2125 @@serial_number=2128 @@serial_number=2129 @@serial_number=2182 @@serial_number=2183 @@serial_number=2666 @@serial_number=2131 @@serial_number=2132 @@serial_number=2126 @@serial_number=2517 @@serial_number=2532 @@serial_number=3163 @@serial_number=2518 @@serial_number=2639 @@serial_number=2640 @@serial_number=3152 @@serial_number=3154 @@serial_number=2294 @@serial_number=2295 @@serial_number=2296 @@serial_number=3153 @@serial_number=2291 @@serial_number=3176 @@serial_number=2134 @@serial_number=2439 @@serial_number=2625
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=3154 @@serial_number=2156 @@serial_number=2295 @@serial_number=2296 @@serial_number=2311 @@serial_number=2293 @@serial_number=2152 @@serial_number=2160 @@serial_number=2162 @@serial_number=2147 @@serial_number=3173 @@serial_number=3178 @@serial_number=3179 @@serial_number=3181 @@serial_number=3209 @@serial_number=2346 @@serial_number=3023 @@serial_number=3253 @@serial_number=3042 @@serial_number=3301 @@serial_number=2166 @@serial_number=2167 @@serial_number=2136 @@serial_number=2143 @@serial_number=2144 @@serial_number=2164 @@serial_number=3059 @@serial_number=3060 @@serial_number=3051 @@serial_number=3052 @@serial_number=2183
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=654 @@serial_number=656 @@serial_number=1129 @@serial_number=1918 @@serial_number=1919 @@serial_number=1924 @@serial_number=1138 @@serial_number=1097 @@serial_number=1131 @@serial_number=1139 @@serial_number=1141 @@serial_number=1148 @@serial_number=1149 @@serial_number=643 @@serial_number=644 @@serial_number=1083 @@serial_number=1082 @@serial_number=1084 @@serial_number=1015 @@serial_number=1013 @@serial_number=1016 @@serial_number=1036 @@serial_number=534 @@serial_number=535 @@serial_number=1018 @@serial_number=1938 @@serial_number=1940 @@serial_number=1941 @@serial_number=514
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=499 @@serial_number=500 @@serial_number=1174 @@serial_number=2492 @@serial_number=2493 @@serial_number=2494 @@serial_number=1175 @@serial_number=497 @@serial_number=2483 @@serial_number=2487 @@serial_number=501 @@serial_number=2486 @@serial_number=2959 @@serial_number=4046 @@serial_number=4045 @@serial_number=4047 @@serial_number=4079 @@serial_number=4078 @@serial_number=4080 @@serial_number=2903
+color pocket4_atoms color_pocket4
+
+name pocket5_atoms @@serial_number=3315 @@serial_number=3316 @@serial_number=3438 @@serial_number=3263 @@serial_number=3266 @@serial_number=3392 @@serial_number=3436 @@serial_number=3008 @@serial_number=3011 @@serial_number=3184 @@serial_number=3009 @@serial_number=3435 @@serial_number=3437 @@serial_number=3248 @@serial_number=3257 @@serial_number=3259 @@serial_number=3261 @@serial_number=3180 @@serial_number=3181 @@serial_number=3182 @@serial_number=3252 @@serial_number=3250 @@serial_number=3387 @@serial_number=3413 @@serial_number=3414
+color pocket5_atoms color_pocket5
+
+name pocket6_atoms @@serial_number=2255 @@serial_number=699 @@serial_number=702 @@serial_number=2247 @@serial_number=674 @@serial_number=681 @@serial_number=1957 @@serial_number=1943 @@serial_number=1951 @@serial_number=1956 @@serial_number=2261 @@serial_number=2548 @@serial_number=1947 @@serial_number=2546 @@serial_number=1932 @@serial_number=1934 @@serial_number=666 @@serial_number=672 @@serial_number=677 @@serial_number=680 @@serial_number=661 @@serial_number=1939 @@serial_number=1031 @@serial_number=1930 @@serial_number=1929 @@serial_number=1028
+color pocket6_atoms color_pocket6
+
+name pocket7_atoms @@serial_number=656 @@serial_number=1129 @@serial_number=1142 @@serial_number=1143 @@serial_number=1145 @@serial_number=1918 @@serial_number=1919 @@serial_number=1138 @@serial_number=1144 @@serial_number=1146 @@serial_number=1147 @@serial_number=1106 @@serial_number=1161 @@serial_number=1139 @@serial_number=1141 @@serial_number=1148 @@serial_number=1149 @@serial_number=643 @@serial_number=1162 @@serial_number=1164 @@serial_number=1166 @@serial_number=1168
+color pocket7_atoms color_pocket7
+
+name pocket8_atoms @@serial_number=1255 @@serial_number=1256 @@serial_number=1511 @@serial_number=1516 @@serial_number=1523 @@serial_number=1219 @@serial_number=1220 @@serial_number=1526 @@serial_number=1527 @@serial_number=1192 @@serial_number=1197 @@serial_number=1216 @@serial_number=1221 @@serial_number=4076 @@serial_number=4117 @@serial_number=4104 @@serial_number=4105 @@serial_number=1186
+color pocket8_atoms color_pocket8
+
+name pocket9_atoms @@serial_number=1949 @@serial_number=2491 @@serial_number=2649 @@serial_number=3133 @@serial_number=3134 @@serial_number=1947 @@serial_number=1948 @@serial_number=1950 @@serial_number=2654 @@serial_number=3118 @@serial_number=3116 @@serial_number=3085 @@serial_number=3092 @@serial_number=3119 @@serial_number=3088 @@serial_number=2668
+color pocket9_atoms color_pocket9
+
+name pocket10_atoms @@serial_number=624 @@serial_number=605 @@serial_number=623 @@serial_number=578 @@serial_number=559 @@serial_number=606 @@serial_number=579 @@serial_number=622 @@serial_number=532 @@serial_number=533 @@serial_number=1049 @@serial_number=847 @@serial_number=903
+color pocket10_atoms color_pocket10
+
+name pocket11_atoms @@serial_number=3630 @@serial_number=3913 @@serial_number=3496 @@serial_number=3526 @@serial_number=3911 @@serial_number=3914 @@serial_number=3766
+color pocket11_atoms color_pocket11
+
+
+
+open data/SRC.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

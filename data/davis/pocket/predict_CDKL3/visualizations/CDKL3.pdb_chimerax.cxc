@@ -1,0 +1,47 @@
+open data/CDKL3.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #5447b3
+color name color_pocket3 #b25ce6
+color name color_pocket4 #b347a3
+color name color_pocket5 #e65c8b
+color name color_pocket6 #b35a47
+color name color_pocket7 #e6ba5c
+
+name pocket1_atoms @@serial_number=4739 @@serial_number=4741 @@serial_number=4745 @@serial_number=708 @@serial_number=1086 @@serial_number=1088 @@serial_number=4740 @@serial_number=4742 @@serial_number=4744 @@serial_number=732 @@serial_number=514 @@serial_number=649 @@serial_number=695 @@serial_number=1112 @@serial_number=1113 @@serial_number=681 @@serial_number=730 @@serial_number=731 @@serial_number=694 @@serial_number=689 @@serial_number=250 @@serial_number=396 @@serial_number=654 @@serial_number=655 @@serial_number=656 @@serial_number=651 @@serial_number=652 @@serial_number=79 @@serial_number=76 @@serial_number=78 @@serial_number=81 @@serial_number=80 @@serial_number=675 @@serial_number=676 @@serial_number=133 @@serial_number=134 @@serial_number=248 @@serial_number=653 @@serial_number=232 @@serial_number=4716 @@serial_number=4718 @@serial_number=4720
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=723 @@serial_number=724 @@serial_number=4674 @@serial_number=4675 @@serial_number=1337 @@serial_number=1338 @@serial_number=1343 @@serial_number=1342 @@serial_number=4672 @@serial_number=4684 @@serial_number=4703 @@serial_number=4730 @@serial_number=4731 @@serial_number=4706 @@serial_number=1089 @@serial_number=1080 @@serial_number=1378 @@serial_number=4708 @@serial_number=4670 @@serial_number=4680 @@serial_number=4664 @@serial_number=1661 @@serial_number=1364 @@serial_number=1365 @@serial_number=1367 @@serial_number=1368
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=1335 @@serial_number=4724 @@serial_number=4727 @@serial_number=1332 @@serial_number=1328 @@serial_number=1325 @@serial_number=116 @@serial_number=1331 @@serial_number=1309 @@serial_number=1217 @@serial_number=114 @@serial_number=1216 @@serial_number=4736 @@serial_number=4734 @@serial_number=99 @@serial_number=102 @@serial_number=104
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=1420 @@serial_number=1048 @@serial_number=1294 @@serial_number=1292 @@serial_number=1042 @@serial_number=1388 @@serial_number=1387 @@serial_number=1416 @@serial_number=1419 @@serial_number=1322 @@serial_number=1316 @@serial_number=1320 @@serial_number=1289 @@serial_number=1302 @@serial_number=1324 @@serial_number=1318 @@serial_number=1443 @@serial_number=1417
+color pocket4_atoms color_pocket4
+
+name pocket5_atoms @@serial_number=1637 @@serial_number=1639 @@serial_number=1764 @@serial_number=1765 @@serial_number=2063 @@serial_number=2039 @@serial_number=2033 @@serial_number=2060 @@serial_number=2040 @@serial_number=2057 @@serial_number=2044 @@serial_number=2041 @@serial_number=2071 @@serial_number=2073 @@serial_number=2042 @@serial_number=1619 @@serial_number=1609 @@serial_number=1610 @@serial_number=1580
+color pocket5_atoms color_pocket5
+
+name pocket6_atoms @@serial_number=1168 @@serial_number=1169 @@serial_number=521 @@serial_number=522 @@serial_number=665 @@serial_number=2478 @@serial_number=2483 @@serial_number=2484 @@serial_number=2485 @@serial_number=2487 @@serial_number=2508 @@serial_number=2511 @@serial_number=2454 @@serial_number=484 @@serial_number=486 @@serial_number=2457
+color pocket6_atoms color_pocket6
+
+name pocket7_atoms @@serial_number=1491 @@serial_number=1497 @@serial_number=1496 @@serial_number=2208 @@serial_number=987 @@serial_number=1485 @@serial_number=1488 @@serial_number=2226 @@serial_number=983 @@serial_number=982 @@serial_number=984 @@serial_number=990 @@serial_number=991 @@serial_number=1490 @@serial_number=1518 @@serial_number=2229 @@serial_number=2224 @@serial_number=2234 @@serial_number=2240
+color pocket7_atoms color_pocket7
+
+
+
+open data/CDKL3.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

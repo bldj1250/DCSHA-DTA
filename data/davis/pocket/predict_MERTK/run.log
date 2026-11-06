@@ -1,0 +1,41 @@
+[INFO] Console - predicting pockets for proteins from dataset [MERTK.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_MERTK
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [MERTK.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [MERTK.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [MERTK.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\MERTK.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\MERTK.pdb]
+[INFO] Struct - all groups in chain A: 999
+[INFO] Struct - all groups in chain A: 999
+[INFO] Struct - 999 groups in chain A
+[INFO] Protein - structure atoms: 7754
+[INFO] Protein - protein   atoms: 7630
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 24398
+[INFO] Protein - exposed protein atoms: 5945 of 7630
+[INFO] SLinkClusterer - clustering [86] elements
+[INFO] SLinkClusterer - clusters: [id:12( 1 ), id:13( 2 ), id:34( 2 ), id:47( 1 ), id:51( 3 ), id:52( 1 ), id:56( 2 ), id:66( 38 ), id:68( 1 ), id:71( 7 ), id:74( 7 ), id:75( 1 ), id:76( 1 ), id:77( 1 ), id:81( 15 ), id:84( 3 )]
+[INFO] SLinkClusterer - clusters together: 86 / 86
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 24398
+[INFO] PocketPredictor - LIGANDABLE POINTS: 86
+[INFO] PocketPredictor - CLUSTERS: 16
+[INFO] PocketPredictor - FILTERED CLUSTERS: 6
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  43   points:  38   score:   12.5
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  31   points:  15   score:    5.0
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  26   points:   7   score:    2.8
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  14   points:   7   score:    2.4
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  19   points:   3   score:    1.7
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  12   points:   3   score:    1.0
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\MERTK.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_MERTK/visualizations/data/MERTK.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 6.616 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_MERTK]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 8.137 seconds.

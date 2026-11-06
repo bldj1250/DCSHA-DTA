@@ -1,0 +1,35 @@
+open data/DCAMKL3.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #7d47b3
+color name color_pocket3 #e65cae
+color name color_pocket4 #b36847
+
+name pocket1_atoms @@serial_number=2933 @@serial_number=3858 @@serial_number=3859 @@serial_number=3493 @@serial_number=3483 @@serial_number=3299 @@serial_number=3972 @@serial_number=3974 @@serial_number=3843 @@serial_number=3831 @@serial_number=3837 @@serial_number=3969 @@serial_number=3971 @@serial_number=2930 @@serial_number=2932 @@serial_number=2875 @@serial_number=2877 @@serial_number=2878 @@serial_number=2879 @@serial_number=3046 @@serial_number=3445 @@serial_number=3457 @@serial_number=3459 @@serial_number=3462 @@serial_number=3466 @@serial_number=3451 @@serial_number=2881 @@serial_number=2874 @@serial_number=2876 @@serial_number=3976 @@serial_number=3978 @@serial_number=3062 @@serial_number=3063 @@serial_number=3439
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=3199 @@serial_number=3977 @@serial_number=3978 @@serial_number=2918 @@serial_number=3063 @@serial_number=3064 @@serial_number=3079 @@serial_number=3122 @@serial_number=3176 @@serial_number=3991 @@serial_number=3992 @@serial_number=3993 @@serial_number=3164 @@serial_number=3165 @@serial_number=3168 @@serial_number=3166 @@serial_number=2894 @@serial_number=2896 @@serial_number=2893 @@serial_number=2911 @@serial_number=2913 @@serial_number=2904 @@serial_number=2907 @@serial_number=2909
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=4331 @@serial_number=4332 @@serial_number=3825 @@serial_number=5170 @@serial_number=4376 @@serial_number=5173 @@serial_number=5172 @@serial_number=3509 @@serial_number=5147 @@serial_number=5148 @@serial_number=3533
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=5076 @@serial_number=5099 @@serial_number=5104 @@serial_number=4358 @@serial_number=5138 @@serial_number=5141 @@serial_number=5106 @@serial_number=5105 @@serial_number=4362 @@serial_number=4365 @@serial_number=4367 @@serial_number=4608 @@serial_number=4611
+color pocket4_atoms color_pocket4
+
+
+
+open data/DCAMKL3.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

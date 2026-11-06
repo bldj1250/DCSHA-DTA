@@ -1,0 +1,45 @@
+[INFO] Console - predicting pockets for proteins from dataset [PFCDPK1(Pfalciparum).pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_PFCDPK1(Pfalciparum)
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [PFCDPK1(Pfalciparum).pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [PFCDPK1(Pfalciparum).pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [PFCDPK1(Pfalciparum).pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\PFCDPK1(Pfalciparum).pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\PFCDPK1(Pfalciparum).pdb]
+[INFO] Struct - all groups in chain A: 524
+[INFO] Struct - all groups in chain A: 524
+[INFO] Struct - 524 groups in chain A
+[INFO] Protein - structure atoms: 4276
+[INFO] Protein - protein   atoms: 4217
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 8435
+[INFO] Protein - exposed protein atoms: 2730 of 4217
+[INFO] SLinkClusterer - clustering [129] elements
+[INFO] SLinkClusterer - clusters: [id:6( 1 ), id:39( 35 ), id:44( 2 ), id:45( 1 ), id:46( 3 ), id:59( 8 ), id:69( 19 ), id:82( 32 ), id:87( 1 ), id:98( 10 ), id:99( 1 ), id:109( 3 ), id:120( 1 ), id:124( 3 ), id:125( 5 ), id:126( 4 )]
+[INFO] SLinkClusterer - clusters together: 129 / 129
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 8435
+[INFO] PocketPredictor - LIGANDABLE POINTS: 129
+[INFO] PocketPredictor - CLUSTERS: 16
+[INFO] PocketPredictor - FILTERED CLUSTERS: 10
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  53   points:  35   score:   14.4
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  50   points:  32   score:   13.3
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  27   points:  19   score:    7.4
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  25   points:  10   score:    3.3
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  23   points:   8   score:    2.6
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  19   points:   5   score:    2.0
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  12   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  15   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  15   points:   3   score:    1.0
+[INFO] PocketPredictor - pocket10 -  surf_atoms:   9   points:   3   score:    0.8
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\PFCDPK1(Pfalciparum).pdb] to [D:\java\p2rank_2.5.1\test_output/predict_PFCDPK1(Pfalciparum)/visualizations/data/PFCDPK1(Pfalciparum).pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 5.620 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_PFCDPK1(Pfalciparum)]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 7.243 seconds.

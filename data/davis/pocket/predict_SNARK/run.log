@@ -1,0 +1,45 @@
+[INFO] Console - predicting pockets for proteins from dataset [SNARK.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_SNARK
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [SNARK.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [SNARK.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [SNARK.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\SNARK.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\SNARK.pdb]
+[INFO] Struct - all groups in chain A: 628
+[INFO] Struct - all groups in chain A: 628
+[INFO] Struct - 628 groups in chain A
+[INFO] Protein - structure atoms: 4902
+[INFO] Protein - protein   atoms: 4794
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 18741
+[INFO] Protein - exposed protein atoms: 4020 of 4794
+[INFO] SLinkClusterer - clustering [114] elements
+[INFO] SLinkClusterer - clusters: [id:28( 24 ), id:29( 1 ), id:37( 1 ), id:38( 3 ), id:51( 15 ), id:58( 1 ), id:64( 3 ), id:84( 4 ), id:90( 10 ), id:93( 4 ), id:96( 1 ), id:99( 4 ), id:103( 2 ), id:104( 1 ), id:107( 6 ), id:109( 2 ), id:110( 32 )]
+[INFO] SLinkClusterer - clusters together: 114 / 114
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 18741
+[INFO] PocketPredictor - LIGANDABLE POINTS: 114
+[INFO] PocketPredictor - CLUSTERS: 17
+[INFO] PocketPredictor - FILTERED CLUSTERS: 10
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  42   points:  24   score:    9.1
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  33   points:  32   score:    9.1
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  38   points:  15   score:    4.6
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  27   points:  10   score:    3.1
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  19   points:   6   score:    2.6
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  20   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  19   points:   3   score:    1.6
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  16   points:   4   score:    1.3
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  21   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  19   points:   4   score:    1.2
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\SNARK.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_SNARK/visualizations/data/SNARK.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 5.981 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_SNARK]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 7.515 seconds.

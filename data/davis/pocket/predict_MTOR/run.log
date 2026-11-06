@@ -1,0 +1,68 @@
+[INFO] Console - predicting pockets for proteins from dataset [MTOR.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_MTOR
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [MTOR.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [MTOR.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [MTOR.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\MTOR.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\MTOR.pdb]
+[INFO] Struct - all groups in chain A: 2549
+[INFO] Struct - all groups in chain A: 2549
+[INFO] Struct - 2549 groups in chain A
+[INFO] Protein - structure atoms: 20287
+[INFO] Protein - protein   atoms: 19877
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 41115
+[INFO] Protein - exposed protein atoms: 13163 of 19877
+[INFO] SLinkClusterer - clustering [346] elements
+[INFO] SLinkClusterer - clusters: [id:4( 5 ), id:7( 3 ), id:13( 6 ), id:15( 2 ), id:16( 1 ), id:18( 2 ), id:19( 1 ), id:20( 1 ), id:26( 7 ), id:53( 5 ), id:54( 1 ), id:56( 4 ), id:63( 23 ), id:66( 1 ), id:67( 1 ), id:68( 3 ), id:69( 1 ), id:70( 1 ), id:72( 1 ), id:74( 3 ), id:77( 1 ), id:79( 12 ), id:80( 2 ), id:81( 2 ), id:90( 7 ), id:96( 1 ), id:108( 3 ), id:110( 2 ), id:111( 1 ), id:120( 9 ), id:130( 16 ), id:133( 2 ), id:141( 1 ), id:160( 1 ), id:163( 30 ), id:170( 1 ), id:176( 21 ), id:195( 1 ), id:198( 1 ), id:199( 3 ), id:202( 10 ), id:206( 1 ), id:211( 2 ), id:214( 3 ), id:215( 3 ), id:216( 4 ), id:218( 1 ), id:219( 1 ), id:220( 1 ), id:228( 1 ), id:236( 10 ), id:240( 1 ), id:264( 5 ), id:266( 4 ), id:274( 8 ), id:278( 13 ), id:293( 4 ), id:298( 1 ), id:303( 11 ), id:305( 1 ), id:307( 2 ), id:308( 2 ), id:314( 1 ), id:321( 33 ), id:322( 1 ), id:324( 2 ), id:328( 1 ), id:337( 17 ), id:338( 4 ), id:340( 3 ), id:342( 2 ), id:344( 4 )]
+[INFO] SLinkClusterer - clusters together: 346 / 346
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 41115
+[INFO] PocketPredictor - LIGANDABLE POINTS: 346
+[INFO] PocketPredictor - CLUSTERS: 72
+[INFO] PocketPredictor - FILTERED CLUSTERS: 33
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  33   points:  33   score:   13.6
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  45   points:  30   score:    9.4
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  40   points:  23   score:    8.5
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  28   points:  21   score:    7.9
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  45   points:  17   score:    5.9
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  25   points:  16   score:    5.5
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  29   points:  11   score:    5.4
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  35   points:  12   score:    4.9
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  20   points:  13   score:    4.8
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  29   points:   8   score:    3.3
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  34   points:  10   score:    3.2
+[INFO] PocketPredictor - pocket12 -  surf_atoms:  32   points:   9   score:    2.6
+[INFO] PocketPredictor - pocket13 -  surf_atoms:  34   points:   5   score:    2.5
+[INFO] PocketPredictor - pocket14 -  surf_atoms:  19   points:   7   score:    2.4
+[INFO] PocketPredictor - pocket15 -  surf_atoms:  15   points:   3   score:    2.3
+[INFO] PocketPredictor - pocket16 -  surf_atoms:  25   points:   5   score:    2.2
+[INFO] PocketPredictor - pocket17 -  surf_atoms:  26   points:  10   score:    2.2
+[INFO] PocketPredictor - pocket18 -  surf_atoms:  10   points:   3   score:    2.1
+[INFO] PocketPredictor - pocket19 -  surf_atoms:  30   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket20 -  surf_atoms:  18   points:   6   score:    1.9
+[INFO] PocketPredictor - pocket21 -  surf_atoms:  19   points:   7   score:    1.7
+[INFO] PocketPredictor - pocket22 -  surf_atoms:  16   points:   3   score:    1.6
+[INFO] PocketPredictor - pocket23 -  surf_atoms:  14   points:   4   score:    1.6
+[INFO] PocketPredictor - pocket24 -  surf_atoms:  17   points:   4   score:    1.6
+[INFO] PocketPredictor - pocket25 -  surf_atoms:  14   points:   4   score:    1.6
+[INFO] PocketPredictor - pocket26 -  surf_atoms:  14   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket27 -  surf_atoms:  15   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket28 -  surf_atoms:  25   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket29 -  surf_atoms:  21   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket30 -  surf_atoms:  15   points:   3   score:    1.2
+[INFO] PocketPredictor - pocket31 -  surf_atoms:  13   points:   3   score:    1.2
+[INFO] PocketPredictor - pocket32 -  surf_atoms:  15   points:   3   score:    1.2
+[INFO] PocketPredictor - pocket33 -  surf_atoms:   7   points:   5   score:    1.0
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\MTOR.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_MTOR/visualizations/data/MTOR.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 8.777 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_MTOR]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 10.249 seconds.

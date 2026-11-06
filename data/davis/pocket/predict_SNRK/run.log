@@ -1,0 +1,40 @@
+[INFO] Console - predicting pockets for proteins from dataset [SNRK.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_SNRK
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [SNRK.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [SNRK.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [SNRK.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\SNRK.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\SNRK.pdb]
+[INFO] Struct - all groups in chain A: 765
+[INFO] Struct - all groups in chain A: 765
+[INFO] Struct - 765 groups in chain A
+[INFO] Protein - structure atoms: 5910
+[INFO] Protein - protein   atoms: 5808
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 24311
+[INFO] Protein - exposed protein atoms: 4887 of 5808
+[INFO] SLinkClusterer - clustering [53] elements
+[INFO] SLinkClusterer - clusters: [id:13( 15 ), id:22( 1 ), id:23( 1 ), id:24( 2 ), id:27( 1 ), id:29( 2 ), id:39( 19 ), id:45( 4 ), id:47( 3 ), id:51( 4 ), id:52( 1 )]
+[INFO] SLinkClusterer - clusters together: 53 / 53
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 24311
+[INFO] PocketPredictor - LIGANDABLE POINTS: 53
+[INFO] PocketPredictor - CLUSTERS: 11
+[INFO] PocketPredictor - FILTERED CLUSTERS: 5
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  29   points:  19   score:    5.9
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  36   points:  15   score:    5.2
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  15   points:   4   score:    1.6
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  23   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  11   points:   3   score:    1.1
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\SNRK.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_SNRK/visualizations/data/SNRK.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 7.226 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_SNRK]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 8.897 seconds.

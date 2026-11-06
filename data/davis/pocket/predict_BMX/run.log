@@ -1,0 +1,40 @@
+[INFO] Console - predicting pockets for proteins from dataset [BMX.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_BMX
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [BMX.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [BMX.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [BMX.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\BMX.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\BMX.pdb]
+[INFO] Struct - all groups in chain A: 675
+[INFO] Struct - all groups in chain A: 675
+[INFO] Struct - 675 groups in chain A
+[INFO] Protein - structure atoms: 5493
+[INFO] Protein - protein   atoms: 5386
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 15336
+[INFO] Protein - exposed protein atoms: 3967 of 5386
+[INFO] SLinkClusterer - clustering [54] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:1( 1 ), id:4( 3 ), id:6( 2 ), id:7( 1 ), id:18( 3 ), id:20( 1 ), id:25( 5 ), id:27( 27 ), id:41( 1 ), id:47( 2 ), id:48( 1 ), id:49( 1 ), id:52( 4 ), id:53( 1 )]
+[INFO] SLinkClusterer - clusters together: 54 / 54
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 15336
+[INFO] PocketPredictor - LIGANDABLE POINTS: 54
+[INFO] PocketPredictor - CLUSTERS: 15
+[INFO] PocketPredictor - FILTERED CLUSTERS: 5
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  44   points:  27   score:    9.4
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  11   points:   5   score:    2.3
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  22   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  14   points:   3   score:    0.9
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\BMX.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_BMX/visualizations/data/BMX.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 6.975 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_BMX]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 8.710 seconds.

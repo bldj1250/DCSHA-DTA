@@ -1,0 +1,31 @@
+open data/PFPK5(Pfalciparum).pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #9d47b3
+color name color_pocket3 #e65c5c
+
+name pocket1_atoms @@serial_number=91 @@serial_number=93 @@serial_number=100 @@serial_number=137 @@serial_number=140 @@serial_number=139 @@serial_number=83 @@serial_number=88 @@serial_number=238 @@serial_number=651 @@serial_number=663 @@serial_number=86 @@serial_number=84 @@serial_number=1156 @@serial_number=1157 @@serial_number=1158 @@serial_number=255 @@serial_number=256 @@serial_number=645 @@serial_number=646 @@serial_number=643 @@serial_number=639 @@serial_number=641 @@serial_number=642 @@serial_number=644 @@serial_number=251 @@serial_number=104 @@serial_number=95 @@serial_number=101 @@serial_number=1055 @@serial_number=1043 @@serial_number=698 @@serial_number=724 @@serial_number=1149 @@serial_number=1070 @@serial_number=1071 @@serial_number=506 @@serial_number=666 @@serial_number=670
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=286 @@serial_number=1209 @@serial_number=374 @@serial_number=292 @@serial_number=347 @@serial_number=340 @@serial_number=293 @@serial_number=298 @@serial_number=355 @@serial_number=375 @@serial_number=1207 @@serial_number=1223 @@serial_number=1225 @@serial_number=1204 @@serial_number=1206 @@serial_number=278
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=1416 @@serial_number=1429 @@serial_number=1432 @@serial_number=1434 @@serial_number=2166 @@serial_number=1379 @@serial_number=1383 @@serial_number=1849 @@serial_number=1855 @@serial_number=1857 @@serial_number=1844 @@serial_number=2164 @@serial_number=2174 @@serial_number=2175 @@serial_number=1808 @@serial_number=1822 @@serial_number=1823 @@serial_number=1816
+color pocket3_atoms color_pocket3
+
+
+
+open data/PFPK5(Pfalciparum).pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

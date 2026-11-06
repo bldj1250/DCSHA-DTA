@@ -1,0 +1,27 @@
+open data/PIM2.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #b34788
+
+name pocket1_atoms @@serial_number=934 @@serial_number=1275 @@serial_number=1302 @@serial_number=1389 @@serial_number=1287 @@serial_number=1385 @@serial_number=1391 @@serial_number=1393 @@serial_number=1397 @@serial_number=328 @@serial_number=331 @@serial_number=924 @@serial_number=923 @@serial_number=882 @@serial_number=1303 @@serial_number=1388 @@serial_number=434 @@serial_number=892 @@serial_number=1390 @@serial_number=876 @@serial_number=330 @@serial_number=450 @@serial_number=277 @@serial_number=281 @@serial_number=278 @@serial_number=283 @@serial_number=280 @@serial_number=941
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=1828 @@serial_number=1827 @@serial_number=1829 @@serial_number=1552 @@serial_number=1787 @@serial_number=1820 @@serial_number=959 @@serial_number=995 @@serial_number=1813 @@serial_number=1269 @@serial_number=1270 @@serial_number=1562 @@serial_number=1279 @@serial_number=1533 @@serial_number=957 @@serial_number=1277 @@serial_number=1278 @@serial_number=954
+color pocket2_atoms color_pocket2
+
+
+
+open data/PIM2.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

@@ -1,0 +1,43 @@
+[INFO] Console - predicting pockets for proteins from dataset [EPHA4.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_EPHA4
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [EPHA4.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [EPHA4.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [EPHA4.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\EPHA4.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\EPHA4.pdb]
+[INFO] Struct - all groups in chain A: 986
+[INFO] Struct - all groups in chain A: 986
+[INFO] Struct - 986 groups in chain A
+[INFO] Protein - structure atoms: 7705
+[INFO] Protein - protein   atoms: 7535
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 18996
+[INFO] Protein - exposed protein atoms: 5386 of 7535
+[INFO] SLinkClusterer - clustering [84] elements
+[INFO] SLinkClusterer - clusters: [id:4( 3 ), id:5( 2 ), id:6( 2 ), id:9( 1 ), id:11( 2 ), id:12( 1 ), id:13( 1 ), id:15( 2 ), id:16( 1 ), id:30( 9 ), id:54( 34 ), id:58( 3 ), id:64( 4 ), id:65( 1 ), id:69( 1 ), id:72( 3 ), id:73( 1 ), id:74( 4 ), id:75( 1 ), id:77( 1 ), id:82( 6 ), id:83( 1 )]
+[INFO] SLinkClusterer - clusters together: 84 / 84
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 18996
+[INFO] PocketPredictor - LIGANDABLE POINTS: 84
+[INFO] PocketPredictor - CLUSTERS: 22
+[INFO] PocketPredictor - FILTERED CLUSTERS: 8
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  43   points:  34   score:   10.5
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  23   points:   9   score:    2.6
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  20   points:   3   score:    2.1
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  18   points:   6   score:    1.8
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  12   points:   4   score:    1.6
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  10   points:   4   score:    1.3
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  13   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:   9   points:   3   score:    0.7
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\EPHA4.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_EPHA4/visualizations/data/EPHA4.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 6.949 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_EPHA4]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 8.561 seconds.

@@ -1,0 +1,37 @@
+[INFO] Console - predicting pockets for proteins from dataset [RIOK3.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_RIOK3
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [RIOK3.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [RIOK3.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [RIOK3.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\RIOK3.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\RIOK3.pdb]
+[INFO] Struct - all groups in chain A: 519
+[INFO] Struct - all groups in chain A: 519
+[INFO] Struct - 519 groups in chain A
+[INFO] Protein - structure atoms: 4148
+[INFO] Protein - protein   atoms: 4080
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 12975
+[INFO] Protein - exposed protein atoms: 3241 of 4080
+[INFO] SLinkClusterer - clustering [40] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:1( 1 ), id:2( 1 ), id:3( 1 ), id:10( 1 ), id:17( 5 ), id:21( 2 ), id:24( 2 ), id:31( 1 ), id:34( 1 ), id:38( 24 )]
+[INFO] SLinkClusterer - clusters together: 40 / 40
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 12975
+[INFO] PocketPredictor - LIGANDABLE POINTS: 40
+[INFO] PocketPredictor - CLUSTERS: 11
+[INFO] PocketPredictor - FILTERED CLUSTERS: 2
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  38   points:  24   score:    9.9
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  18   points:   5   score:    1.9
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\RIOK3.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_RIOK3/visualizations/data/RIOK3.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 5.572 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_RIOK3]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 7.023 seconds.

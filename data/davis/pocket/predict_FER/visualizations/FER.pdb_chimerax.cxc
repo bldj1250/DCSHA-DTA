@@ -1,0 +1,35 @@
+open data/FER.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #7d47b3
+color name color_pocket3 #e65cae
+color name color_pocket4 #b36847
+
+name pocket1_atoms @@serial_number=5654 @@serial_number=5652 @@serial_number=5579 @@serial_number=5580 @@serial_number=4755 @@serial_number=5156 @@serial_number=5173 @@serial_number=5150 @@serial_number=4914 @@serial_number=5566 @@serial_number=5655 @@serial_number=5656 @@serial_number=5658 @@serial_number=5660 @@serial_number=5662 @@serial_number=5193 @@serial_number=5187 @@serial_number=5552 @@serial_number=4606 @@serial_number=4611 @@serial_number=4605 @@serial_number=4608 @@serial_number=4609 @@serial_number=4770 @@serial_number=4662 @@serial_number=4664 @@serial_number=4665 @@serial_number=5151 @@serial_number=4616 @@serial_number=4618 @@serial_number=4623 @@serial_number=4624 @@serial_number=4771 @@serial_number=4772
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=3789 @@serial_number=3790 @@serial_number=3791 @@serial_number=3820 @@serial_number=3822 @@serial_number=3821 @@serial_number=3756 @@serial_number=3737 @@serial_number=4893 @@serial_number=4896 @@serial_number=4897 @@serial_number=5071 @@serial_number=4894 @@serial_number=4919 @@serial_number=4921 @@serial_number=4922 @@serial_number=4924 @@serial_number=4926 @@serial_number=4952 @@serial_number=4953 @@serial_number=4954 @@serial_number=4476 @@serial_number=4469 @@serial_number=4472 @@serial_number=4514 @@serial_number=4457 @@serial_number=4516 @@serial_number=5072 @@serial_number=3809
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=4878 @@serial_number=4630 @@serial_number=4633 @@serial_number=4852 @@serial_number=5683 @@serial_number=5798 @@serial_number=5799 @@serial_number=5803 @@serial_number=4645 @@serial_number=4644 @@serial_number=4876 @@serial_number=5677 @@serial_number=5679 @@serial_number=5684 @@serial_number=5685 @@serial_number=5529 @@serial_number=5661 @@serial_number=5790
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=605 @@serial_number=632 @@serial_number=594 @@serial_number=595 @@serial_number=600 @@serial_number=601 @@serial_number=399 @@serial_number=401 @@serial_number=575 @@serial_number=574 @@serial_number=397 @@serial_number=429
+color pocket4_atoms color_pocket4
+
+
+
+open data/FER.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

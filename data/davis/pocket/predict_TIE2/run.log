@@ -1,0 +1,48 @@
+[INFO] Console - predicting pockets for proteins from dataset [TIE2.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_TIE2
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [TIE2.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [TIE2.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [TIE2.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\TIE2.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\TIE2.pdb]
+[INFO] Struct - all groups in chain A: 1157
+[INFO] Struct - all groups in chain A: 1157
+[INFO] Struct - 1157 groups in chain A
+[INFO] Protein - structure atoms: 9080
+[INFO] Protein - protein   atoms: 8907
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 22214
+[INFO] Protein - exposed protein atoms: 6415 of 8907
+[INFO] SLinkClusterer - clustering [127] elements
+[INFO] SLinkClusterer - clusters: [id:21( 1 ), id:25( 8 ), id:26( 3 ), id:28( 3 ), id:29( 1 ), id:40( 29 ), id:43( 11 ), id:46( 1 ), id:49( 1 ), id:51( 5 ), id:52( 3 ), id:53( 1 ), id:56( 3 ), id:72( 3 ), id:73( 1 ), id:74( 1 ), id:79( 2 ), id:90( 2 ), id:107( 27 ), id:114( 6 ), id:121( 2 ), id:125( 5 ), id:126( 8 )]
+[INFO] SLinkClusterer - clusters together: 127 / 127
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 22214
+[INFO] PocketPredictor - LIGANDABLE POINTS: 127
+[INFO] PocketPredictor - CLUSTERS: 23
+[INFO] PocketPredictor - FILTERED CLUSTERS: 13
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  52   points:  29   score:    9.8
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  41   points:  27   score:    7.7
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  21   points:  11   score:    3.2
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  18   points:   6   score:    2.4
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  19   points:   8   score:    2.3
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  19   points:   3   score:    2.1
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  17   points:   8   score:    1.7
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  23   points:   5   score:    1.6
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  14   points:   3   score:    1.4
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  19   points:   3   score:    1.4
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  11   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket12 -  surf_atoms:  10   points:   5   score:    1.1
+[INFO] PocketPredictor - pocket13 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\TIE2.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_TIE2/visualizations/data/TIE2.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 7.034 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_TIE2]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 8.624 seconds.

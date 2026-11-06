@@ -1,0 +1,40 @@
+[INFO] Console - predicting pockets for proteins from dataset [ERK8.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_ERK8
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [ERK8.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [ERK8.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [ERK8.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\ERK8.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\ERK8.pdb]
+[INFO] Struct - all groups in chain A: 544
+[INFO] Struct - all groups in chain A: 544
+[INFO] Struct - 544 groups in chain A
+[INFO] Protein - structure atoms: 4216
+[INFO] Protein - protein   atoms: 4095
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 13210
+[INFO] Protein - exposed protein atoms: 3175 of 4095
+[INFO] SLinkClusterer - clustering [90] elements
+[INFO] SLinkClusterer - clusters: [id:41( 1 ), id:44( 1 ), id:51( 7 ), id:54( 4 ), id:62( 65 ), id:63( 1 ), id:84( 4 ), id:89( 7 )]
+[INFO] SLinkClusterer - clusters together: 90 / 90
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 13210
+[INFO] PocketPredictor - LIGANDABLE POINTS: 90
+[INFO] PocketPredictor - CLUSTERS: 8
+[INFO] PocketPredictor - FILTERED CLUSTERS: 5
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  94   points:  65   score:   22.1
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  10   points:   7   score:    2.4
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  23   points:   7   score:    2.2
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  31   points:   4   score:    1.6
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  10   points:   4   score:    1.5
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\ERK8.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_ERK8/visualizations/data/ERK8.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 6.263 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_ERK8]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 8.005 seconds.

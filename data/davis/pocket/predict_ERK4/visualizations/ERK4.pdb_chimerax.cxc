@@ -1,0 +1,47 @@
+open data/ERK4.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #5447b3
+color name color_pocket3 #b25ce6
+color name color_pocket4 #b347a3
+color name color_pocket5 #e65c8b
+color name color_pocket6 #b35a47
+color name color_pocket7 #e6ba5c
+
+name pocket1_atoms @@serial_number=1217 @@serial_number=1208 @@serial_number=1209 @@serial_number=1234 @@serial_number=1236 @@serial_number=813 @@serial_number=814 @@serial_number=867 @@serial_number=891 @@serial_number=854 @@serial_number=855 @@serial_number=860 @@serial_number=819 @@serial_number=1232 @@serial_number=836 @@serial_number=839 @@serial_number=840 @@serial_number=848 @@serial_number=1322 @@serial_number=1324 @@serial_number=1326 @@serial_number=1196 @@serial_number=1319 @@serial_number=1320 @@serial_number=249 @@serial_number=194 @@serial_number=195 @@serial_number=251 @@serial_number=198 @@serial_number=345 @@serial_number=199 @@serial_number=196 @@serial_number=200 @@serial_number=201 @@serial_number=202 @@serial_number=206 @@serial_number=215 @@serial_number=216 @@serial_number=252 @@serial_number=360 @@serial_number=361 @@serial_number=362
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=444 @@serial_number=445 @@serial_number=3493 @@serial_number=3478 @@serial_number=3494 @@serial_number=3492 @@serial_number=3472 @@serial_number=3475 @@serial_number=1456 @@serial_number=1457 @@serial_number=1458 @@serial_number=1460 @@serial_number=1388 @@serial_number=1411 @@serial_number=1433 @@serial_number=2641 @@serial_number=1434 @@serial_number=3481 @@serial_number=2667 @@serial_number=2639 @@serial_number=2640 @@serial_number=1422 @@serial_number=1424 @@serial_number=1426 @@serial_number=1427 @@serial_number=1436 @@serial_number=1440 @@serial_number=479 @@serial_number=443 @@serial_number=1362 @@serial_number=454 @@serial_number=455 @@serial_number=3483 @@serial_number=1413 @@serial_number=1414 @@serial_number=1415 @@serial_number=3603
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=1036 @@serial_number=1025 @@serial_number=1027 @@serial_number=995 @@serial_number=998 @@serial_number=1278 @@serial_number=1281 @@serial_number=999 @@serial_number=2556 @@serial_number=4283 @@serial_number=4285 @@serial_number=4323 @@serial_number=4289 @@serial_number=4293 @@serial_number=4294 @@serial_number=4316 @@serial_number=2513 @@serial_number=2515 @@serial_number=2517 @@serial_number=4325 @@serial_number=4348 @@serial_number=963 @@serial_number=1062 @@serial_number=1063 @@serial_number=2530 @@serial_number=2532 @@serial_number=1037 @@serial_number=1039 @@serial_number=1271 @@serial_number=585 @@serial_number=584 @@serial_number=1066
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=1532 @@serial_number=1798 @@serial_number=1799 @@serial_number=3050 @@serial_number=3068 @@serial_number=880 @@serial_number=1508 @@serial_number=1542 @@serial_number=1544 @@serial_number=1509 @@serial_number=1204 @@serial_number=879 @@serial_number=1201 @@serial_number=1208 @@serial_number=1752 @@serial_number=1203
+color pocket4_atoms color_pocket4
+
+name pocket5_atoms @@serial_number=599 @@serial_number=814 @@serial_number=597 @@serial_number=520 @@serial_number=1319 @@serial_number=1320 @@serial_number=1334 @@serial_number=1322 @@serial_number=360 @@serial_number=362 @@serial_number=487 @@serial_number=521
+color pocket5_atoms color_pocket5
+
+name pocket6_atoms @@serial_number=898 @@serial_number=897 @@serial_number=899 @@serial_number=944 @@serial_number=925 @@serial_number=1252 @@serial_number=1256 @@serial_number=1009 @@serial_number=1010 @@serial_number=1243 @@serial_number=975 @@serial_number=976 @@serial_number=1282 @@serial_number=934 @@serial_number=945
+color pocket6_atoms color_pocket6
+
+name pocket7_atoms @@serial_number=408 @@serial_number=410 @@serial_number=435 @@serial_number=2720 @@serial_number=2771 @@serial_number=736 @@serial_number=2746 @@serial_number=2719 @@serial_number=2716
+color pocket7_atoms color_pocket7
+
+
+
+open data/ERK4.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

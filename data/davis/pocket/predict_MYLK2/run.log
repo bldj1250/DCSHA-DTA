@@ -1,0 +1,36 @@
+[INFO] Console - predicting pockets for proteins from dataset [MYLK2.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_MYLK2
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [MYLK2.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [MYLK2.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [MYLK2.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\MYLK2.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\MYLK2.pdb]
+[INFO] Struct - all groups in chain A: 596
+[INFO] Struct - all groups in chain A: 596
+[INFO] Struct - 596 groups in chain A
+[INFO] Protein - structure atoms: 4534
+[INFO] Protein - protein   atoms: 4474
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 16383
+[INFO] Protein - exposed protein atoms: 3529 of 4474
+[INFO] SLinkClusterer - clustering [32] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:5( 1 ), id:16( 2 ), id:21( 2 ), id:26( 25 ), id:31( 1 )]
+[INFO] SLinkClusterer - clusters together: 32 / 32
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 16383
+[INFO] PocketPredictor - LIGANDABLE POINTS: 32
+[INFO] PocketPredictor - CLUSTERS: 6
+[INFO] PocketPredictor - FILTERED CLUSTERS: 1
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  47   points:  25   score:    7.9
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\MYLK2.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_MYLK2/visualizations/data/MYLK2.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 5.397 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_MYLK2]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 6.887 seconds.

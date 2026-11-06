@@ -1,0 +1,45 @@
+[INFO] Console - predicting pockets for proteins from dataset [INSRR.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_INSRR
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [INSRR.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [INSRR.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [INSRR.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\INSRR.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\INSRR.pdb]
+[INFO] Struct - all groups in chain A: 1297
+[INFO] Struct - all groups in chain A: 1297
+[INFO] Struct - 1297 groups in chain A
+[INFO] Protein - structure atoms: 10102
+[INFO] Protein - protein   atoms: 9874
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 25299
+[INFO] Protein - exposed protein atoms: 7082 of 9874
+[INFO] SLinkClusterer - clustering [134] elements
+[INFO] SLinkClusterer - clusters: [id:6( 3 ), id:7( 1 ), id:12( 1 ), id:13( 1 ), id:17( 11 ), id:37( 22 ), id:38( 1 ), id:39( 1 ), id:44( 2 ), id:45( 1 ), id:47( 2 ), id:50( 4 ), id:52( 1 ), id:55( 5 ), id:56( 1 ), id:57( 2 ), id:59( 2 ), id:60( 1 ), id:62( 1 ), id:63( 1 ), id:64( 1 ), id:87( 2 ), id:107( 27 ), id:110( 8 ), id:115( 6 ), id:122( 11 ), id:123( 1 ), id:133( 14 )]
+[INFO] SLinkClusterer - clusters together: 134 / 134
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 25299
+[INFO] PocketPredictor - LIGANDABLE POINTS: 134
+[INFO] PocketPredictor - CLUSTERS: 28
+[INFO] PocketPredictor - FILTERED CLUSTERS: 10
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  36   points:  27   score:    9.7
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  29   points:  22   score:    6.4
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  32   points:  14   score:    4.5
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  25   points:  11   score:    3.7
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  26   points:  11   score:    3.0
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  28   points:   8   score:    2.6
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  28   points:   5   score:    1.9
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  11   points:   6   score:    1.4
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  10   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  19   points:   4   score:    1.1
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\INSRR.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_INSRR/visualizations/data/INSRR.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 8.430 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_INSRR]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 9.954 seconds.

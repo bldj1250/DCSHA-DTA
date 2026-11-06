@@ -1,0 +1,41 @@
+[INFO] Console - predicting pockets for proteins from dataset [HUNK.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_HUNK
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [HUNK.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [HUNK.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [HUNK.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\HUNK.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\HUNK.pdb]
+[INFO] Struct - all groups in chain A: 714
+[INFO] Struct - all groups in chain A: 714
+[INFO] Struct - 714 groups in chain A
+[INFO] Protein - structure atoms: 5597
+[INFO] Protein - protein   atoms: 5480
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 20355
+[INFO] Protein - exposed protein atoms: 4514 of 5480
+[INFO] SLinkClusterer - clustering [110] elements
+[INFO] SLinkClusterer - clusters: [id:3( 1 ), id:23( 7 ), id:36( 1 ), id:44( 16 ), id:58( 15 ), id:66( 21 ), id:67( 1 ), id:68( 1 ), id:75( 1 ), id:89( 18 ), id:90( 1 ), id:91( 2 ), id:93( 2 ), id:108( 1 ), id:109( 22 )]
+[INFO] SLinkClusterer - clusters together: 110 / 110
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 20355
+[INFO] PocketPredictor - LIGANDABLE POINTS: 110
+[INFO] PocketPredictor - CLUSTERS: 15
+[INFO] PocketPredictor - FILTERED CLUSTERS: 6
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  37   points:  21   score:    7.5
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  37   points:  22   score:    7.0
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  38   points:  18   score:    6.0
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  38   points:  16   score:    5.8
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  27   points:  15   score:    5.2
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  15   points:   7   score:    1.8
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\HUNK.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_HUNK/visualizations/data/HUNK.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 7.625 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_HUNK]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 9.499 seconds.

@@ -1,0 +1,50 @@
+[INFO] Console - predicting pockets for proteins from dataset [RPS6KA4(KinDom.1-N-terminal).pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_RPS6KA4(KinDom.1-N-terminal)
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [RPS6KA4(KinDom.1-N-terminal).pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [RPS6KA4(KinDom.1-N-terminal).pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [RPS6KA4(KinDom.1-N-terminal).pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\RPS6KA4(KinDom.1-N-terminal).pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\RPS6KA4(KinDom.1-N-terminal).pdb]
+[INFO] Struct - all groups in chain A: 772
+[INFO] Struct - all groups in chain A: 772
+[INFO] Struct - 772 groups in chain A
+[INFO] Protein - structure atoms: 6033
+[INFO] Protein - protein   atoms: 5888
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 13582
+[INFO] Protein - exposed protein atoms: 4060 of 5888
+[INFO] SLinkClusterer - clustering [163] elements
+[INFO] SLinkClusterer - clusters: [id:20( 3 ), id:25( 38 ), id:28( 1 ), id:32( 3 ), id:33( 2 ), id:66( 3 ), id:68( 5 ), id:69( 1 ), id:71( 1 ), id:73( 3 ), id:75( 3 ), id:79( 10 ), id:80( 2 ), id:81( 1 ), id:85( 4 ), id:87( 4 ), id:90( 3 ), id:123( 2 ), id:124( 1 ), id:129( 3 ), id:141( 56 ), id:151( 1 ), id:154( 1 ), id:156( 2 ), id:159( 1 ), id:161( 5 ), id:162( 4 )]
+[INFO] SLinkClusterer - clusters together: 163 / 163
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 13582
+[INFO] PocketPredictor - LIGANDABLE POINTS: 163
+[INFO] PocketPredictor - CLUSTERS: 27
+[INFO] PocketPredictor - FILTERED CLUSTERS: 15
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  69   points:  56   score:   17.1
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  48   points:  38   score:   11.8
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  28   points:  10   score:    3.6
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  14   points:   5   score:    2.3
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  13   points:   3   score:    2.3
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  18   points:   5   score:    1.9
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  22   points:   4   score:    1.7
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  16   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  17   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  22   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  12   points:   4   score:    1.3
+[INFO] PocketPredictor - pocket12 -  surf_atoms:  10   points:   3   score:    1.2
+[INFO] PocketPredictor - pocket13 -  surf_atoms:  12   points:   4   score:    1.0
+[INFO] PocketPredictor - pocket14 -  surf_atoms:  11   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket15 -  surf_atoms:  11   points:   3   score:    0.9
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\RPS6KA4(KinDom.1-N-terminal).pdb] to [D:\java\p2rank_2.5.1\test_output/predict_RPS6KA4(KinDom.1-N-terminal)/visualizations/data/RPS6KA4(KinDom.1-N-terminal).pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 6.092 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_RPS6KA4(KinDom.1-N-terminal)]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 7.580 seconds.

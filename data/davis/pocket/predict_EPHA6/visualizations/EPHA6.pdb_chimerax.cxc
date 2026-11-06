@@ -1,0 +1,27 @@
+open data/EPHA6.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #b34788
+
+name pocket1_atoms @@serial_number=2072 @@serial_number=1587 @@serial_number=2300 @@serial_number=1308 @@serial_number=1993 @@serial_number=1994 @@serial_number=2073 @@serial_number=2285 @@serial_number=2287 @@serial_number=2289 @@serial_number=2291 @@serial_number=2293 @@serial_number=1319 @@serial_number=2288
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=3655 @@serial_number=3703 @@serial_number=3653 @@serial_number=3680 @@serial_number=4135 @@serial_number=3936 @@serial_number=3959 @@serial_number=4134 @@serial_number=3679 @@serial_number=3681 @@serial_number=4226 @@serial_number=4245 @@serial_number=4248 @@serial_number=4107 @@serial_number=3958 @@serial_number=4119 @@serial_number=3638 @@serial_number=3978
+color pocket2_atoms color_pocket2
+
+
+
+open data/EPHA6.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

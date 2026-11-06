@@ -1,0 +1,37 @@
+[INFO] Console - predicting pockets for proteins from dataset [ACVR2B.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_ACVR2B
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [ACVR2B.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [ACVR2B.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [ACVR2B.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\ACVR2B.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\ACVR2B.pdb]
+[INFO] Struct - all groups in chain A: 512
+[INFO] Struct - all groups in chain A: 512
+[INFO] Struct - 512 groups in chain A
+[INFO] Protein - structure atoms: 4057
+[INFO] Protein - protein   atoms: 3973
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 10924
+[INFO] Protein - exposed protein atoms: 2916 of 3973
+[INFO] SLinkClusterer - clustering [52] elements
+[INFO] SLinkClusterer - clusters: [id:1( 2 ), id:21( 39 ), id:29( 2 ), id:46( 3 ), id:48( 2 ), id:49( 1 ), id:50( 1 ), id:51( 2 )]
+[INFO] SLinkClusterer - clusters together: 52 / 52
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 10924
+[INFO] PocketPredictor - LIGANDABLE POINTS: 52
+[INFO] PocketPredictor - CLUSTERS: 8
+[INFO] PocketPredictor - FILTERED CLUSTERS: 2
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  48   points:  39   score:   11.9
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  19   points:   3   score:    1.1
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\ACVR2B.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_ACVR2B/visualizations/data/ACVR2B.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 5.828 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_ACVR2B]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 7.491 seconds.

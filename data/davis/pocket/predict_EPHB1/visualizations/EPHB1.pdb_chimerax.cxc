@@ -1,0 +1,39 @@
+open data/EPHB1.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #6a47b3
+color name color_pocket3 #e65ce0
+color name color_pocket4 #b34761
+color name color_pocket5 #e69e5c
+
+name pocket1_atoms @@serial_number=5494 @@serial_number=5837 @@serial_number=5851 @@serial_number=4872 @@serial_number=5488 @@serial_number=5867 @@serial_number=5491 @@serial_number=5466 @@serial_number=5462 @@serial_number=5845 @@serial_number=4874 @@serial_number=4868 @@serial_number=4869 @@serial_number=4870 @@serial_number=4925 @@serial_number=4922 @@serial_number=4924 @@serial_number=5070 @@serial_number=5073 @@serial_number=5423 @@serial_number=5425 @@serial_number=5440 @@serial_number=5056 @@serial_number=5057 @@serial_number=5058 @@serial_number=5441 @@serial_number=4883 @@serial_number=4886 @@serial_number=5947 @@serial_number=4889 @@serial_number=4902 @@serial_number=4904 @@serial_number=5217 @@serial_number=5946 @@serial_number=5074 @@serial_number=5075 @@serial_number=5216 @@serial_number=4894 @@serial_number=5939 @@serial_number=5866 @@serial_number=5243 @@serial_number=5940 @@serial_number=5943 @@serial_number=5945 @@serial_number=5960 @@serial_number=5961 @@serial_number=5941 @@serial_number=5968
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=6370 @@serial_number=7095 @@serial_number=6468 @@serial_number=6397 @@serial_number=6399 @@serial_number=6625 @@serial_number=6627 @@serial_number=6636 @@serial_number=6631 @@serial_number=6634 @@serial_number=7582 @@serial_number=6621 @@serial_number=7558 @@serial_number=6424 @@serial_number=7522 @@serial_number=7551 @@serial_number=7554 @@serial_number=7556 @@serial_number=7557 @@serial_number=7552 @@serial_number=6462 @@serial_number=6425 @@serial_number=6423 @@serial_number=6464 @@serial_number=6466 @@serial_number=6398 @@serial_number=6400 @@serial_number=7547 @@serial_number=7548 @@serial_number=7550 @@serial_number=7559
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=4894 @@serial_number=5970 @@serial_number=5991 @@serial_number=6015 @@serial_number=5183 @@serial_number=5179 @@serial_number=5181 @@serial_number=5182 @@serial_number=5995 @@serial_number=4904 @@serial_number=4905 @@serial_number=5968 @@serial_number=5964 @@serial_number=5967 @@serial_number=5988 @@serial_number=5962 @@serial_number=5960 @@serial_number=5961 @@serial_number=5992
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=7141 @@serial_number=7654 @@serial_number=7656 @@serial_number=7128 @@serial_number=7127 @@serial_number=7129 @@serial_number=7136 @@serial_number=7137 @@serial_number=7369 @@serial_number=7403 @@serial_number=7620 @@serial_number=7372
+color pocket4_atoms color_pocket4
+
+name pocket5_atoms @@serial_number=5675 @@serial_number=5669 @@serial_number=5673 @@serial_number=5645 @@serial_number=5646 @@serial_number=5906 @@serial_number=5912 @@serial_number=5901 @@serial_number=5911 @@serial_number=5300 @@serial_number=5301
+color pocket5_atoms color_pocket5
+
+
+
+open data/EPHB1.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

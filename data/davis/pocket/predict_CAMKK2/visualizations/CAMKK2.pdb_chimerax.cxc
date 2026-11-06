@@ -1,0 +1,47 @@
+open data/CAMKK2.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #5447b3
+color name color_pocket3 #b25ce6
+color name color_pocket4 #b347a3
+color name color_pocket5 #e65c8b
+color name color_pocket6 #b35a47
+color name color_pocket7 #e6ba5c
+
+name pocket1_atoms @@serial_number=2532 @@serial_number=2534 @@serial_number=2530 @@serial_number=1438 @@serial_number=1766 @@serial_number=2528 @@serial_number=2533 @@serial_number=2531 @@serial_number=2535 @@serial_number=360 @@serial_number=2400 @@serial_number=2527 @@serial_number=2542 @@serial_number=1868 @@serial_number=2453 @@serial_number=2525 @@serial_number=2014 @@serial_number=1866 @@serial_number=1869 @@serial_number=2016 @@serial_number=2026 @@serial_number=2043 @@serial_number=2039 @@serial_number=2042 @@serial_number=2045 @@serial_number=1288 @@serial_number=339 @@serial_number=341 @@serial_number=1290 @@serial_number=2547 @@serial_number=345 @@serial_number=2555 @@serial_number=2556 @@serial_number=2549 @@serial_number=377 @@serial_number=358 @@serial_number=379 @@serial_number=2064 @@serial_number=342 @@serial_number=1310 @@serial_number=1436 @@serial_number=1437 @@serial_number=1271 @@serial_number=1309 @@serial_number=2018 @@serial_number=1257 @@serial_number=1420 @@serial_number=1272 @@serial_number=378 @@serial_number=1795 @@serial_number=1767 @@serial_number=1796 @@serial_number=2017 @@serial_number=2019 @@serial_number=2021 @@serial_number=2020
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=2688 @@serial_number=3054 @@serial_number=2995 @@serial_number=2996 @@serial_number=3001 @@serial_number=2101 @@serial_number=2103 @@serial_number=2104 @@serial_number=2098 @@serial_number=2102 @@serial_number=2111 @@serial_number=2676 @@serial_number=2681 @@serial_number=2685 @@serial_number=2683 @@serial_number=369 @@serial_number=371 @@serial_number=351 @@serial_number=352 @@serial_number=353 @@serial_number=359 @@serial_number=2415 @@serial_number=2416 @@serial_number=2425 @@serial_number=2428 @@serial_number=2430 @@serial_number=2699
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=1208 @@serial_number=1892 @@serial_number=1195 @@serial_number=1902 @@serial_number=1351 @@serial_number=1416 @@serial_number=1377 @@serial_number=1057
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=1303 @@serial_number=1444 @@serial_number=1445 @@serial_number=1317 @@serial_number=1318 @@serial_number=1319 @@serial_number=1219 @@serial_number=1162 @@serial_number=1113 @@serial_number=1973 @@serial_number=1992 @@serial_number=1995 @@serial_number=1222 @@serial_number=1159 @@serial_number=1161 @@serial_number=1178 @@serial_number=1974 @@serial_number=1975
+color pocket4_atoms color_pocket4
+
+name pocket5_atoms @@serial_number=2819 @@serial_number=2851 @@serial_number=3358 @@serial_number=3360 @@serial_number=2323 @@serial_number=2818 @@serial_number=2821 @@serial_number=2825 @@serial_number=2817 @@serial_number=2824 @@serial_number=2319 @@serial_number=3362 @@serial_number=3365 @@serial_number=3368 @@serial_number=3374 @@serial_number=3375 @@serial_number=2827 @@serial_number=2617 @@serial_number=2810 @@serial_number=3351 @@serial_number=2324 @@serial_number=2823
+color pocket5_atoms color_pocket5
+
+name pocket6_atoms @@serial_number=1855 @@serial_number=2272 @@serial_number=1844 @@serial_number=1846 @@serial_number=2273 @@serial_number=2494 @@serial_number=2495 @@serial_number=2496 @@serial_number=2248 @@serial_number=2274
+color pocket6_atoms color_pocket6
+
+name pocket7_atoms @@serial_number=1066 @@serial_number=1081 @@serial_number=1925 @@serial_number=3671 @@serial_number=1061 @@serial_number=1906 @@serial_number=1908 @@serial_number=1921 @@serial_number=1907 @@serial_number=1744 @@serial_number=1746 @@serial_number=3662 @@serial_number=1805
+color pocket7_atoms color_pocket7
+
+
+
+open data/CAMKK2.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

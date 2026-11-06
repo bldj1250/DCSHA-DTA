@@ -1,0 +1,31 @@
+open data/O15164.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #9d47b3
+color name color_pocket3 #e65c5c
+
+name pocket1_atoms @@serial_number=7115 @@serial_number=7117 @@serial_number=7122 @@serial_number=7124 @@serial_number=7640 @@serial_number=7558 @@serial_number=7594 @@serial_number=7140 @@serial_number=7279 @@serial_number=7286 @@serial_number=7213 @@serial_number=7525 @@serial_number=7557 @@serial_number=7114 @@serial_number=7156 @@serial_number=7157 @@serial_number=7595 @@serial_number=7585 @@serial_number=7583 @@serial_number=7211 @@serial_number=7551
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=5357 @@serial_number=5358 @@serial_number=6390 @@serial_number=6388 @@serial_number=5369 @@serial_number=6534 @@serial_number=7135 @@serial_number=6384 @@serial_number=6385 @@serial_number=7060 @@serial_number=6535 @@serial_number=6542 @@serial_number=7328 @@serial_number=6572 @@serial_number=5364 @@serial_number=5367 @@serial_number=5361 @@serial_number=7326 @@serial_number=7327 @@serial_number=6573 @@serial_number=7130 @@serial_number=7141 @@serial_number=7142 @@serial_number=7143 @@serial_number=7302
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=1660 @@serial_number=1662 @@serial_number=1658 @@serial_number=1791 @@serial_number=1837 @@serial_number=1868 @@serial_number=1881 @@serial_number=1866 @@serial_number=1789 @@serial_number=1790 @@serial_number=1796 @@serial_number=1805
+color pocket3_atoms color_pocket3
+
+
+
+open data/O15164.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

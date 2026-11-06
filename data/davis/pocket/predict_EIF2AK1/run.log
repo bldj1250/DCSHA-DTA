@@ -1,0 +1,39 @@
+[INFO] Console - predicting pockets for proteins from dataset [EIF2AK1.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_EIF2AK1
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [EIF2AK1.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [EIF2AK1.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [EIF2AK1.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\EIF2AK1.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\EIF2AK1.pdb]
+[INFO] Struct - all groups in chain A: 630
+[INFO] Struct - all groups in chain A: 630
+[INFO] Struct - 630 groups in chain A
+[INFO] Protein - structure atoms: 4997
+[INFO] Protein - protein   atoms: 4899
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 17647
+[INFO] Protein - exposed protein atoms: 4031 of 4899
+[INFO] SLinkClusterer - clustering [85] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:6( 1 ), id:7( 1 ), id:20( 23 ), id:33( 1 ), id:50( 5 ), id:53( 5 ), id:61( 2 ), id:65( 2 ), id:78( 37 ), id:80( 1 ), id:82( 2 ), id:83( 2 ), id:84( 2 )]
+[INFO] SLinkClusterer - clusters together: 85 / 85
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 17647
+[INFO] PocketPredictor - LIGANDABLE POINTS: 85
+[INFO] PocketPredictor - CLUSTERS: 14
+[INFO] PocketPredictor - FILTERED CLUSTERS: 4
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  36   points:  37   score:   15.0
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  30   points:  23   score:    8.8
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  13   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  20   points:   5   score:    1.5
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\EIF2AK1.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_EIF2AK1/visualizations/data/EIF2AK1.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 6.798 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_EIF2AK1]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 8.351 seconds.

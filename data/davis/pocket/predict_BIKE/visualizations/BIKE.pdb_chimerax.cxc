@@ -1,0 +1,31 @@
+open data/BIKE.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #9d47b3
+color name color_pocket3 #e65c5c
+
+name pocket1_atoms @@serial_number=417 @@serial_number=368 @@serial_number=360 @@serial_number=363 @@serial_number=416 @@serial_number=361 @@serial_number=364 @@serial_number=508 @@serial_number=950 @@serial_number=952 @@serial_number=954 @@serial_number=403 @@serial_number=524 @@serial_number=933 @@serial_number=1374 @@serial_number=1461 @@serial_number=986 @@serial_number=987 @@serial_number=988 @@serial_number=989 @@serial_number=1390 @@serial_number=1463 @@serial_number=932 @@serial_number=770 @@serial_number=938 @@serial_number=955 @@serial_number=1389 @@serial_number=978 @@serial_number=981 @@serial_number=1010 @@serial_number=959 @@serial_number=965 @@serial_number=1471 @@serial_number=660 @@serial_number=1464 @@serial_number=1465 @@serial_number=1467 @@serial_number=1469 @@serial_number=691
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=393 @@serial_number=394 @@serial_number=396 @@serial_number=390 @@serial_number=392 @@serial_number=526 @@serial_number=401 @@serial_number=403 @@serial_number=544 @@serial_number=1663 @@serial_number=1331 @@serial_number=1332 @@serial_number=1682 @@serial_number=1687 @@serial_number=1693 @@serial_number=1670 @@serial_number=1672 @@serial_number=1333 @@serial_number=1492 @@serial_number=1471 @@serial_number=1485 @@serial_number=661 @@serial_number=1470 @@serial_number=1484 @@serial_number=1350 @@serial_number=1374 @@serial_number=1674 @@serial_number=1676 @@serial_number=599 @@serial_number=601 @@serial_number=602 @@serial_number=1486 @@serial_number=625 @@serial_number=563 @@serial_number=632 @@serial_number=550
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=735 @@serial_number=738 @@serial_number=1228 @@serial_number=1229 @@serial_number=1223 @@serial_number=1232 @@serial_number=1222 @@serial_number=1220 @@serial_number=2487 @@serial_number=7282 @@serial_number=7284 @@serial_number=7285 @@serial_number=1199 @@serial_number=1201 @@serial_number=1204 @@serial_number=7280
+color pocket3_atoms color_pocket3
+
+
+
+open data/BIKE.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

@@ -1,0 +1,31 @@
+open data/DYRK1B.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #9d47b3
+color name color_pocket3 #e65c5c
+
+name pocket1_atoms @@serial_number=952 @@serial_number=953 @@serial_number=954 @@serial_number=956 @@serial_number=958 @@serial_number=961 @@serial_number=2005 @@serial_number=2121 @@serial_number=965 @@serial_number=988 @@serial_number=990 @@serial_number=1007 @@serial_number=1009 @@serial_number=1010 @@serial_number=1114 @@serial_number=1574 @@serial_number=1127 @@serial_number=1566 @@serial_number=1568 @@serial_number=1587 @@serial_number=1254 @@serial_number=2110 @@serial_number=2113 @@serial_number=2114 @@serial_number=1131 @@serial_number=1132 @@serial_number=2117 @@serial_number=2112 @@serial_number=1569 @@serial_number=1129 @@serial_number=1130 @@serial_number=1590 @@serial_number=1592 @@serial_number=1593 @@serial_number=1599 @@serial_number=2020 @@serial_number=2021 @@serial_number=1591 @@serial_number=1602 @@serial_number=1613 @@serial_number=1619 @@serial_number=1993
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=1964 @@serial_number=1981 @@serial_number=2005 @@serial_number=2121 @@serial_number=4413 @@serial_number=4414 @@serial_number=4415 @@serial_number=965 @@serial_number=4420 @@serial_number=4425 @@serial_number=4432 @@serial_number=974 @@serial_number=977 @@serial_number=979 @@serial_number=981 @@serial_number=4397 @@serial_number=1195 @@serial_number=1197 @@serial_number=1192 @@serial_number=986 @@serial_number=988 @@serial_number=983 @@serial_number=971 @@serial_number=2134 @@serial_number=2135 @@serial_number=2140 @@serial_number=2142 @@serial_number=1221 @@serial_number=1222 @@serial_number=1224 @@serial_number=2136 @@serial_number=1188 @@serial_number=1193 @@serial_number=1219 @@serial_number=1225 @@serial_number=1255 @@serial_number=1228 @@serial_number=1226 @@serial_number=4396 @@serial_number=4398 @@serial_number=4388 @@serial_number=2211 @@serial_number=2213 @@serial_number=1996 @@serial_number=1980 @@serial_number=2259 @@serial_number=4436 @@serial_number=1992 @@serial_number=1994
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=4440 @@serial_number=4441 @@serial_number=4442 @@serial_number=4427 @@serial_number=4444 @@serial_number=2291 @@serial_number=1996 @@serial_number=1997 @@serial_number=2259 @@serial_number=2257 @@serial_number=4430 @@serial_number=2293 @@serial_number=2493 @@serial_number=2538 @@serial_number=2539 @@serial_number=2278 @@serial_number=2280 @@serial_number=4459 @@serial_number=2276 @@serial_number=1636 @@serial_number=1638 @@serial_number=1995 @@serial_number=1640 @@serial_number=4449 @@serial_number=4447 @@serial_number=4453 @@serial_number=4454
+color pocket3_atoms color_pocket3
+
+
+
+open data/DYRK1B.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

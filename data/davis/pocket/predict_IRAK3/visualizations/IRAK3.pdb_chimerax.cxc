@@ -1,0 +1,27 @@
+open data/IRAK3.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #b34788
+
+name pocket1_atoms @@serial_number=2671 @@serial_number=2673 @@serial_number=4096 @@serial_number=4097 @@serial_number=4105 @@serial_number=2700 @@serial_number=2702 @@serial_number=2704 @@serial_number=2985 @@serial_number=2988 @@serial_number=2980 @@serial_number=2706 @@serial_number=2987 @@serial_number=4119 @@serial_number=4079 @@serial_number=4081 @@serial_number=4086 @@serial_number=4088 @@serial_number=4093 @@serial_number=4077 @@serial_number=4078 @@serial_number=4082 @@serial_number=4083 @@serial_number=4084 @@serial_number=2371 @@serial_number=2362 @@serial_number=2352 @@serial_number=2370 @@serial_number=2715 @@serial_number=2717 @@serial_number=2660 @@serial_number=2668 @@serial_number=2669 @@serial_number=2670 @@serial_number=2676 @@serial_number=2679 @@serial_number=1350 @@serial_number=1353 @@serial_number=1358 @@serial_number=2658 @@serial_number=2672 @@serial_number=4085 @@serial_number=1366 @@serial_number=2477 @@serial_number=2478 @@serial_number=2494 @@serial_number=2479 @@serial_number=2336 @@serial_number=2501 @@serial_number=2502 @@serial_number=2683 @@serial_number=1654 @@serial_number=4090 @@serial_number=4100 @@serial_number=4098 @@serial_number=4099 @@serial_number=2967 @@serial_number=2970 @@serial_number=2986 @@serial_number=3003 @@serial_number=2003 @@serial_number=2006 @@serial_number=2007 @@serial_number=2009 @@serial_number=2358 @@serial_number=2975 @@serial_number=1991
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=1624 @@serial_number=1626 @@serial_number=1627 @@serial_number=1628 @@serial_number=1629 @@serial_number=1630 @@serial_number=1631 @@serial_number=1634 @@serial_number=1899 @@serial_number=1633 @@serial_number=1900 @@serial_number=1028 @@serial_number=1522 @@serial_number=1592 @@serial_number=1537 @@serial_number=1539 @@serial_number=1542
+color pocket2_atoms color_pocket2
+
+
+
+open data/IRAK3.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

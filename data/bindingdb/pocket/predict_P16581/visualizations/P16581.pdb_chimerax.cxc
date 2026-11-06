@@ -1,0 +1,23 @@
+open data/P16581.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+
+name pocket1_atoms @@serial_number=2523 @@serial_number=2136 @@serial_number=2331 @@serial_number=2475 @@serial_number=2482 @@serial_number=2486 @@serial_number=2147 @@serial_number=2128 @@serial_number=2146 @@serial_number=2483 @@serial_number=2525 @@serial_number=2537 @@serial_number=2538 @@serial_number=2536
+color pocket1_atoms color_pocket1
+
+
+
+open data/P16581.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

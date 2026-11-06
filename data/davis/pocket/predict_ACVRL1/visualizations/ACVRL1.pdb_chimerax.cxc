@@ -1,0 +1,35 @@
+open data/ACVRL1.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #7d47b3
+color name color_pocket3 #e65cae
+color name color_pocket4 #b36847
+
+name pocket1_atoms @@serial_number=2612 @@serial_number=2192 @@serial_number=2194 @@serial_number=2222 @@serial_number=2583 @@serial_number=2138 @@serial_number=1978 @@serial_number=2611 @@serial_number=2683 @@serial_number=1715 @@serial_number=2133 @@serial_number=1624 @@serial_number=1566 @@serial_number=1571 @@serial_number=1573 @@serial_number=1578 @@serial_number=1579 @@serial_number=1608 @@serial_number=1724 @@serial_number=1727 @@serial_number=1623 @@serial_number=2688 @@serial_number=2690 @@serial_number=2691 @@serial_number=2597 @@serial_number=2692 @@serial_number=2685 @@serial_number=1850 @@serial_number=1582 @@serial_number=1593 @@serial_number=1596 @@serial_number=1600 @@serial_number=1602 @@serial_number=1732 @@serial_number=2118 @@serial_number=1730 @@serial_number=1731 @@serial_number=2151 @@serial_number=2153 @@serial_number=1561 @@serial_number=1564 @@serial_number=1562 @@serial_number=2156 @@serial_number=2160 @@serial_number=2185 @@serial_number=2186
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=573 @@serial_number=537 @@serial_number=540 @@serial_number=515 @@serial_number=521 @@serial_number=516 @@serial_number=259 @@serial_number=328 @@serial_number=272 @@serial_number=284 @@serial_number=285 @@serial_number=286 @@serial_number=297 @@serial_number=274 @@serial_number=377 @@serial_number=570 @@serial_number=574 @@serial_number=391 @@serial_number=664 @@serial_number=665 @@serial_number=490 @@serial_number=541 @@serial_number=376 @@serial_number=518 @@serial_number=508 @@serial_number=511 @@serial_number=498 @@serial_number=507 @@serial_number=488 @@serial_number=489
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=2866 @@serial_number=2880 @@serial_number=2897 @@serial_number=2899 @@serial_number=2883 @@serial_number=2884 @@serial_number=3368 @@serial_number=3386 @@serial_number=2210 @@serial_number=2212 @@serial_number=2585 @@serial_number=2586 @@serial_number=3301 @@serial_number=3303 @@serial_number=3172 @@serial_number=2578 @@serial_number=2584
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=2139 @@serial_number=1979 @@serial_number=1980 @@serial_number=2141 @@serial_number=2142 @@serial_number=1951 @@serial_number=1948 @@serial_number=2628 @@serial_number=1941 @@serial_number=1967 @@serial_number=2627 @@serial_number=2164 @@serial_number=2165 @@serial_number=2163 @@serial_number=2634
+color pocket4_atoms color_pocket4
+
+
+
+open data/ACVRL1.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

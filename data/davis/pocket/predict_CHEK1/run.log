@@ -1,0 +1,40 @@
+[INFO] Console - predicting pockets for proteins from dataset [CHEK1.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_CHEK1
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [CHEK1.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [CHEK1.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [CHEK1.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\CHEK1.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\CHEK1.pdb]
+[INFO] Struct - all groups in chain A: 476
+[INFO] Struct - all groups in chain A: 476
+[INFO] Struct - 476 groups in chain A
+[INFO] Protein - structure atoms: 3829
+[INFO] Protein - protein   atoms: 3755
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 8832
+[INFO] Protein - exposed protein atoms: 2582 of 3755
+[INFO] SLinkClusterer - clustering [76] elements
+[INFO] SLinkClusterer - clusters: [id:29( 16 ), id:46( 1 ), id:51( 23 ), id:59( 7 ), id:60( 1 ), id:65( 13 ), id:67( 10 ), id:72( 2 ), id:74( 2 ), id:75( 1 )]
+[INFO] SLinkClusterer - clusters together: 76 / 76
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 8832
+[INFO] PocketPredictor - LIGANDABLE POINTS: 76
+[INFO] PocketPredictor - CLUSTERS: 10
+[INFO] PocketPredictor - FILTERED CLUSTERS: 5
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  30   points:  23   score:    8.2
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  24   points:  16   score:    6.7
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  47   points:  13   score:    5.8
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  23   points:  10   score:    3.3
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  16   points:   7   score:    2.9
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\CHEK1.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_CHEK1/visualizations/data/CHEK1.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 5.662 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_CHEK1]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 7.339 seconds.

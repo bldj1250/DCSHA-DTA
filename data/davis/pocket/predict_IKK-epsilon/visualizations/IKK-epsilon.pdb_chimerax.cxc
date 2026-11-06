@@ -1,0 +1,39 @@
+open data/IKK-epsilon.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #6a47b3
+color name color_pocket3 #e65ce0
+color name color_pocket4 #b34761
+color name color_pocket5 #e69e5c
+
+name pocket1_atoms @@serial_number=122 @@serial_number=123 @@serial_number=125 @@serial_number=173 @@serial_number=170 @@serial_number=172 @@serial_number=274 @@serial_number=289 @@serial_number=128 @@serial_number=1237 @@serial_number=291 @@serial_number=129 @@serial_number=1228 @@serial_number=1116 @@serial_number=1117 @@serial_number=1118 @@serial_number=1229 @@serial_number=1231 @@serial_number=715 @@serial_number=711 @@serial_number=694 @@serial_number=550 @@serial_number=689 @@serial_number=1094 @@serial_number=1102 @@serial_number=1233 @@serial_number=1235 @@serial_number=736 @@serial_number=738 @@serial_number=730
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=3388 @@serial_number=3408 @@serial_number=3385 @@serial_number=3387 @@serial_number=3412 @@serial_number=3367 @@serial_number=3072 @@serial_number=3075 @@serial_number=3081 @@serial_number=4761 @@serial_number=4763 @@serial_number=2529 @@serial_number=2532 @@serial_number=3441 @@serial_number=2486 @@serial_number=3413 @@serial_number=3414 @@serial_number=2527 @@serial_number=2521 @@serial_number=2523 @@serial_number=2116 @@serial_number=3354 @@serial_number=2095 @@serial_number=2110 @@serial_number=2533 @@serial_number=2536 @@serial_number=2132 @@serial_number=2554 @@serial_number=2555 @@serial_number=2556 @@serial_number=2968 @@serial_number=2130 @@serial_number=2135 @@serial_number=2138 @@serial_number=2125
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=1237 @@serial_number=290 @@serial_number=291 @@serial_number=307 @@serial_number=154 @@serial_number=155 @@serial_number=368 @@serial_number=135 @@serial_number=140 @@serial_number=141 @@serial_number=144 @@serial_number=173 @@serial_number=1083 @@serial_number=1234 @@serial_number=1236 @@serial_number=1066 @@serial_number=1250 @@serial_number=1251 @@serial_number=1252 @@serial_number=1253 @@serial_number=400 @@serial_number=1102 @@serial_number=438 @@serial_number=147 @@serial_number=1376 @@serial_number=1256 @@serial_number=1367 @@serial_number=1370 @@serial_number=1372 @@serial_number=1378 @@serial_number=1379 @@serial_number=1386
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=2934 @@serial_number=2853 @@serial_number=2921 @@serial_number=2922 @@serial_number=2949 @@serial_number=2950 @@serial_number=2811 @@serial_number=2813 @@serial_number=2996 @@serial_number=2812
+color pocket4_atoms color_pocket4
+
+name pocket5_atoms @@serial_number=1959 @@serial_number=2032 @@serial_number=1956 @@serial_number=1757 @@serial_number=2039 @@serial_number=2041 @@serial_number=2054 @@serial_number=2056 @@serial_number=2073 @@serial_number=1950 @@serial_number=2036 @@serial_number=2030 @@serial_number=2031 @@serial_number=2087 @@serial_number=2090 @@serial_number=1686 @@serial_number=1728
+color pocket5_atoms color_pocket5
+
+
+
+open data/IKK-epsilon.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

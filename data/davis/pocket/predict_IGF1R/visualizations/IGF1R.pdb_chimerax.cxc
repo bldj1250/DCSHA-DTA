@@ -1,0 +1,35 @@
+open data/IGF1R.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #7d47b3
+color name color_pocket3 #e65cae
+color name color_pocket4 #b36847
+
+name pocket1_atoms @@serial_number=9146 @@serial_number=9148 @@serial_number=9138 @@serial_number=9141 @@serial_number=9142 @@serial_number=9144 @@serial_number=8574 @@serial_number=8575 @@serial_number=8379 @@serial_number=8380 @@serial_number=9063 @@serial_number=9064 @@serial_number=8456 @@serial_number=8598 @@serial_number=9065 @@serial_number=8197 @@serial_number=9051 @@serial_number=9037 @@serial_number=8006 @@serial_number=8011 @@serial_number=8012 @@serial_number=8062 @@serial_number=8005 @@serial_number=8008 @@serial_number=8059 @@serial_number=8061 @@serial_number=8010 @@serial_number=8623 @@serial_number=8626 @@serial_number=8630 @@serial_number=8620 @@serial_number=8024 @@serial_number=8214 @@serial_number=8213 @@serial_number=8215 @@serial_number=8353
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=1997 @@serial_number=1999 @@serial_number=2144 @@serial_number=2150 @@serial_number=2154 @@serial_number=2002 @@serial_number=2005 @@serial_number=621 @@serial_number=1951 @@serial_number=1953 @@serial_number=1947 @@serial_number=1955 @@serial_number=833 @@serial_number=1937 @@serial_number=1941 @@serial_number=2039 @@serial_number=1960 @@serial_number=2001 @@serial_number=2003 @@serial_number=2026 @@serial_number=2024 @@serial_number=1927 @@serial_number=1929 @@serial_number=400 @@serial_number=392 @@serial_number=205 @@serial_number=206 @@serial_number=208 @@serial_number=196 @@serial_number=200 @@serial_number=223 @@serial_number=225 @@serial_number=1959
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=8431 @@serial_number=8432 @@serial_number=9127 @@serial_number=9128 @@serial_number=9092 @@serial_number=9094 @@serial_number=9076 @@serial_number=9078 @@serial_number=8589 @@serial_number=9093 @@serial_number=8468 @@serial_number=8579 @@serial_number=8584
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=10126 @@serial_number=10127 @@serial_number=10128 @@serial_number=10129 @@serial_number=8852 @@serial_number=9094 @@serial_number=10116 @@serial_number=8443 @@serial_number=8878 @@serial_number=9112 @@serial_number=10165 @@serial_number=8433 @@serial_number=10164
+color pocket4_atoms color_pocket4
+
+
+
+open data/IGF1R.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

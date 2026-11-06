@@ -1,0 +1,40 @@
+[INFO] Console - predicting pockets for proteins from dataset [FGFR1.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_FGFR1
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [FGFR1.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [FGFR1.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [FGFR1.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\FGFR1.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\FGFR1.pdb]
+[INFO] Struct - all groups in chain A: 822
+[INFO] Struct - all groups in chain A: 822
+[INFO] Struct - 822 groups in chain A
+[INFO] Protein - structure atoms: 6446
+[INFO] Protein - protein   atoms: 6322
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 19331
+[INFO] Protein - exposed protein atoms: 4891 of 6322
+[INFO] SLinkClusterer - clustering [48] elements
+[INFO] SLinkClusterer - clusters: [id:1( 1 ), id:2( 1 ), id:3( 2 ), id:4( 1 ), id:6( 1 ), id:7( 2 ), id:9( 1 ), id:11( 4 ), id:17( 1 ), id:22( 1 ), id:23( 1 ), id:24( 1 ), id:31( 13 ), id:32( 2 ), id:37( 3 ), id:39( 1 ), id:41( 6 ), id:45( 6 )]
+[INFO] SLinkClusterer - clusters together: 48 / 48
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 19331
+[INFO] PocketPredictor - LIGANDABLE POINTS: 48
+[INFO] PocketPredictor - CLUSTERS: 18
+[INFO] PocketPredictor - FILTERED CLUSTERS: 5
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  33   points:  13   score:    4.6
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  27   points:   6   score:    4.2
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  28   points:   6   score:    3.2
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  22   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:   9   points:   3   score:    0.8
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\FGFR1.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_FGFR1/visualizations/data/FGFR1.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 6.873 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_FGFR1]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 8.397 seconds.

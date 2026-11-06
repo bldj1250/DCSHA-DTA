@@ -1,0 +1,43 @@
+open data/YANK2.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #5d47b3
+color name color_pocket3 #ca5ce6
+color name color_pocket4 #b34788
+color name color_pocket5 #e65c5c
+color name color_pocket6 #b38847
+
+name pocket1_atoms @@serial_number=1360 @@serial_number=1366 @@serial_number=1368 @@serial_number=1359 @@serial_number=415 @@serial_number=416 @@serial_number=417 @@serial_number=1361 @@serial_number=1362 @@serial_number=1364 @@serial_number=253 @@serial_number=841 @@serial_number=853 @@serial_number=692 @@serial_number=836 @@serial_number=1278 @@serial_number=1279 @@serial_number=412 @@serial_number=586 @@serial_number=619 @@serial_number=835 @@serial_number=620 @@serial_number=399 @@serial_number=851 @@serial_number=857 @@serial_number=291 @@serial_number=238 @@serial_number=234 @@serial_number=868 @@serial_number=289 @@serial_number=292 @@serial_number=235 @@serial_number=240 @@serial_number=243 @@serial_number=247 @@serial_number=884 @@serial_number=880 @@serial_number=882 @@serial_number=883 @@serial_number=1252 @@serial_number=2564 @@serial_number=2565 @@serial_number=898 @@serial_number=1251 @@serial_number=1254 @@serial_number=863 @@serial_number=865 @@serial_number=873 @@serial_number=874 @@serial_number=877 @@serial_number=2528 @@serial_number=2530 @@serial_number=2532 @@serial_number=2533 @@serial_number=2536 @@serial_number=2518 @@serial_number=911 @@serial_number=941 @@serial_number=942
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=1303 @@serial_number=3247 @@serial_number=3236 @@serial_number=3243 @@serial_number=3244 @@serial_number=3245 @@serial_number=3246 @@serial_number=2419 @@serial_number=860 @@serial_number=1302 @@serial_number=1304 @@serial_number=842 @@serial_number=843 @@serial_number=665 @@serial_number=1295 @@serial_number=1342 @@serial_number=1345 @@serial_number=2421 @@serial_number=655 @@serial_number=662 @@serial_number=664 @@serial_number=700 @@serial_number=844 @@serial_number=840 @@serial_number=375 @@serial_number=722 @@serial_number=647 @@serial_number=3050 @@serial_number=720 @@serial_number=697 @@serial_number=3256 @@serial_number=3249 @@serial_number=3251 @@serial_number=3253 @@serial_number=3254 @@serial_number=3259 @@serial_number=374 @@serial_number=380 @@serial_number=1312 @@serial_number=1313
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=2633 @@serial_number=274 @@serial_number=266 @@serial_number=441 @@serial_number=2662 @@serial_number=427 @@serial_number=429 @@serial_number=444 @@serial_number=794 @@serial_number=795 @@serial_number=443 @@serial_number=472 @@serial_number=2630 @@serial_number=2631 @@serial_number=2644 @@serial_number=2632 @@serial_number=2657 @@serial_number=2656 @@serial_number=2643 @@serial_number=2646
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=1094 @@serial_number=2398 @@serial_number=657 @@serial_number=660 @@serial_number=1091 @@serial_number=2400 @@serial_number=2402 @@serial_number=2403 @@serial_number=1124 @@serial_number=2396 @@serial_number=2361 @@serial_number=2363 @@serial_number=2379 @@serial_number=2399 @@serial_number=2401 @@serial_number=1120 @@serial_number=2254 @@serial_number=1156 @@serial_number=2362
+color pocket4_atoms color_pocket4
+
+name pocket5_atoms @@serial_number=1367 @@serial_number=1368 @@serial_number=416 @@serial_number=417 @@serial_number=1383 @@serial_number=253 @@serial_number=256 @@serial_number=259 @@serial_number=261 @@serial_number=1386 @@serial_number=556 @@serial_number=269 @@serial_number=271 @@serial_number=544 @@serial_number=550 @@serial_number=545 @@serial_number=523 @@serial_number=587
+color pocket5_atoms color_pocket5
+
+name pocket6_atoms @@serial_number=3022 @@serial_number=3061 @@serial_number=331 @@serial_number=350 @@serial_number=104 @@serial_number=96 @@serial_number=101 @@serial_number=105 @@serial_number=141 @@serial_number=175 @@serial_number=178 @@serial_number=121 @@serial_number=84 @@serial_number=3001
+color pocket6_atoms color_pocket6
+
+
+
+open data/YANK2.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

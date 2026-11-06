@@ -1,0 +1,41 @@
+[INFO] Console - predicting pockets for proteins from dataset [MUSK.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_MUSK
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [MUSK.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [MUSK.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [MUSK.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\MUSK.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\MUSK.pdb]
+[INFO] Struct - all groups in chain A: 869
+[INFO] Struct - all groups in chain A: 869
+[INFO] Struct - 869 groups in chain A
+[INFO] Protein - structure atoms: 6802
+[INFO] Protein - protein   atoms: 6667
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 17602
+[INFO] Protein - exposed protein atoms: 5025 of 6667
+[INFO] SLinkClusterer - clustering [99] elements
+[INFO] SLinkClusterer - clusters: [id:15( 1 ), id:18( 2 ), id:19( 3 ), id:20( 1 ), id:21( 1 ), id:22( 1 ), id:36( 1 ), id:37( 1 ), id:42( 1 ), id:56( 2 ), id:64( 19 ), id:65( 1 ), id:70( 23 ), id:75( 14 ), id:76( 2 ), id:81( 2 ), id:87( 2 ), id:88( 15 ), id:89( 1 ), id:95( 6 )]
+[INFO] SLinkClusterer - clusters together: 99 / 99
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 17602
+[INFO] PocketPredictor - LIGANDABLE POINTS: 99
+[INFO] PocketPredictor - CLUSTERS: 20
+[INFO] PocketPredictor - FILTERED CLUSTERS: 6
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  26   points:  23   score:    9.4
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  33   points:  19   score:    7.3
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  41   points:  15   score:    7.1
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  34   points:  14   score:    5.7
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  13   points:   6   score:    2.2
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\MUSK.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_MUSK/visualizations/data/MUSK.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 6.687 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_MUSK]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 8.258 seconds.

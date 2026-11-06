@@ -1,0 +1,43 @@
+[INFO] Console - predicting pockets for proteins from dataset [SYK.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_SYK
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [SYK.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [SYK.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [SYK.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\SYK.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\SYK.pdb]
+[INFO] Struct - all groups in chain A: 635
+[INFO] Struct - all groups in chain A: 635
+[INFO] Struct - 635 groups in chain A
+[INFO] Protein - structure atoms: 5075
+[INFO] Protein - protein   atoms: 4968
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 11016
+[INFO] Protein - exposed protein atoms: 3303 of 4968
+[INFO] SLinkClusterer - clustering [116] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:1( 1 ), id:2( 1 ), id:3( 1 ), id:8( 1 ), id:15( 3 ), id:19( 1 ), id:20( 1 ), id:21( 2 ), id:31( 22 ), id:34( 2 ), id:54( 1 ), id:57( 1 ), id:66( 45 ), id:83( 2 ), id:84( 1 ), id:93( 4 ), id:100( 4 ), id:101( 7 ), id:106( 10 ), id:109( 1 ), id:113( 4 )]
+[INFO] SLinkClusterer - clusters together: 116 / 116
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 11016
+[INFO] PocketPredictor - LIGANDABLE POINTS: 116
+[INFO] PocketPredictor - CLUSTERS: 22
+[INFO] PocketPredictor - FILTERED CLUSTERS: 8
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  66   points:  45   score:   13.4
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  39   points:  22   score:    6.8
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  23   points:  10   score:    3.5
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  26   points:   4   score:    2.7
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  18   points:   7   score:    2.1
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  17   points:   4   score:    1.6
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  17   points:   3   score:    1.4
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  10   points:   4   score:    0.8
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\SYK.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_SYK/visualizations/data/SYK.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 5.655 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_SYK]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 7.219 seconds.

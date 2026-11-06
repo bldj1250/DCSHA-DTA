@@ -1,0 +1,40 @@
+[INFO] Console - predicting pockets for proteins from dataset [TNNI3K.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_TNNI3K
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [TNNI3K.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [TNNI3K.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [TNNI3K.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\TNNI3K.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\TNNI3K.pdb]
+[INFO] Struct - all groups in chain A: 835
+[INFO] Struct - all groups in chain A: 835
+[INFO] Struct - 835 groups in chain A
+[INFO] Protein - structure atoms: 6524
+[INFO] Protein - protein   atoms: 6415
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 14882
+[INFO] Protein - exposed protein atoms: 4410 of 6415
+[INFO] SLinkClusterer - clustering [96] elements
+[INFO] SLinkClusterer - clusters: [id:5( 4 ), id:6( 1 ), id:7( 2 ), id:9( 3 ), id:12( 3 ), id:14( 2 ), id:15( 1 ), id:16( 1 ), id:35( 1 ), id:64( 1 ), id:68( 63 ), id:83( 9 ), id:84( 1 ), id:85( 1 ), id:86( 1 ), id:87( 1 ), id:88( 1 )]
+[INFO] SLinkClusterer - clusters together: 96 / 96
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 14882
+[INFO] PocketPredictor - LIGANDABLE POINTS: 96
+[INFO] PocketPredictor - CLUSTERS: 17
+[INFO] PocketPredictor - FILTERED CLUSTERS: 5
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  72   points:  63   score:   21.7
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  20   points:   9   score:    3.8
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  13   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  13   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:   8   points:   3   score:    0.8
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\TNNI3K.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_TNNI3K/visualizations/data/TNNI3K.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 6.044 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_TNNI3K]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 7.579 seconds.

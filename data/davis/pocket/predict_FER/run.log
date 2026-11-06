@@ -1,0 +1,39 @@
+[INFO] Console - predicting pockets for proteins from dataset [FER.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_FER
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [FER.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [FER.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [FER.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\FER.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\FER.pdb]
+[INFO] Struct - all groups in chain A: 822
+[INFO] Struct - all groups in chain A: 822
+[INFO] Struct - 822 groups in chain A
+[INFO] Protein - structure atoms: 6637
+[INFO] Protein - protein   atoms: 6538
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 17440
+[INFO] Protein - exposed protein atoms: 4812 of 6538
+[INFO] SLinkClusterer - clustering [63] elements
+[INFO] SLinkClusterer - clusters: [id:6( 6 ), id:8( 2 ), id:9( 2 ), id:21( 1 ), id:22( 2 ), id:23( 2 ), id:36( 21 ), id:43( 16 ), id:49( 1 ), id:58( 6 ), id:60( 2 ), id:62( 2 )]
+[INFO] SLinkClusterer - clusters together: 63 / 63
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 17440
+[INFO] PocketPredictor - LIGANDABLE POINTS: 63
+[INFO] PocketPredictor - CLUSTERS: 12
+[INFO] PocketPredictor - FILTERED CLUSTERS: 4
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  34   points:  21   score:    7.4
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  29   points:  16   score:    5.7
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  18   points:   6   score:    1.6
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  12   points:   6   score:    1.4
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\FER.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_FER/visualizations/data/FER.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 6.574 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_FER]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 8.169 seconds.

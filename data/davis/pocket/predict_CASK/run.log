@@ -1,0 +1,44 @@
+[INFO] Console - predicting pockets for proteins from dataset [CASK.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_CASK
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [CASK.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [CASK.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [CASK.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\CASK.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\CASK.pdb]
+[INFO] Struct - all groups in chain A: 926
+[INFO] Struct - all groups in chain A: 926
+[INFO] Struct - 926 groups in chain A
+[INFO] Protein - structure atoms: 7394
+[INFO] Protein - protein   atoms: 7253
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 18797
+[INFO] Protein - exposed protein atoms: 5480 of 7253
+[INFO] SLinkClusterer - clustering [149] elements
+[INFO] SLinkClusterer - clusters: [id:26( 1 ), id:59( 50 ), id:67( 11 ), id:91( 7 ), id:95( 2 ), id:108( 37 ), id:111( 6 ), id:119( 9 ), id:128( 7 ), id:131( 2 ), id:133( 1 ), id:134( 1 ), id:135( 1 ), id:136( 1 ), id:139( 4 ), id:141( 1 ), id:143( 2 ), id:148( 6 )]
+[INFO] SLinkClusterer - clusters together: 149 / 149
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 18797
+[INFO] PocketPredictor - LIGANDABLE POINTS: 149
+[INFO] PocketPredictor - CLUSTERS: 18
+[INFO] PocketPredictor - FILTERED CLUSTERS: 9
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  45   points:  50   score:   19.5
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  46   points:  37   score:   12.5
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  18   points:  11   score:    3.3
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  30   points:   7   score:    3.0
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  22   points:   7   score:    2.9
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  23   points:   6   score:    2.6
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  17   points:   9   score:    2.4
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  16   points:   6   score:    2.2
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  22   points:   4   score:    0.9
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\CASK.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_CASK/visualizations/data/CASK.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 6.433 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_CASK]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 7.944 seconds.

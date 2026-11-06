@@ -1,0 +1,35 @@
+open data/KIT(A829P).pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #7d47b3
+color name color_pocket3 #e65cae
+color name color_pocket4 #b36847
+
+name pocket1_atoms @@serial_number=6402 @@serial_number=6403 @@serial_number=6404 @@serial_number=6405 @@serial_number=6406 @@serial_number=6400 @@serial_number=4930 @@serial_number=6423 @@serial_number=6424 @@serial_number=6430 @@serial_number=5695 @@serial_number=5697 @@serial_number=6432 @@serial_number=5097 @@serial_number=5173 @@serial_number=5175 @@serial_number=6386 @@serial_number=5064 @@serial_number=5096 @@serial_number=6389 @@serial_number=5266 @@serial_number=5307 @@serial_number=5722 @@serial_number=6310 @@serial_number=4790 @@serial_number=4915 @@serial_number=5282 @@serial_number=6309 @@serial_number=6407 @@serial_number=4788 @@serial_number=4927 @@serial_number=5304 @@serial_number=5335 @@serial_number=5721 @@serial_number=4739 @@serial_number=4743 @@serial_number=4744 @@serial_number=4751 @@serial_number=5337 @@serial_number=5339 @@serial_number=5696 @@serial_number=5699 @@serial_number=5704 @@serial_number=5703 @@serial_number=5281 @@serial_number=5287
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=6411 @@serial_number=4770 @@serial_number=6549 @@serial_number=6553 @@serial_number=4771 @@serial_number=4998 @@serial_number=5006 @@serial_number=4996 @@serial_number=5008 @@serial_number=5033 @@serial_number=4400 @@serial_number=4402 @@serial_number=4392 @@serial_number=6396 @@serial_number=6409 @@serial_number=4391 @@serial_number=4394 @@serial_number=4768 @@serial_number=6410 @@serial_number=6417 @@serial_number=6419
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=7258 @@serial_number=6709 @@serial_number=6700 @@serial_number=6711 @@serial_number=6702 @@serial_number=4466 @@serial_number=4465 @@serial_number=7271 @@serial_number=7274 @@serial_number=7256 @@serial_number=6192 @@serial_number=6189 @@serial_number=6191 @@serial_number=7260 @@serial_number=7263 @@serial_number=7267 @@serial_number=7254 @@serial_number=6190 @@serial_number=6696
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=6356 @@serial_number=5153 @@serial_number=5183 @@serial_number=7482 @@serial_number=6374 @@serial_number=5180 @@serial_number=5200 @@serial_number=5286 @@serial_number=5289 @@serial_number=5291 @@serial_number=5296 @@serial_number=4897 @@serial_number=6357 @@serial_number=6322 @@serial_number=6324 @@serial_number=6325 @@serial_number=6373 @@serial_number=7476 @@serial_number=7483 @@serial_number=5146 @@serial_number=5140 @@serial_number=5147 @@serial_number=5150 @@serial_number=5151
+color pocket4_atoms color_pocket4
+
+
+
+open data/KIT(A829P).pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

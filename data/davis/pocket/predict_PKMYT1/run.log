@@ -1,0 +1,36 @@
+[INFO] Console - predicting pockets for proteins from dataset [PKMYT1.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_PKMYT1
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [PKMYT1.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [PKMYT1.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [PKMYT1.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\PKMYT1.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\PKMYT1.pdb]
+[INFO] Struct - all groups in chain A: 499
+[INFO] Struct - all groups in chain A: 499
+[INFO] Struct - 499 groups in chain A
+[INFO] Protein - structure atoms: 3843
+[INFO] Protein - protein   atoms: 3749
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 12919
+[INFO] Protein - exposed protein atoms: 3027 of 3749
+[INFO] SLinkClusterer - clustering [53] elements
+[INFO] SLinkClusterer - clusters: [id:12( 2 ), id:43( 41 ), id:45( 2 ), id:46( 2 ), id:48( 2 ), id:49( 1 ), id:50( 1 ), id:51( 1 ), id:52( 1 )]
+[INFO] SLinkClusterer - clusters together: 53 / 53
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 12919
+[INFO] PocketPredictor - LIGANDABLE POINTS: 53
+[INFO] PocketPredictor - CLUSTERS: 9
+[INFO] PocketPredictor - FILTERED CLUSTERS: 1
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  47   points:  41   score:   16.9
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\PKMYT1.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_PKMYT1/visualizations/data/PKMYT1.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 5.683 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_PKMYT1]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 7.161 seconds.

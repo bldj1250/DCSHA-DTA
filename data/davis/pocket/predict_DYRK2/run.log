@@ -1,0 +1,39 @@
+[INFO] Console - predicting pockets for proteins from dataset [DYRK2.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_DYRK2
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [DYRK2.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [DYRK2.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [DYRK2.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\DYRK2.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\DYRK2.pdb]
+[INFO] Struct - all groups in chain A: 601
+[INFO] Struct - all groups in chain A: 601
+[INFO] Struct - 601 groups in chain A
+[INFO] Protein - structure atoms: 4681
+[INFO] Protein - protein   atoms: 4581
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 14795
+[INFO] Protein - exposed protein atoms: 3499 of 4581
+[INFO] SLinkClusterer - clustering [84] elements
+[INFO] SLinkClusterer - clusters: [id:38( 4 ), id:41( 35 ), id:46( 2 ), id:68( 2 ), id:73( 27 ), id:74( 1 ), id:82( 13 )]
+[INFO] SLinkClusterer - clusters together: 84 / 84
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 14795
+[INFO] PocketPredictor - LIGANDABLE POINTS: 84
+[INFO] PocketPredictor - CLUSTERS: 7
+[INFO] PocketPredictor - FILTERED CLUSTERS: 4
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  46   points:  35   score:   11.6
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  42   points:  27   score:    8.0
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  28   points:  13   score:    4.3
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  14   points:   4   score:    1.1
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\DYRK2.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_DYRK2/visualizations/data/DYRK2.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 6.012 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_DYRK2]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 7.528 seconds.

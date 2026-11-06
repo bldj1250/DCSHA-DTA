@@ -1,0 +1,43 @@
+open data/ZAK.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #5d47b3
+color name color_pocket3 #ca5ce6
+color name color_pocket4 #b34788
+color name color_pocket5 #e65c5c
+color name color_pocket6 #b38847
+
+name pocket1_atoms @@serial_number=348 @@serial_number=345 @@serial_number=219 @@serial_number=222 @@serial_number=418 @@serial_number=221 @@serial_number=333 @@serial_number=448 @@serial_number=1187 @@serial_number=648 @@serial_number=649 @@serial_number=519 @@serial_number=521 @@serial_number=654 @@serial_number=727 @@serial_number=174 @@serial_number=697 @@serial_number=691 @@serial_number=692 @@serial_number=694 @@serial_number=1120 @@serial_number=671 @@serial_number=674 @@serial_number=675 @@serial_number=1121 @@serial_number=666 @@serial_number=668 @@serial_number=670 @@serial_number=183 @@serial_number=184 @@serial_number=180 @@serial_number=173 @@serial_number=175 @@serial_number=177 @@serial_number=178 @@serial_number=179 @@serial_number=181 @@serial_number=185 @@serial_number=186 @@serial_number=209 @@serial_number=1092 @@serial_number=1094 @@serial_number=1093 @@serial_number=1107 @@serial_number=1189 @@serial_number=699 @@serial_number=1196 @@serial_number=1197 @@serial_number=1190 @@serial_number=1191 @@serial_number=1193 @@serial_number=1195 @@serial_number=202 @@serial_number=1095
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=3281 @@serial_number=3278 @@serial_number=3307 @@serial_number=2673 @@serial_number=2806 @@serial_number=2650 @@serial_number=2715 @@serial_number=2737 @@serial_number=2808 @@serial_number=2834 @@serial_number=2829 @@serial_number=2828 @@serial_number=2830 @@serial_number=2835 @@serial_number=2836 @@serial_number=2867 @@serial_number=2868 @@serial_number=2869 @@serial_number=3309 @@serial_number=3342 @@serial_number=3303 @@serial_number=3308 @@serial_number=2656 @@serial_number=2660 @@serial_number=2667 @@serial_number=2670 @@serial_number=2666 @@serial_number=2671 @@serial_number=2689 @@serial_number=2694 @@serial_number=2696 @@serial_number=2686 @@serial_number=3248 @@serial_number=3271 @@serial_number=3272 @@serial_number=3275 @@serial_number=3276 @@serial_number=3273 @@serial_number=2841 @@serial_number=3245 @@serial_number=3247 @@serial_number=3274
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=3316 @@serial_number=3319 @@serial_number=3058 @@serial_number=3314 @@serial_number=2717 @@serial_number=3025 @@serial_number=3027 @@serial_number=3028 @@serial_number=3029 @@serial_number=3031 @@serial_number=4671 @@serial_number=4674 @@serial_number=4676 @@serial_number=4672 @@serial_number=4702 @@serial_number=3288 @@serial_number=4643 @@serial_number=3067 @@serial_number=4682 @@serial_number=4684 @@serial_number=3325 @@serial_number=3327 @@serial_number=3055 @@serial_number=3056 @@serial_number=4642 @@serial_number=4678 @@serial_number=4639
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=354 @@serial_number=135 @@serial_number=229 @@serial_number=230 @@serial_number=231 @@serial_number=232 @@serial_number=234 @@serial_number=356 @@serial_number=616 @@serial_number=97 @@serial_number=357 @@serial_number=358 @@serial_number=359 @@serial_number=605 @@serial_number=607 @@serial_number=611 @@serial_number=98 @@serial_number=352 @@serial_number=140 @@serial_number=142 @@serial_number=138 @@serial_number=340 @@serial_number=137 @@serial_number=139
+color pocket4_atoms color_pocket4
+
+name pocket5_atoms @@serial_number=3705 @@serial_number=4267 @@serial_number=4271 @@serial_number=4274 @@serial_number=4376 @@serial_number=4278 @@serial_number=4287 @@serial_number=4371 @@serial_number=4355 @@serial_number=3573 @@serial_number=3565 @@serial_number=3582 @@serial_number=3584 @@serial_number=4347
+color pocket5_atoms color_pocket5
+
+name pocket6_atoms @@serial_number=1594 @@serial_number=1584 @@serial_number=1587 @@serial_number=1833
+color pocket6_atoms color_pocket6
+
+
+
+open data/ZAK.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

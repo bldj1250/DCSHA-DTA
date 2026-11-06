@@ -1,0 +1,27 @@
+open data/RIOK3.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #b34788
+
+name pocket1_atoms @@serial_number=2073 @@serial_number=2017 @@serial_number=2072 @@serial_number=2924 @@serial_number=2922 @@serial_number=2022 @@serial_number=2018 @@serial_number=2248 @@serial_number=2869 @@serial_number=2871 @@serial_number=2036 @@serial_number=2024 @@serial_number=2032 @@serial_number=2033 @@serial_number=2758 @@serial_number=3301 @@serial_number=3380 @@serial_number=3377 @@serial_number=2860 @@serial_number=2873 @@serial_number=3286 @@serial_number=3381 @@serial_number=2945 @@serial_number=3302 @@serial_number=2877 @@serial_number=2930 @@serial_number=2855 @@serial_number=2266 @@serial_number=3387 @@serial_number=3382 @@serial_number=3385 @@serial_number=3389 @@serial_number=2264 @@serial_number=2059 @@serial_number=2265 @@serial_number=2045 @@serial_number=2048 @@serial_number=2053
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=1819 @@serial_number=1821 @@serial_number=2080 @@serial_number=2082 @@serial_number=1989 @@serial_number=1990 @@serial_number=1992 @@serial_number=1998 @@serial_number=1808 @@serial_number=1816 @@serial_number=1832 @@serial_number=1830 @@serial_number=1870 @@serial_number=1871 @@serial_number=1833 @@serial_number=1898 @@serial_number=1899 @@serial_number=1993
+color pocket2_atoms color_pocket2
+
+
+
+open data/RIOK3.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

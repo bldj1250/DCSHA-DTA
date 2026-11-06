@@ -1,0 +1,38 @@
+[INFO] Console - predicting pockets for proteins from dataset [O15264.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_O15264
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [O15264.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [O15264.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [O15264.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\bindingdb\O15264.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\bindingdb\O15264.pdb]
+[INFO] Struct - all groups in chain A: 365
+[INFO] Struct - all groups in chain A: 365
+[INFO] Struct - 365 groups in chain A
+[INFO] Protein - structure atoms: 2964
+[INFO] Protein - protein   atoms: 2908
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 5818
+[INFO] Protein - exposed protein atoms: 1937 of 2908
+[INFO] SLinkClusterer - clustering [55] elements
+[INFO] SLinkClusterer - clusters: [id:3( 1 ), id:14( 1 ), id:33( 2 ), id:39( 8 ), id:40( 2 ), id:47( 30 ), id:51( 2 ), id:52( 1 ), id:53( 1 ), id:54( 7 )]
+[INFO] SLinkClusterer - clusters together: 55 / 55
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 5818
+[INFO] PocketPredictor - LIGANDABLE POINTS: 55
+[INFO] PocketPredictor - CLUSTERS: 10
+[INFO] PocketPredictor - FILTERED CLUSTERS: 3
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  41   points:  30   score:   11.1
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  20   points:   8   score:    2.5
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  20   points:   7   score:    2.0
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\bindingdb\O15264.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_O15264/visualizations/data/O15264.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 6.096 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_O15264]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 8.352 seconds.

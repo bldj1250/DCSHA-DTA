@@ -1,0 +1,41 @@
+[INFO] Console - predicting pockets for proteins from dataset [ZAK.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_ZAK
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [ZAK.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [ZAK.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [ZAK.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\ZAK.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\ZAK.pdb]
+[INFO] Struct - all groups in chain A: 800
+[INFO] Struct - all groups in chain A: 800
+[INFO] Struct - 800 groups in chain A
+[INFO] Protein - structure atoms: 6416
+[INFO] Protein - protein   atoms: 6282
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 21382
+[INFO] Protein - exposed protein atoms: 4981 of 6282
+[INFO] SLinkClusterer - clustering [77] elements
+[INFO] SLinkClusterer - clusters: [id:19( 4 ), id:30( 1 ), id:31( 1 ), id:32( 1 ), id:41( 42 ), id:50( 2 ), id:53( 1 ), id:54( 1 ), id:55( 3 ), id:62( 11 ), id:71( 6 ), id:76( 4 )]
+[INFO] SLinkClusterer - clusters together: 77 / 77
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 21382
+[INFO] PocketPredictor - LIGANDABLE POINTS: 77
+[INFO] PocketPredictor - CLUSTERS: 12
+[INFO] PocketPredictor - FILTERED CLUSTERS: 6
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  54   points:  42   score:   14.3
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  42   points:  11   score:    4.5
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  27   points:   6   score:    2.2
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  24   points:   4   score:    1.7
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  14   points:   4   score:    1.2
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:   4   points:   3   score:    0.7
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\ZAK.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_ZAK/visualizations/data/ZAK.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 6.770 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_ZAK]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 8.248 seconds.

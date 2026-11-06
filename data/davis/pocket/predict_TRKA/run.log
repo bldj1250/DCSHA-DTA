@@ -1,0 +1,45 @@
+[INFO] Console - predicting pockets for proteins from dataset [TRKA.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_TRKA
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [TRKA.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [TRKA.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [TRKA.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\TRKA.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\TRKA.pdb]
+[INFO] Struct - all groups in chain A: 790
+[INFO] Struct - all groups in chain A: 790
+[INFO] Struct - 790 groups in chain A
+[INFO] Protein - structure atoms: 6111
+[INFO] Protein - protein   atoms: 5990
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 16052
+[INFO] Protein - exposed protein atoms: 4438 of 5990
+[INFO] SLinkClusterer - clustering [99] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:1( 1 ), id:12( 12 ), id:23( 1 ), id:27( 16 ), id:28( 3 ), id:47( 7 ), id:50( 1 ), id:70( 26 ), id:76( 8 ), id:77( 6 ), id:78( 3 ), id:83( 4 ), id:91( 2 ), id:92( 2 ), id:96( 2 ), id:98( 4 )]
+[INFO] SLinkClusterer - clusters together: 99 / 99
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 16052
+[INFO] PocketPredictor - LIGANDABLE POINTS: 99
+[INFO] PocketPredictor - CLUSTERS: 17
+[INFO] PocketPredictor - FILTERED CLUSTERS: 10
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  35   points:  26   score:    9.4
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  21   points:  16   score:    4.5
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  22   points:  12   score:    3.4
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  20   points:   7   score:    3.0
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  17   points:   8   score:    2.1
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  26   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  14   points:   6   score:    2.0
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  17   points:   3   score:    1.2
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  13   points:   4   score:    1.0
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  11   points:   3   score:    1.0
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\TRKA.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_TRKA/visualizations/data/TRKA.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 6.179 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_TRKA]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 7.711 seconds.

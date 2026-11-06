@@ -1,0 +1,38 @@
+[INFO] Console - predicting pockets for proteins from dataset [TYRO3.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_TYRO3
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [TYRO3.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [TYRO3.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [TYRO3.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\TYRO3.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\TYRO3.pdb]
+[INFO] Struct - all groups in chain A: 890
+[INFO] Struct - all groups in chain A: 890
+[INFO] Struct - 890 groups in chain A
+[INFO] Protein - structure atoms: 6809
+[INFO] Protein - protein   atoms: 6677
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 20163
+[INFO] Protein - exposed protein atoms: 5045 of 6677
+[INFO] SLinkClusterer - clustering [56] elements
+[INFO] SLinkClusterer - clusters: [id:2( 4 ), id:14( 36 ), id:15( 1 ), id:20( 2 ), id:22( 2 ), id:31( 1 ), id:34( 2 ), id:38( 1 ), id:39( 1 ), id:53( 1 ), id:55( 5 )]
+[INFO] SLinkClusterer - clusters together: 56 / 56
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 20163
+[INFO] PocketPredictor - LIGANDABLE POINTS: 56
+[INFO] PocketPredictor - CLUSTERS: 11
+[INFO] PocketPredictor - FILTERED CLUSTERS: 3
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  50   points:  36   score:   12.6
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  20   points:   5   score:    2.0
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  16   points:   4   score:    1.9
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\TYRO3.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_TYRO3/visualizations/data/TYRO3.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 8.146 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_TYRO3]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 10.499 seconds.

@@ -1,0 +1,42 @@
+[INFO] Console - predicting pockets for proteins from dataset [GSK3B.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_GSK3B
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [GSK3B.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [GSK3B.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [GSK3B.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\GSK3B.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\GSK3B.pdb]
+[INFO] Struct - all groups in chain A: 420
+[INFO] Struct - all groups in chain A: 420
+[INFO] Struct - 420 groups in chain A
+[INFO] Protein - structure atoms: 3292
+[INFO] Protein - protein   atoms: 3218
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 7669
+[INFO] Protein - exposed protein atoms: 2193 of 3218
+[INFO] SLinkClusterer - clustering [80] elements
+[INFO] SLinkClusterer - clusters: [id:27( 17 ), id:33( 1 ), id:34( 1 ), id:37( 2 ), id:38( 2 ), id:52( 1 ), id:61( 9 ), id:66( 28 ), id:67( 6 ), id:68( 1 ), id:71( 3 ), id:72( 1 ), id:75( 4 ), id:79( 4 )]
+[INFO] SLinkClusterer - clusters together: 80 / 80
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 7669
+[INFO] PocketPredictor - LIGANDABLE POINTS: 80
+[INFO] PocketPredictor - CLUSTERS: 14
+[INFO] PocketPredictor - FILTERED CLUSTERS: 7
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  38   points:  28   score:    9.6
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  22   points:  17   score:    5.2
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  24   points:   6   score:    2.5
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  21   points:   9   score:    2.5
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  21   points:   4   score:    2.0
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  18   points:   4   score:    1.2
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  16   points:   3   score:    1.1
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\GSK3B.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_GSK3B/visualizations/data/GSK3B.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 5.823 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_GSK3B]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 7.556 seconds.

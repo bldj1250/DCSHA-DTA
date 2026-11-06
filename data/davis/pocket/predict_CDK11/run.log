@@ -1,0 +1,40 @@
+[INFO] Console - predicting pockets for proteins from dataset [CDK11.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_CDK11
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [CDK11.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [CDK11.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [CDK11.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\CDK11.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\CDK11.pdb]
+[INFO] Struct - all groups in chain A: 502
+[INFO] Struct - all groups in chain A: 502
+[INFO] Struct - 502 groups in chain A
+[INFO] Protein - structure atoms: 4006
+[INFO] Protein - protein   atoms: 3928
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 11977
+[INFO] Protein - exposed protein atoms: 2957 of 3928
+[INFO] SLinkClusterer - clustering [77] elements
+[INFO] SLinkClusterer - clusters: [id:17( 3 ), id:18( 1 ), id:23( 2 ), id:33( 2 ), id:41( 32 ), id:44( 1 ), id:52( 12 ), id:63( 17 ), id:65( 1 ), id:70( 2 ), id:71( 3 ), id:72( 1 )]
+[INFO] SLinkClusterer - clusters together: 77 / 77
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 11977
+[INFO] PocketPredictor - LIGANDABLE POINTS: 77
+[INFO] PocketPredictor - CLUSTERS: 12
+[INFO] PocketPredictor - FILTERED CLUSTERS: 5
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  42   points:  32   score:    9.6
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  36   points:  17   score:    6.4
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  19   points:  12   score:    3.5
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  17   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:   8   points:   3   score:    1.0
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\CDK11.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_CDK11/visualizations/data/CDK11.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 5.599 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_CDK11]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 7.070 seconds.

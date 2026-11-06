@@ -1,0 +1,38 @@
+[INFO] Console - predicting pockets for proteins from dataset [RIPK2.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_RIPK2
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [RIPK2.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [RIPK2.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [RIPK2.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\RIPK2.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\RIPK2.pdb]
+[INFO] Struct - all groups in chain A: 540
+[INFO] Struct - all groups in chain A: 540
+[INFO] Struct - 540 groups in chain A
+[INFO] Protein - structure atoms: 4299
+[INFO] Protein - protein   atoms: 4221
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 12509
+[INFO] Protein - exposed protein atoms: 3123 of 4221
+[INFO] SLinkClusterer - clustering [65] elements
+[INFO] SLinkClusterer - clusters: [id:20( 2 ), id:21( 1 ), id:25( 2 ), id:30( 1 ), id:33( 6 ), id:53( 43 ), id:56( 1 ), id:57( 1 ), id:62( 6 ), id:64( 2 )]
+[INFO] SLinkClusterer - clusters together: 65 / 65
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 12509
+[INFO] PocketPredictor - LIGANDABLE POINTS: 65
+[INFO] PocketPredictor - CLUSTERS: 10
+[INFO] PocketPredictor - FILTERED CLUSTERS: 3
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  48   points:  43   score:   12.2
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  19   points:   6   score:    2.2
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  19   points:   6   score:    1.9
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\RIPK2.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_RIPK2/visualizations/data/RIPK2.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 5.665 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_RIPK2]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 7.418 seconds.

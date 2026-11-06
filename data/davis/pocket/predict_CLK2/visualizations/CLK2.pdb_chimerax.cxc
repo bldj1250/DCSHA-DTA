@@ -1,0 +1,39 @@
+open data/CLK2.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #6a47b3
+color name color_pocket3 #e65ce0
+color name color_pocket4 #b34761
+color name color_pocket5 #e69e5c
+
+name pocket1_atoms @@serial_number=1949 @@serial_number=1950 @@serial_number=2544 @@serial_number=2785 @@serial_number=2783 @@serial_number=2786 @@serial_number=2118 @@serial_number=2099 @@serial_number=1489 @@serial_number=1492 @@serial_number=1654 @@serial_number=2110 @@serial_number=1494 @@serial_number=1549 @@serial_number=2116 @@serial_number=2087 @@serial_number=2089 @@serial_number=2090 @@serial_number=2091 @@serial_number=2092 @@serial_number=2135 @@serial_number=2132 @@serial_number=2542 @@serial_number=2543 @@serial_number=2516 @@serial_number=2123 @@serial_number=1488 @@serial_number=1490 @@serial_number=2093 @@serial_number=2094 @@serial_number=1672 @@serial_number=1528 @@serial_number=1670 @@serial_number=2787 @@serial_number=2788 @@serial_number=2790 @@serial_number=2792 @@serial_number=2793 @@serial_number=1797 @@serial_number=1547 @@serial_number=1550 @@serial_number=1667 @@serial_number=1495 @@serial_number=1496 @@serial_number=1498 @@serial_number=2528
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=4094 @@serial_number=4098 @@serial_number=2749 @@serial_number=4169 @@serial_number=4170 @@serial_number=2310 @@serial_number=2312 @@serial_number=2313 @@serial_number=2314 @@serial_number=2315 @@serial_number=2316 @@serial_number=4164 @@serial_number=4166 @@serial_number=4122 @@serial_number=4123 @@serial_number=4168 @@serial_number=4172 @@serial_number=4177 @@serial_number=4181 @@serial_number=4215 @@serial_number=4083 @@serial_number=4201 @@serial_number=2279 @@serial_number=2273 @@serial_number=2274 @@serial_number=2276 @@serial_number=2302 @@serial_number=2336 @@serial_number=2338 @@serial_number=2346 @@serial_number=2347 @@serial_number=2349 @@serial_number=2340 @@serial_number=4095 @@serial_number=4128 @@serial_number=4150 @@serial_number=4135 @@serial_number=4132 @@serial_number=2372
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=2945 @@serial_number=2946 @@serial_number=3219 @@serial_number=3244 @@serial_number=3246 @@serial_number=672 @@serial_number=674 @@serial_number=683 @@serial_number=686 @@serial_number=681 @@serial_number=673 @@serial_number=3263 @@serial_number=3264 @@serial_number=715 @@serial_number=716 @@serial_number=2519 @@serial_number=2925 @@serial_number=2959 @@serial_number=3165 @@serial_number=3218 @@serial_number=684 @@serial_number=2152 @@serial_number=2153 @@serial_number=2154 @@serial_number=2155
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=1764 @@serial_number=1735 @@serial_number=1737 @@serial_number=1521 @@serial_number=1672 @@serial_number=1798 @@serial_number=1523 @@serial_number=1524 @@serial_number=1526 @@serial_number=1688 @@serial_number=2792 @@serial_number=2793 @@serial_number=2808 @@serial_number=2815 @@serial_number=2807 @@serial_number=2794
+color pocket4_atoms color_pocket4
+
+name pocket5_atoms @@serial_number=613 @@serial_number=3209 @@serial_number=3211 @@serial_number=3692 @@serial_number=3759 @@serial_number=3217 @@serial_number=3247 @@serial_number=3660 @@serial_number=3691 @@serial_number=3701 @@serial_number=3331 @@serial_number=3242 @@serial_number=3224 @@serial_number=3239
+color pocket5_atoms color_pocket5
+
+
+
+open data/CLK2.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

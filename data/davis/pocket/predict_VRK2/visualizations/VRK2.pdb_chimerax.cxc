@@ -1,0 +1,43 @@
+open data/VRK2.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #5d47b3
+color name color_pocket3 #ca5ce6
+color name color_pocket4 #b34788
+color name color_pocket5 #e65c5c
+color name color_pocket6 #b38847
+
+name pocket1_atoms @@serial_number=336 @@serial_number=335 @@serial_number=287 @@serial_number=485 @@serial_number=1510 @@serial_number=1512 @@serial_number=1514 @@serial_number=484 @@serial_number=292 @@serial_number=294 @@serial_number=296 @@serial_number=298 @@serial_number=299 @@serial_number=289 @@serial_number=282 @@serial_number=284 @@serial_number=1040 @@serial_number=1408 @@serial_number=1028 @@serial_number=1409 @@serial_number=1021 @@serial_number=1387 @@serial_number=1393 @@serial_number=1385 @@serial_number=1042 @@serial_number=1044 @@serial_number=1070 @@serial_number=995 @@serial_number=996 @@serial_number=469 @@serial_number=1507 @@serial_number=1505 @@serial_number=1020 @@serial_number=1022 @@serial_number=1023 @@serial_number=1017
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=485 @@serial_number=1510 @@serial_number=1512 @@serial_number=1513 @@serial_number=1514 @@serial_number=484 @@serial_number=336 @@serial_number=334 @@serial_number=302 @@serial_number=294 @@serial_number=298 @@serial_number=299 @@serial_number=500 @@serial_number=547 @@serial_number=306 @@serial_number=318 @@serial_number=319 @@serial_number=320 @@serial_number=313 @@serial_number=315
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=1058 @@serial_number=1059 @@serial_number=1060 @@serial_number=1379 @@serial_number=1754 @@serial_number=1755 @@serial_number=1765 @@serial_number=1766 @@serial_number=1376 @@serial_number=1966 @@serial_number=1107 @@serial_number=1109 @@serial_number=1100 @@serial_number=1102 @@serial_number=1106 @@serial_number=1961 @@serial_number=1963 @@serial_number=1082 @@serial_number=1084 @@serial_number=1973 @@serial_number=1977
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=1794 @@serial_number=1818 @@serial_number=1819 @@serial_number=1650 @@serial_number=1652 @@serial_number=1901 @@serial_number=2173 @@serial_number=2381 @@serial_number=2382 @@serial_number=2375 @@serial_number=1868 @@serial_number=1871 @@serial_number=1867 @@serial_number=2394 @@serial_number=2378 @@serial_number=2373 @@serial_number=1786 @@serial_number=1783
+color pocket4_atoms color_pocket4
+
+name pocket5_atoms @@serial_number=1860 @@serial_number=2438 @@serial_number=1286 @@serial_number=1299 @@serial_number=1298 @@serial_number=1300 @@serial_number=1577 @@serial_number=1579 @@serial_number=1585 @@serial_number=1619 @@serial_number=1314 @@serial_number=1296
+color pocket5_atoms color_pocket5
+
+name pocket6_atoms @@serial_number=4049 @@serial_number=3078 @@serial_number=3076 @@serial_number=3077 @@serial_number=3104 @@serial_number=3105 @@serial_number=4047 @@serial_number=4080 @@serial_number=4068 @@serial_number=4067 @@serial_number=4069 @@serial_number=4073 @@serial_number=4045 @@serial_number=4074 @@serial_number=4076 @@serial_number=4071
+color pocket6_atoms color_pocket6
+
+
+
+open data/VRK2.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

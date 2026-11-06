@@ -1,0 +1,36 @@
+[INFO] Console - predicting pockets for proteins from dataset [CDK4-cyclinD3.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_CDK4-cyclinD3
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [CDK4-cyclinD3.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [CDK4-cyclinD3.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [CDK4-cyclinD3.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\CDK4-cyclinD3.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\CDK4-cyclinD3.pdb]
+[INFO] Struct - all groups in chain A: 303
+[INFO] Struct - all groups in chain A: 303
+[INFO] Struct - 303 groups in chain A
+[INFO] Protein - structure atoms: 2376
+[INFO] Protein - protein   atoms: 2318
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 5002
+[INFO] Protein - exposed protein atoms: 1564 of 2318
+[INFO] SLinkClusterer - clustering [36] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:4( 1 ), id:17( 2 ), id:19( 1 ), id:33( 28 ), id:34( 1 ), id:35( 2 )]
+[INFO] SLinkClusterer - clusters together: 36 / 36
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 5002
+[INFO] PocketPredictor - LIGANDABLE POINTS: 36
+[INFO] PocketPredictor - CLUSTERS: 7
+[INFO] PocketPredictor - FILTERED CLUSTERS: 1
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  41   points:  28   score:    9.2
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\CDK4-cyclinD3.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_CDK4-cyclinD3/visualizations/data/CDK4-cyclinD3.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 4.555 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_CDK4-cyclinD3]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 6.190 seconds.

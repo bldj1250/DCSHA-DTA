@@ -1,0 +1,43 @@
+[INFO] Console - predicting pockets for proteins from dataset [TNIK.pdb]
+[INFO] PredictPocketsRoutine - outdir: D:\java\p2rank_2.5.1\test_output/predict_TNIK
+[INFO] Model - Loading model from directory (v3 format): D:\java\p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [TNIK.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [TNIK.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [TNIK.pdb] (1/1)
+[INFO] Protein - loading protein [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\TNIK.pdb]
+[INFO] PdbUtils - loading file [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\TNIK.pdb]
+[INFO] Struct - all groups in chain A: 1360
+[INFO] Struct - all groups in chain A: 1360
+[INFO] Struct - 1360 groups in chain A
+[INFO] Protein - structure atoms: 10896
+[INFO] Protein - protein   atoms: 10631
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 40311
+[INFO] Protein - exposed protein atoms: 8819 of 10631
+[INFO] SLinkClusterer - clustering [85] elements
+[INFO] SLinkClusterer - clusters: [id:14( 2 ), id:15( 1 ), id:17( 6 ), id:20( 25 ), id:38( 7 ), id:41( 1 ), id:42( 1 ), id:43( 1 ), id:49( 1 ), id:50( 2 ), id:54( 4 ), id:56( 5 ), id:58( 10 ), id:68( 2 ), id:69( 1 ), id:75( 1 ), id:77( 3 ), id:84( 12 )]
+[INFO] SLinkClusterer - clusters together: 85 / 85
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 40311
+[INFO] PocketPredictor - LIGANDABLE POINTS: 85
+[INFO] PocketPredictor - CLUSTERS: 18
+[INFO] PocketPredictor - FILTERED CLUSTERS: 8
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  36   points:  25   score:    9.7
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  26   points:  12   score:    4.8
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  33   points:  10   score:    4.7
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  23   points:   7   score:    2.6
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  26   points:   6   score:    2.1
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  10   points:   5   score:    1.5
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  21   points:   4   score:    1.2
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:   7   points:   3   score:    1.1
+[INFO] PredictionVisualizer - copying [D:\demo\BSDTP\Gometric-enhanced-function\data\PDB\davis_renamed\TNIK.pdb] to [D:\java\p2rank_2.5.1\test_output/predict_TNIK/visualizations/data/TNIK.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 7.440 seconds
+[INFO] Console - results saved to directory [D:\java\p2rank_2.5.1\test_output\predict_TNIK]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 9.003 seconds.
